@@ -7,6 +7,7 @@
 <meta content="telephone=no" name="format-detection">
 <meta content="email=no" name="format-detection">
 <title>WePayUI</title>
+<link rel="icon" href="img/wepaylogo.ico">
 <link rel="stylesheet" href="https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.min.css?=20161121">
 <link rel="stylesheet" href="css/index.css">
 </head>
@@ -15,56 +16,21 @@
 	1.模块的隐藏添加class:hide;
 	2.body标签默认绑定ontouchstart事件，激活所有按钮的:active效果
 -->
-<body>
+<body ontouchstart>
 <article>
     <div class="page-wrapper">
         <!--[[头部导航栏开始 -->
-        <header id="header" class="clearfix">
-    <div class="wepay-row">
-        <div class="wepay-col-sm-7 wepay-col-md-6 wepay-col-lg-4">
-            <a id="home" href="?intro" title="WePayUI"><img alt="WePayUI" src="img/logo.png" width="159" height="40"></a>
-        </div>
-        <!-- <div class="wepay-col-xs-0 wepay-col-sm-17 wepay-col-md-18 wepay-col-lg-20" style="display: block;">
-            <ul class="wepay-menu wepay-menu-horizontal wepay-menu-root phoneheader" role="menu" id="nav">
-                <li class="wepay-menu-item wepay-menu-item-selected" role="menuitem">
-                    <a href="javascript:;">
-                        <span>首页</span>
-                    </a>
-                </li>
-                <li class="wepay-menu-item" role="menuitem">
-                    <a href="javascript:;">
-                        <span>选项2</span>
-                    </a>
-                </li>
-                <li class="wepay-menu-item" role="menuitem">
-                    <a href="javascript:;">
-                        <span>选项3</span>
-                    </a>
-                </li>
-                <li class="wepay-menu-item" role="menuitem">
-                    <a href="javascript:;">
-                        <span>选项4</span>
-                    </a>
-                </li>
-                <li class="wepay-menu-item" role="menuitem">
-                    <a href="javascript:;">
-                        <span>选项5</span>
-                    </a>
-                </li>
-                <li class="wepay-menu-item" role="menuitem">
-                    <a href="javascript:;">
-                        <span>选项6</span>
-                    </a>
-                </li>
-            </ul>
-        </div> -->
+        <header id="header" class="clearfix header">
+    <div class="nav-logo">
+        <a href="?intro" title="WePayUI" id="home"><img alt="WePayUI" src="img/logo.png" width="159" class="home"></a>
     </div>
+    <i class="nav-phone-icon ant-popover-open" id="ico_nav"></i>
 </header>
         <!--[[头部导航栏结束 -->
         <div class="main-wrapper">
             <div class="wepay-row">
                 <!--[[左侧边栏开始 -->
-                <div class="wepay-col-sm-24 wepay-col-md-6 wepay-col-lg-4">
+                <div class="wepay-menu-wrap wepay-col-sm-24 wepay-col-md-6 wepay-col-lg-4" id="nav">
     <ul class="wepay-menu wepay-menu-inline wepayside-container wepay-menu-root" tabindex="0">
         <li class="wepay-menu-item-selected wepay-menu-item" style="padding-left: 24px;">
             <a href="?start">起步</a>
@@ -1130,9 +1096,9 @@ body {
             </div>
         </div>
         <!-- [[页面底部 开始 -->
-        <footer id="footer">
+        <footer id="footer" class="footer">
     <ul>
-        <li>
+        <!-- <li>
             <h2>下载</h2>
             <div>
                 <a target="_blank " href="https://github.com/wepayui" target="_blank">
@@ -1170,22 +1136,10 @@ body {
                     <span>反馈和建议</span>
                 </a>
             </div>
-        </li>
+        </li> -->
         <li>
             <div>
-                ©2016
-                <span>Tencent</span>
-            </div>
-            <div>
-                Powered by <a target="_blank" rel="noopener noreferrer" href="javascript:;">
-                    <span>WePay Team</span>
-                </a>
-            </div>
-            <div style="margin-top: 10px;">
-                文档版本：
-                <a target="_blank" rel="noopener noreferrer" href="javascript:;">
-                    <span>0.0.1(Beta)</span>
-                </a>
+                ©2016 Tencent Powered by <span class="green">WePay UI Team</span>
             </div>
         </li>
     </ul>

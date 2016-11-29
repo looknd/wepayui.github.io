@@ -2,12 +2,33 @@ var wepay = {
     //左侧下拉菜单
     pullDownMenu : function(){
         $('.wepay-menu-submenu-title').on('click',function(){ 
-            console.info("111")
             var wepayMenuSubmenu = $(this).parent('.wepay-menu-submenu');
             if(wepayMenuSubmenu.hasClass('wepay-menu-submenu-open')){ 
                 wepayMenuSubmenu.removeClass('wepay-menu-submenu-open');
             }else{ 
                 wepayMenuSubmenu.addClass('wepay-menu-submenu-open');
+            }
+        })
+    },
+    //左导航小图标
+    showNav : function(){
+        $("#ico_nav").on('click',function(){
+            wepay.crtlnav()
+        })
+    },
+    crtlnav : function(){
+        var navIco = $("#nav")
+        if($(window).width() > 320 && $(window).width() < 992){
+            if(navIco.is(":hidden")){
+                navIco.show()
+            }
+            else{
+                navIco.hide()
+            }
+        }
+        $(window).on('resize',function(){
+            if($(window).width() >= 992){
+                 navIco.show()
             }
         })
     },
@@ -25,6 +46,7 @@ var wepay = {
     //页面局部刷新
     fnHashTriggerMenu : $(".wepay-menu-item > a").on("click", function(event) {
         wepay.changeMenuBg($(this).parent('.wepay-menu-item'));
+        wepay.crtlnav()
         var query = this.href.split("?")[1];
         if (history.pushState && query  && $("#"+query)) {
             $("#"+query).removeClass('hide').siblings().addClass("hide");
@@ -61,6 +83,7 @@ var wepay = {
     },
     //初始化
     init : function(){
+        wepay.showNav();
         wepay.pullDownMenu();
         wepay.fnHashTriggerMenu;
         if (history.pushState) {
