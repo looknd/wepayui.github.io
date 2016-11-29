@@ -12,25 +12,29 @@ var wepay = {
     },
     //左导航小图标
     showNav : function(){
-        $("#ico_nav").on('click',function(){
-            wepay.crtlnav()
-        })
-    },
-    crtlnav : function(){
         var navIco = $("#nav")
-        if($(window).width() > 320 && $(window).width() < 992){
-            if(navIco.is(":hidden")){
-                navIco.show()
-            }
-            else{
-                navIco.hide()
-            }
-        }
+        $("#ico_nav").on('click',function(){
+            wepay.crtlNav(navIco)
+        })
         $(window).on('resize',function(){
             if($(window).width() >= 992){
                  navIco.show()
             }
+            else if($(window).width() < 992){
+                navIco.hide()
+            }
         })
+    },
+    crtlNav : function(selector){
+        if($(window).width() < 992){
+            if(selector.is(":hidden")){
+                selector.show()
+            }
+            else{
+                selector.hide()
+            }
+        }
+        
     },
     //左侧菜单背景色
     changeMenuBg : function(selector){
@@ -46,7 +50,7 @@ var wepay = {
     //页面局部刷新
     fnHashTriggerMenu : $(".wepay-menu-item > a").on("click", function(event) {
         wepay.changeMenuBg($(this).parent('.wepay-menu-item'));
-        wepay.crtlnav()
+        wepay.crtlNav($("#nav"))
         var query = this.href.split("?")[1];
         if (history.pushState && query  && $("#"+query)) {
             $("#"+query).removeClass('hide').siblings().addClass("hide");
