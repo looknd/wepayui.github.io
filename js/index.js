@@ -14,7 +14,7 @@ var wepay = {
     showNav : function(){
         var navIco = $("#nav")
         $("#ico_nav").on('click',function(){
-            wepay.crtlNav(navIco)
+            wepay.crtlNav(navIco);
         })
         $(window).on('resize',function(){
             if($(window).width() >= 992){
@@ -52,8 +52,13 @@ var wepay = {
         wepay.changeMenuBg($(this).parent('.wepay-menu-item'));
         wepay.crtlNav($("#nav"))
         var query = this.href.split("?")[1];
-        if (history.pushState && query  && $("#"+query)) {
-            $("#"+query).removeClass('hide').siblings().addClass("hide");
+        if (history.pushState && query) {
+            $("#contentMain").attr("src",query + ".html");
+            $("#contentMain").on('load',function() {
+                $(this).height($(this).contents().find("#"+ query).height() + 30);
+            })
+            // $("#"+query).removeClass('hide').siblings().addClass("hide");
+
             // history处理
             var title = "WePayUI - " + $(this).text();
             document.title = title;         
@@ -99,24 +104,3 @@ var wepay = {
     }
 }
 wepay.init();
-
-// $('.collapse').click(function(){ 
-//     var me = this;
-//     if(this.hasClass){ 
-//         $('.highlight-wrapper').addClass('highlight-wrapper-expand');
-//         me.hasClass=false;
-//     }else{ 
-//         $('.highlight-wrapper').removeClass('highlight-wrapper-expand');
-//         me.hasClass=true;
-//     }
-// })
-// $('.nav-phone-icon').click(function(){ 
-//     var me = this;
-//     if(this.hasClass){ 
-//         $('.phoneheader').addClass('hide');
-//         me.hasClass=false;
-//     }else{ 
-//         $('.phoneheader').removeClass('hide');
-//         me.hasClass=true;
-//     }
-// })
