@@ -49,16 +49,16 @@ var wepay = {
     },
     //页面局部刷新
     fnHashTriggerMenu : $(".wepay-menu-item > a").on("click", function(event) {
+        $('html, body').animate({scrollTop:0}, 500);
         wepay.changeMenuBg($(this).parent('.wepay-menu-item'));
         wepay.crtlNav($("#nav"))
         var query = this.href.split("?")[1];
         if (history.pushState && query) {
-            $("#contentMain").attr("src",query + ".html");
-            $("#contentMain").on('load',function() {
-                $(this).height($(this).contents().find("#"+ query).height() + 30);
-            })
-            // $("#"+query).removeClass('hide').siblings().addClass("hide");
-
+            // $("#contentMain").attr("src",query + ".html");
+            // $("#contentMain").on('load',function() {
+            //     $(this).height($(this).contents().find("#"+ query).height() + 30);
+            // })
+            $("#"+query).removeClass('hide').siblings().addClass("hide");
             // history处理
             var title = "WePayUI - " + $(this).text();
             document.title = title;         
