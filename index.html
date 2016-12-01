@@ -19,17 +19,24 @@
 	2.body标签默认绑定ontouchstart事件，激活所有按钮的:active效果
 -->
 <body ontouchstart>
+<!-- 初始化加载层[[ -->
+<div class="wepay-loading-wrap" id="wepayLoaidng">
+	<div class="wepay-loading">
+	    <img src="img/wepaylogo.png" alt="分享图标" width="80" height="80" class="wepay-loading-ico">
+	    <p class="wepay-loading-txt">加载中...</p>
+	</div>
+</div>
+<!-- 初始化加载层]] -->
 <article>
     <div class="page-wrapper">
         <!--[[头部导航栏开始 -->
         <header id="header" class="clearfix header">
     <div class="nav-logo">
-        <a href="?intro" title="WePayUI" id="home"><img alt="WePayUI" src="img/logo.png" width="159" class="home"></a>
+        <a href="?intro" title="WePayUI" id="home"><img alt="WePayUI" src="img/wepayui.png" width="159" class="home"></a>
     </div>
     <a href="javascript:;" class="nav-icon" id="ico_nav">
         <i class="nav-phone-icon"></i>
     </a>
-    
 </header>
         <!--[[头部导航栏结束 -->
         <div class="main-wrapper">
@@ -162,7 +169,7 @@
 </div>
                 <!--[[左侧边栏结束 -->
                 <!--[[右侧页面详情开始 -->
-                <div class="main-container wepay-col-sm-24 wepay-col-md-18 wepay-col-lg-20">
+                <div class="main-container wepay-col-sm-24 wepay-col-md-18 wepay-col-lg-20" id="maincontainer">
                   <!-- [[首页 -->
 <article class="article" id="start">
     <h1>

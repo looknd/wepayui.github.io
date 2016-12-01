@@ -1,4 +1,9 @@
 var wepay = {
+    wepayLoaidng: function() {
+        setTimeout(function(){
+            $("#wepayLoaidng").addClass('hide');
+        }, 2000)
+    },
     //左侧下拉菜单
     pullDownMenu : function(){
         $('.wepay-menu-submenu-title').on('click',function(){ 
@@ -18,7 +23,8 @@ var wepay = {
         })
         $(window).on('resize',function(){
             if($(window).width() >= 992){
-                 navIco.show()
+                 navIco.show();
+                 wepay.toTop();
             }
             else if($(window).width() < 992){
                 navIco.hide()
@@ -29,9 +35,11 @@ var wepay = {
         if($(window).width() < 992){
             if(selector.is(":hidden")){
                 selector.show()
+                
             }
             else{
-                selector.hide()
+                selector.hide();
+
             }
         }
         
@@ -47,9 +55,12 @@ var wepay = {
         }
         return true;
     },
+    toTop : function(){
+        $('html, body').animate({scrollTop:0}, 500);
+    },
     //页面局部刷新
     fnHashTriggerMenu : $(".wepay-menu-item > a").on("click", function(event) {
-        $('html, body').animate({scrollTop:0}, 500);
+        wepay.toTop();
         wepay.changeMenuBg($(this).parent('.wepay-menu-item'));
         wepay.crtlNav($("#nav"))
         var query = this.href.split("?")[1];
@@ -61,7 +72,7 @@ var wepay = {
             $("#"+query).removeClass('hide').siblings().addClass("hide");
             // history处理
             var title = "WePayUI - " + $(this).text();
-            document.title = title;         
+            document.title = title;     
             history.pushState({ title: title }, title, location.href.split("?")[0] + "?" + query);
         }
         return false;
@@ -101,6 +112,7 @@ var wepay = {
             });
             wepay.fnHashTrigger();
         }
+        wepay.wepayLoaidng();
     }
 }
 wepay.init();
