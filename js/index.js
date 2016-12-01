@@ -27,7 +27,7 @@ var wepay = {
                  wepay.toTop();
             }
             else if($(window).width() < 992){
-                navIco.hide()
+                navIco.hide();
             }
         })
     },
@@ -35,11 +35,9 @@ var wepay = {
         if($(window).width() < 992){
             if(selector.is(":hidden")){
                 selector.show()
-                
             }
             else{
                 selector.hide();
-
             }
         }
         
@@ -65,14 +63,10 @@ var wepay = {
         wepay.crtlNav($("#nav"))
         var query = this.href.split("?")[1];
         if (history.pushState && query) {
-            // $("#contentMain").attr("src",query + ".html");
-            // $("#contentMain").on('load',function() {
-            //     $(this).height($(this).contents().find("#"+ query).height() + 30);
-            // })
             $("#"+query).removeClass('hide').siblings().addClass("hide");
             // history处理
             var title = "WePayUI - " + $(this).text();
-            document.title = title;     
+            // document.title = title;     
             history.pushState({ title: title }, title, location.href.split("?")[0] + "?" + query);
         }
         return false;

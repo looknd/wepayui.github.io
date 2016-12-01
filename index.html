@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
-    <head>
+<head>
 <meta charset="utf-8">
 <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 <meta content="yes" name="apple-mobile-web-app-capable">
@@ -65,6 +65,16 @@
 </style>
 <link rel="stylesheet" href="https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.min.css?=20161121">
 <link rel="stylesheet" href="css/index.css">
+<script type="text/javascript">
+var TA_STATS_ARGS = {
+rate: 1,
+projectID: 436,
+channelID:764,
+pageID: 840,
+debug: false
+}
+var _speedMark = new Date();
+</script>
 </head>
 <!-- 
 	通用说明： 
@@ -80,10 +90,9 @@
 	</div>
 </div>
 <!-- 初始化加载层]] -->
-<article>
-    <div class="page-wrapper">
-        <!--[[头部导航栏开始 -->
-        <header id="header" class="clearfix header">
+<article class="page-wrapper" id="wepayWrapper">
+    <!--[[头部导航栏开始 -->
+    <header id="header" class="clearfix header">
     <div class="nav-logo">
         <a href="?intro" title="WePayUI" id="home"><img alt="WePayUI" src="img/wepayui.png" width="159" class="home"></a>
     </div>
@@ -91,11 +100,11 @@
         <i class="nav-phone-icon"></i>
     </a>
 </header>
-        <!--[[头部导航栏结束 -->
-        <div class="main-wrapper">
-            <div class="wepay-row">
-                <!--[[左侧边栏开始 -->
-                <div class="wepay-menu-wrap wepay-col-sm-24 wepay-col-md-6 wepay-col-lg-4" id="nav">
+    <!--[[头部导航栏结束 -->
+    <div class="main-wrapper">
+        <div class="wepay-row">
+            <!--[[左侧边栏开始 -->
+            <div class="wepay-menu-wrap wepay-col-sm-24 wepay-col-md-6 wepay-col-lg-4" id="nav">
     <ul class="wepay-menu wepay-menu-inline wepayside-container wepay-menu-root" tabindex="0">
         <li class="wepay-menu-item-selected wepay-menu-item">
             <a href="?start">起步</a>
@@ -220,10 +229,10 @@
         </li>
     </ul>
 </div>
-                <!--[[左侧边栏结束 -->
-                <!--[[右侧页面详情开始 -->
-                <div class="main-container wepay-col-sm-24 wepay-col-md-18 wepay-col-lg-20" id="maincontainer">
-                  <!-- [[首页 -->
+            <!--[[左侧边栏结束 -->
+            <!--[[右侧页面详情开始 -->
+            <div class="main-container wepay-col-sm-24 wepay-col-md-18 wepay-col-lg-20" id="maincontainer">
+              <!-- [[首页 -->
 <article class="article" id="start">
     <h1>
         简介
@@ -318,7 +327,7 @@ body {
 </article>
 <!-- 首页]] -->
 
-                  <!-- [[icon图标 -->
+              <!-- [[icon图标 -->
 <article class="article" id="font">
   <h1>
     Font
@@ -417,7 +426,7 @@ body {
   </section>
 </article>
 <!-- icon图标]] -->
-                  <!-- [[logo -->
+              <!-- [[logo -->
 <article class="article" id="logo">
   <h1>Logo<span class="subtitle">微信支付商标</span></h1>
   <section class="markdown">
@@ -525,7 +534,7 @@ body {
   </section>
 </article>
 <!-- logo]] -->
-                  <!-- [[icon图标 -->
+              <!-- [[icon图标 -->
 <article class="article" id="icon">
   <h1>
     Icon
@@ -560,7 +569,7 @@ body {
   </section>
 </article>
 <!-- icon图标]] -->
-                  <!-- [[按钮 -->
+              <!-- [[按钮 -->
 <article class="article" id="button">
 	<h1>
 		Button
@@ -609,7 +618,7 @@ body {
 </article>
 <!-- 按钮]] -->
 
-                  <!-- [[列表 -->
+              <!-- [[列表 -->
 <article class="article" id="list">
 	<h1>
 		List
@@ -788,7 +797,7 @@ body {
 	</section>
 </article>
 <!-- 列表]] -->
-                  <!-- [[表单 -->
+              <!-- [[表单 -->
 <article class="article" id="input">
 	<h1>
 		Input
@@ -1187,7 +1196,7 @@ body {
 	</section>
 </article>
 <!-- 表单]] -->
-                  <!-- [[对话框 -->
+              <!-- [[对话框 -->
 <article class="article" id="dialog">
 	<h1>
 		Dialog
@@ -1254,7 +1263,7 @@ body {
 	</section>
 </article>
 <!-- 对话框]] -->
-                  <!-- [[扫码支付 -->
+              <!-- [[扫码支付 -->
 <article class="article" id="pay_scan_code">
     <h1>扫码支付</h1>
     <section class="markdown">
@@ -1279,7 +1288,7 @@ body {
     </section>
 </article>
 <!-- 扫码支付]] -->
-                  <!-- [[扫码提现 -->
+              <!-- [[扫码提现 -->
 <article class="article" id="pay_scan_code_enchashment">
     <h1>扫码提现</h1>
     <section class="markdown">
@@ -1304,7 +1313,7 @@ body {
     </section>
 </article>
 <!-- 扫码提现]] -->
-                  <!-- [[选择金额付款 -->
+              <!-- [[选择金额付款 -->
 <article class="article" id="pay_select_money">
     <h1>选择金额付款</h1>
     <section class="markdown">
@@ -1329,7 +1338,7 @@ body {
     </section>
 </article>
 <!-- 选择金额付款]] -->
-                  <!-- [[输入金额付款 -->
+              <!-- [[输入金额付款 -->
 <article class="article" id="pay_input_money">
     <h1>输入金额付款</h1>
     <section class="markdown">
@@ -1354,7 +1363,7 @@ body {
     </section>
 </article>
 <!-- 输入金额付款]] -->
-                  <!-- [[收付款详情 -->
+              <!-- [[收付款详情 -->
 <article class="article" id="pay_detail">
     <h1>收付款详情</h1>
     <section class="markdown">
@@ -1386,7 +1395,7 @@ body {
     </section>
 </article>
 <!-- 收付款详情]] -->
-                  <!-- [[收付款记录 -->
+              <!-- [[收付款记录 -->
 <article class="article" id="pay_record">
     <h1>收付款记录</h1>
     <section class="markdown">
@@ -1416,7 +1425,7 @@ body {
     </section>
 </article>
 <!-- 收付款记录]] -->
-                  <!-- [[收付款记录 -->
+              <!-- [[收付款记录 -->
 <article class="article" id="pay_record">
     <h1>收付款记录</h1>
     <section class="markdown">
@@ -1446,18 +1455,17 @@ body {
     </section>
 </article>
 <!-- 收付款记录]] -->
-                </div>
-                <!--[[右侧页面详情结束 --> 
             </div>
+            <!--[[右侧页面详情结束 --> 
         </div>
-        <!-- [[页面底部 开始 -->
-        <footer id="footer" class="footer">
+    </div>
+    <!-- [[页面底部 开始 -->
+    <footer id="footer" class="footer">
     <p>
         ©2016 Tencent Powered by <span class="green">WePay UI Team</span>
     </p>
 </footer>
-        <!-- [[页面底部 结束 -->
-    </div>
+    <!-- [[页面底部 结束 -->
 </article>
 
 </body>
@@ -1474,4 +1482,5 @@ $(document).ready(function() {
 });
 </script>
 <!-- 高亮代码]] -->
+<script src="https://wx.gtimg.com/user_analysis/2.0/lib-min-2.1.js"></script>
 </html>
