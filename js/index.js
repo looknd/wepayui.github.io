@@ -4,6 +4,12 @@ var wepay = {
             $("#wepayLoaidng").addClass('hide');
         }, 2000)
     },
+    //点击流统计
+    clickData : function(){
+        $("[data-stat]").on("click",function(e){
+          $$.report('keypoint',$(e.target).attr("data-stat"));
+        })
+    },
     //左侧下拉菜单
     pullDownMenu : function(){
         $('.wepay-menu-submenu-title').on('click',function(){ 
@@ -25,19 +31,23 @@ var wepay = {
             if($(window).width() >= 992){
                  navIco.show();
                  wepay.toTop();
+                 $("body").removeClass("hide-page")
             }
             else if($(window).width() < 992){
                 navIco.hide();
             }
         })
     },
+    //是否显示下拉菜单
     crtlNav : function(selector){
         if($(window).width() < 992){
             if(selector.is(":hidden")){
-                selector.show()
+                selector.show();
+                $("body").addClass("hide-page")
             }
             else{
                 selector.hide();
+                $("body").removeClass("hide-page")
             }
         }
         
@@ -98,6 +108,7 @@ var wepay = {
     //初始化
     init : function(){
         wepay.showNav();
+        wepay.clickData();
         wepay.pullDownMenu();
         wepay.fnHashTriggerMenu;
         if (history.pushState) {

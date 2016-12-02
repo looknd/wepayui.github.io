@@ -82,14 +82,7 @@ var _speedMark = new Date();
 	2.body标签默认绑定ontouchstart事件，激活所有按钮的:active效果
 -->
 <body ontouchstart>
-<!-- 初始化加载层[[ -->
-<div class="wepay-loading-wrap" id="wepayLoaidng">
-	<div class="wepay-loading">
-	    <img src="img/wepaylogo.png" alt="分享图标" width="80" height="80" class="wepay-loading-ico">
-	    <p class="wepay-loading-txt">Loading...</p>
-	</div>
-</div>
-<!-- 初始化加载层]] -->
+
 <article class="page-wrapper" id="wepayWrapper">
     <!--[[头部导航栏开始 -->
     <header id="header" class="clearfix header">
@@ -107,7 +100,7 @@ var _speedMark = new Date();
             <div class="wepay-menu-wrap wepay-col-sm-24 wepay-col-md-6 wepay-col-lg-4" id="nav">
     <ul class="wepay-menu wepay-menu-inline wepayside-container wepay-menu-root" tabindex="0">
         <li class="wepay-menu-item-selected wepay-menu-item">
-            <a href="?start">起步</a>
+            <a href="?start" data-stat="1627">起步</a>
         </li>
         <li class="wepay-menu-submenu wepay-menu-submenu-open">
             <div class="wepay-menu-submenu-title">
@@ -118,43 +111,43 @@ var _speedMark = new Date();
                     <div class="wepay-menu-item-group-title">Basic</div>
                     <ul class="wepay-menu-item-group-list">
                         <li class="wepay-menu-item">
-                            <a href="?font">
+                            <a href="?font" data-stat="1628">           
                                 <span>Font</span>
                                 <span class="chinese">字体规范</span>
                             </a>
                         </li>
                         <li class="wepay-menu-item">
-                            <a href="?logo">
+                            <a href="?logo" data-stat="1629">
                                 <span>Logo</span>
                                 <span class="chinese">微信支付商标</span>
                             </a>
                         </li>
                         <li class="wepay-menu-item" >
-                            <a href="?icon">
+                            <a href="?icon" data-stat="1630">
                                 <span>Icon</span>
                                 <span class="chinese">图标</span>
                             </a>
                         </li>
                         <li class="wepay-menu-item">
-                            <a href="?button">
+                            <a href="?button" data-stat="1631">
                                 <span>Button</span>
                                 <span class="chinese">按钮</span>
                             </a>
                         </li>
                         <li class="wepay-menu-item">
-                            <a href="?list">
+                            <a href="?list" data-stat="1632">
                                 <span>List</span>
                                 <span class="chinese">列表</span>
                             </a>
                         </li>
                         <li class="wepay-menu-item">
-                            <a href="?input">
+                            <a href="?input" data-stat="1633">
                                 <span>Input</span>
                                 <span class="chinese">表单</span>
                             </a>
                         </li>
                         <li class="wepay-menu-item">
-                            <a href="?dialog">
+                            <a href="?dialog" data-stat="1634">
                                 <span>Dialog</span>
                                 <span class="chinese">对话框</span>
                             </a>
@@ -172,32 +165,32 @@ var _speedMark = new Date();
                     <div class="wepay-menu-item-group-title">收付款</div>
                     <ul class="wepay-menu-item-group-list">
                         <li class="wepay-menu-item">
-                            <a href="?pay_scan_code">
+                            <a href="?pay_scan_code" data-stat="1635">
                                 <span>扫码支付</span>
                             </a>
                         </li>
                         <li class="wepay-menu-item">
-                            <a href="?pay_scan_code_enchashment">
+                            <a href="?pay_scan_code_enchashment" data-stat="1636">
                                 <span>扫码取现</span>
                             </a>
                         </li>
                         <li class="wepay-menu-item">
-                            <a href="?pay_select_money">
+                            <a href="?pay_select_money" data-stat="1637">
                                 <span>选择金额付款</span>
                             </a>
                         </li>
                         <li class="wepay-menu-item">
-                            <a href="?pay_input_money">
+                            <a href="?pay_input_money" data-stat="1638">
                                 <span>输入金额付款</span>
                             </a>
                         </li>
                         <li class="wepay-menu-item">
-                            <a href="?pay_detail">
+                            <a href="?pay_detail" data-stat="1639">
                                 <span>收付款详情</span>
                             </a>
                         </li>
                         <li class="wepay-menu-item">
-                            <a href="?pay_record">
+                            <a href="?pay_record" data-stat="1640">
                                 <span>收付款记录</span>
                             </a>
                         </li>
@@ -207,17 +200,17 @@ var _speedMark = new Date();
                     <div class="wepay-menu-item-group-title">行业解决方案</div>
                     <ul class="wepay-menu-item-group-list">
                         <li class="wepay-menu-item">
-                            <a href="?profession_park">
+                            <a href="?profession_park" data-stat="1641">
                                 <span>停车场</span>
                             </a>
                         </li>
                         <li class="wepay-menu-item">
-                            <a href="?profession_traffic">
+                            <a href="?profession_traffic" data-stat="1642">
                                 <span>客运</span>
                             </a>
                         </li>
                         <li class="wepay-menu-item">
-                            <a href="?profession_hospital_card">
+                            <a href="?profession_hospital_card" data-stat="1643">
                                 <span>医院</span>
                                 <span class="chinese">医生名片</span>
                             </a>
@@ -1576,6 +1569,7 @@ body {
 </body>
 
 <script src="js/jquery-3.1.1.min.js"></script>
+<script src="https://wx.gtimg.com/user_analysis/2.0/lib-min-2.1.js"></script>
 <script src="js/index.js"></script>
 <!-- 高亮代码[[ -->
 <script src="js/highlight.min.js"></script>
@@ -1587,5 +1581,4 @@ $(document).ready(function() {
 });
 </script>
 <!-- 高亮代码]] -->
-<script src="https://wx.gtimg.com/user_analysis/2.0/lib-min-2.1.js"></script>
 </html>
