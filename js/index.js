@@ -2,6 +2,7 @@ var wepay = {
     wepayLoaidng: function() {
         setTimeout(function(){
             $("#wepayLoaidng").addClass('hide');
+            $("#wepayWrapper").removeClass('hide');
         }, 2000)
     },
     //点击流统计
