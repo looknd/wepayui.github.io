@@ -1,14 +1,43 @@
 var wepay = {
+    //预加载
     wepayLoaidng: function() {
         setTimeout(function(){
             $("#wepayLoaidng").addClass('hide');
-            $("#wepayWrapper").removeClass('hide');
+            $("html").removeClass('hide-wrapper');
         }, 2000)
     },
     //点击流统计
     clickData : function(){
         $("[data-stat]").on("click",function(e){
           $$.report('keypoint',$(e.target).attr("data-stat"));
+        })
+    },
+    //操作提示
+    tips : function(text){
+        $("body").find(".tips").remove().end().append("<div class='tips'>" + text + "</div>");
+        setTimeout(function(){
+            $(".tips").fadeOut(1000);
+        },1000)
+    },
+    //flash复制
+    copyCode : function(){
+        $(".copy-text").zclip({
+            path: "./js/ZeroClipboard.swf",
+            copy: function(){
+                return $(this).parent().next().text();
+            },
+            afterCopy:function(){
+                wepay.tips("☺ 复制成功");
+            }
+        })
+        $(".copy-html").zclip({
+            path: "./js/ZeroClipboard.swf",
+            copy: function(){
+                return $(this).html();
+            },
+            afterCopy:function(){
+                wepay.tips("☺ 复制成功");
+            }
         })
     },
     //左侧下拉菜单
@@ -74,7 +103,7 @@ var wepay = {
         wepay.crtlNav($("#nav"))
         var query = this.href.split("?")[1];
         if (history.pushState && query) {
-            $("#"+query).removeClass('hide').siblings().addClass("hide");
+            $("#"+query).removeClass('hidden').siblings().addClass("hidden");
             // history处理
             var title = "WePayUI - " + $(this).text();
             // document.title = title;     
@@ -110,6 +139,7 @@ var wepay = {
     init : function(){
         wepay.showNav();
         wepay.clickData();
+        wepay.copyCode();
         wepay.pullDownMenu();
         wepay.fnHashTriggerMenu;
         if (history.pushState) {
