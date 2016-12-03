@@ -73,7 +73,7 @@ var wepay = {
         $(window).on('resize',function(){
             if($(window).width() >= 992){
                  navIco.show();
-                 // wepay.toTop();
+                 wepay.toTop();
                  $("body").removeClass("hide-page")
             }
             else if($(window).width() < 992){
@@ -106,22 +106,17 @@ var wepay = {
         }
         return true;
     },
-    // toTop : function(){
-    //     $('html, body').animate({scrollTop:0}, 500);
-    // },
+    toTop : function(){
+        $('html, body').animate({scrollTop:0}, 500);
+    },
     //页面局部刷新
     fnHashTriggerMenu : $(".wepay-menu-item > a").on("click", function(event) {
-        // wepay.toTop();
+        wepay.toTop();
         wepay.changeMenuBg($(this).parent('.wepay-menu-item'));
         wepay.crtlNav($("#nav"))
         var query = this.href.split("?")[1];
         if (history.pushState && query) {
-            if(wepay.isPC()){
-               $("#"+query).removeClass('hidden').siblings().addClass("hidden"); 
-            }
-            else{
-                $("#"+query).removeClass('hide').siblings().addClass("hide");
-            }
+            $("#"+query).removeClass('hidden').siblings().addClass("hidden"); 
             // 浏览器历史记录存储
             var title = "WePayUI - " + $(this).text();  
             history.pushState({ title: title }, title, location.href.split("?")[0] + "?" + query);
