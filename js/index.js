@@ -12,34 +12,34 @@ var wepay = {
           $$.report('keypoint',$(e.target).attr("data-stat"));
         })
     },
-    // //操作提示
-    // tips : function(text){
-    //     $("body").find(".tips").remove().end().append("<div class='tips'>" + text + "</div>");
-    //     setTimeout(function(){
-    //         $(".tips").fadeOut(1000);
-    //     },1000)
-    // },
-    //复制到剪切板
-    // copyCode : function(){
-    //     $(".copy-text").zclip({
-    //         path: "./js/ZeroClipboard.swf",
-    //         copy: function(){
-    //             return $(this).parent().next().text();
-    //         },
-    //         afterCopy:function(){
-    //             wepay.tips("☺ 复制成功");
-    //         }
-    //     })
-    //     $(".copy-html").zclip({
-    //         path: "./js/ZeroClipboard.swf",
-    //         copy: function(){
-    //             return $(this).html();
-    //         },
-    //         afterCopy:function(){
-    //             wepay.tips("☺ 复制成功");
-    //         }
-    //     })
-    // },
+    //操作提示
+    tips : function(text){
+        $("body").find(".tips").remove().end().append("<div class='tips'>" + text + "</div>");
+        setTimeout(function(){
+            $(".tips").fadeOut(1000);
+        },1000)
+    },
+    //flash复制
+    copyCode : function(){
+        $(".copy-text").zclip({
+            path: "./js/ZeroClipboard.swf",
+            copy: function(){
+                return $(this).parent().next().text();
+            },
+            afterCopy:function(){
+                wepay.tips("☺ 复制成功");
+            }
+        })
+        $(".copy-html").zclip({
+            path: "./js/ZeroClipboard.swf",
+            copy: function(){
+                return $(this).html();
+            },
+            afterCopy:function(){
+                wepay.tips("☺ 复制成功");
+            }
+        })
+    },
     //左侧下拉菜单
     pullDownMenu : function(){
         $('.wepay-menu-submenu-title').on('click',function(){ 
@@ -103,12 +103,7 @@ var wepay = {
         wepay.crtlNav($("#nav"))
         var query = this.href.split("?")[1];
         if (history.pushState && query) {
-            // $("#"+query).removeClass('hide').siblings().addClass("hide");
-
-            $("#mainContent").attr("src",query + ".html");
-            $("#mainContent").on('load',function() {
-                $(this).height($(this).contents().find("#"+ query).height() + 30);
-            })
+            $("#"+query).removeClass('hidden').siblings().addClass("hidden");
             // history处理
             var title = "WePayUI - " + $(this).text();
             // document.title = title;     
@@ -144,6 +139,7 @@ var wepay = {
     init : function(){
         wepay.showNav();
         wepay.clickData();
+        wepay.copyCode();
         wepay.pullDownMenu();
         wepay.fnHashTriggerMenu;
         if (history.pushState) {
