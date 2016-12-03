@@ -103,7 +103,7 @@ var wepay = {
         wepay.crtlNav($("#nav"))
         var query = this.href.split("?")[1];
         if (history.pushState && query) {
-            $("#"+query).removeClass('hide').siblings().addClass("hide");
+            $("#"+query).removeClass('hidden').siblings().addClass("hidden");
             // history处理
             var title = "WePayUI - " + $(this).text();
             // document.title = title;     
