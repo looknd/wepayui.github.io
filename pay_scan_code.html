@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+<title>WePayUI - 扫码支付</title>
+<link rel="stylesheet" href="https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.min.css?=20161121">
+<link rel="stylesheet" href="css/index.css">
+<script type="text/javascript">
+var TA_STATS_ARGS = {
+rate: 1,
+projectID: 436,
+channelID:764,
+pageID: 840,
+debug: false
+}
+var _speedMark = new Date();
+</script>
+</head>
+<!-- 
+	通用说明： 
+	1.模块的隐藏添加class:hide;
+	2.body标签默认绑定ontouchstart事件，激活所有按钮的:active效果
+-->
+<body ontouchstart>
+<!-- [[扫码支付 -->
+<article class="article" id="pay_scan_code">
+    <h1>扫码支付</h1>
+    <section class="markdown">
+        <p>应用于微信扫码收款、付款</p>
+        <h2>
+            <span>如何使用</span>
+        </h2>
+        <blockquote>
+            <p>下载源码，替换二维码和商户logo即可使用</p>
+        </blockquote>
+        <iframe src="/project/pay_scan_code/index.html" frameborder="0" width="375" height="455" class="project-iframe"></iframe>
+        <h2>
+            <span>下载代码</span>
+        </h2>
+        <ul>
+            <li>
+                <p>
+                    <a href="https://github.com/wepayui/wepayui/tree/master/dist/pay_scan_code" target="_blank">https://github.com/wepayui/wepayui/tree/master/dist/pay_scan_code</a>
+                </p>
+            </li>
+        </ul>
+    </section>
+</article>
+<!-- 扫码支付]] -->
+</body>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="https://wx.gtimg.com/user_analysis/2.0/lib-min-2.1.js"></script>
+<script src="js/jquery.zclip.min.js"></script>
+<script src="js/highlight.min.js"></script>
+<script>
+//操作提示
+var tips = function(text){
+    $("body").find(".tips").remove().end().append("<div class='tips'>" + text + "</div>");
+    setTimeout(function(){
+        $(".tips").fadeOut(1000);
+    },1000)
+}
+//复制到剪切板
+var copyCode = function(){
+	$(".copy-text").zclip({
+	    path: "js/ZeroClipboard.swf",
+	    copy: function(){
+	        return $(this).parent().next().text();
+	    },
+	    afterCopy:function(){
+	        tips("☺ 复制成功");
+	    }
+	})
+	$(".copy-html").zclip({
+	    path: "js/ZeroClipboard.swf",
+	    copy: function(){
+	        return $(this).html();
+	    },
+	    afterCopy:function(){
+	        tips("☺ 复制成功");
+	    }
+	})
+}
+// 高亮代码
+var highlightCode = function(){
+  $('pre code').each(function(i, block) {
+    hljs.highlightBlock(block);
+  });
+}
+copyCode();
+highlightCode();
+
+</script>
+
+</html>

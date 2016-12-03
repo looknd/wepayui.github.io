@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+<title>WePayUI - 对话框</title>
+<link rel="stylesheet" href="https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.min.css?=20161121">
+<link rel="stylesheet" href="css/index.css">
+<script type="text/javascript">
+var TA_STATS_ARGS = {
+rate: 1,
+projectID: 436,
+channelID:764,
+pageID: 840,
+debug: false
+}
+var _speedMark = new Date();
+</script>
+</head>
+<!-- 
+	通用说明： 
+	1.模块的隐藏添加class:hide;
+	2.body标签默认绑定ontouchstart事件，激活所有按钮的:active效果
+-->
+<body ontouchstart>
+<!-- [[对话框 -->
+<article class="article" id="dialog">
+	<h1>
+		Dialog
+		<span class="subtitle">对话框</span>
+	</h1>
+	<section class="markdown">
+		<p>用于提示层操作。</p>
+		<h2>
+			<span>iOS Dialog样式</span>
+		</h2>
+		<div class="wepaydialog">
+			<iframe src="/project/dialog/dialog-ios-1.html" frameborder="0" width="100%" height="600"></iframe>
+			<blockquote><a href="javascript:;" class="copy-text">复制HTML代码</a></blockquote>
+			<pre><code class="hljs xml">&lt;div class=&quot;js_dialog&quot; id=&quot;iosDialog1&quot; style=&quot;opacity: 1;&quot;&gt;
+	&lt;div class=&quot;weui-mask&quot;&gt;&lt;/div&gt;
+	&lt;div class=&quot;weui-dialog&quot;&gt;
+		&lt;div class=&quot;weui-dialog__hd&quot;&gt; &lt;strong class=&quot;weui-dialog__title&quot;&gt;弹窗标题&lt;/strong&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-dialog__bd&quot;&gt;弹窗内容，告知当前状态、信息和解决方法，描述文字尽量控制在三行内&lt;/div&gt;
+		&lt;div class=&quot;weui-dialog__ft&quot;&gt;
+			&lt;a href=&quot;javascript:;&quot; class=&quot;weui-dialog__btn weui-dialog__btn_default&quot;&gt;辅助操作&lt;/a&gt;
+			&lt;a href=&quot;javascript:;&quot; class=&quot;weui-dialog__btn weui-dialog__btn_primary&quot;&gt;主操作&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+			<iframe src="/project/dialog/dialog-ios-2.html" frameborder="0" width="100%" height="400"></iframe>
+			<blockquote><a href="javascript:;" class="copy-text">复制HTML代码</a></blockquote>
+			<pre><code class="hljs xml">&lt;div class=&quot;js_dialog&quot; id=&quot;iosDialog2&quot; style=&quot;opacity: 1;&quot;&gt;
+	&lt;div class=&quot;weui-mask&quot;&gt;&lt;/div&gt;
+	&lt;div class=&quot;weui-dialog&quot;&gt;
+		&lt;div class=&quot;weui-dialog__bd&quot;&gt;弹窗内容，告知当前状态、信息和解决方法，描述文字尽量控制在三行内&lt;/div&gt;
+		&lt;div class=&quot;weui-dialog__ft&quot;&gt;
+			&lt;a href=&quot;javascript:;&quot; class=&quot;weui-dialog__btn weui-dialog__btn_primary&quot;&gt;知道了&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+	    </div>
+	    <h2>
+			<span>Android Dialog样式</span>
+		</h2>
+		<div class="wepaydialog">
+			<iframe src="/project/dialog/dialog-android-1.html" frameborder="0" width="100%" height="400"></iframe>
+			<blockquote><a href="javascript:;" class="copy-text">复制HTML代码</a></blockquote>
+			<pre><code class="hljs xml">&lt;div class=&quot;js_dialog&quot; id=&quot;androidDialog1&quot; style=&quot;opacity: 1;&quot;&gt;
+	&lt;div class=&quot;weui-mask&quot;&gt;&lt;/div&gt;
+	&lt;div class=&quot;weui-dialog weui-skin_android&quot;&gt;
+		&lt;div class=&quot;weui-dialog__hd&quot;&gt; &lt;strong class=&quot;weui-dialog__title&quot;&gt;弹窗标题&lt;/strong&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-dialog__bd&quot;&gt;弹窗内容，告知当前状态、信息和解决方法，描述文字尽量控制在三行内&lt;/div&gt;
+		&lt;div class=&quot;weui-dialog__ft&quot;&gt;
+			&lt;a href=&quot;javascript:;&quot; class=&quot;weui-dialog__btn weui-dialog__btn_default&quot;&gt;辅助操作&lt;/a&gt;
+			&lt;a href=&quot;javascript:;&quot; class=&quot;weui-dialog__btn weui-dialog__btn_primary&quot;&gt;主操作&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+			<iframe src="/project/dialog/dialog-android-2.html" frameborder="0" width="100%" height="400"></iframe>
+			<blockquote><a href="javascript:;" class="copy-text">复制HTML代码</a></blockquote>
+			<pre><code class="hljs xml">&lt;div class=&quot;js_dialog&quot; id=&quot;iosDialog2&quot; style=&quot;opacity: 1;&quot;&gt;
+	&lt;div class=&quot;weui-mask&quot;&gt;&lt;/div&gt;
+	&lt;div class=&quot;weui-dialog&quot;&gt;
+		&lt;div class=&quot;weui-dialog__bd&quot;&gt;弹窗内容，告知当前状态、信息和解决方法，描述文字尽量控制在三行内&lt;/div&gt;
+		&lt;div class=&quot;weui-dialog__ft&quot;&gt;
+			&lt;a href=&quot;javascript:;&quot; class=&quot;weui-dialog__btn weui-dialog__btn_primary&quot;&gt;知道了&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+			<blockquote><a href="javascript:;" class="copy-text">复制CSS代码</a></blockquote>
+			<pre><code class="hljs css">/*!
+ * WePayUI v0.0.1 (https://github.com/wepayui/wepayui)
+ * Copyright 2016 Tencent, Inc.
+ * Licensed under the MIT license
+ * Component : [weui-dialog]
+ */
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{line-height:1.6;font-family:-apple-system-font,Helvetica Neue,sans-serif}
+*{margin:0;padding:0}
+a img{border:0}
+a{text-decoration:none;-webkit-tap-highlight-color:transparent}
+.weui-mask{background:rgba(0,0,0,.6)}
+.weui-mask,.weui-mask_transparent{position:fixed;z-index:1;top:0;right:0;left:0;bottom:0}
+.weui-dialog{position:fixed;z-index:2;width:80%;max-width:300px;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);background-color:#fff;text-align:center;border-radius:3px;overflow:hidden}
+.weui-dialog__hd{padding:1.3em 1.6em .5em}
+.weui-dialog__title{font-weight:400;font-size:18px}
+.weui-dialog__bd{padding:0 1.6em .8em;min-height:40px;font-size:15px;line-height:1.3;word-wrap:break-word;word-break:break-all;color:#999}
+.weui-dialog__bd:first-child{padding:2.7em 20px 1.7em;color:#353535}
+.weui-dialog__ft{position:relative;line-height:48px;font-size:18px;display:-webkit-box;display:-ms-flexbox;display:flex}
+.weui-dialog__ft:after{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #d5d5d6;color:#d5d5d6;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(.5);transform:scaleY(.5)}
+.weui-dialog__btn{display:block;-webkit-box-flex:1;-ms-flex:1;flex:1;color:#3cc51f;text-decoration:none;-webkit-tap-highlight-color:transparent;position:relative}
+.weui-dialog__btn:active{background-color:#eee}
+.weui-dialog__btn:after{content:" ";position:absolute;left:0;top:0;width:1px;bottom:0;border-left:1px solid #d5d5d6;color:#d5d5d6;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleX(.5);transform:scaleX(.5)}
+.weui-dialog__btn:first-child:after{display:none}
+.weui-dialog__btn_default{color:#353535}
+.weui-dialog__btn_primary{color:#0bb20c}
+.weui-skin_android .weui-dialog{text-align:left;box-shadow:0 6px 30px 0 rgba(0,0,0,.1)}
+.weui-skin_android .weui-dialog__title{font-size:21px}
+.weui-skin_android .weui-dialog__hd{text-align:left}
+.weui-skin_android .weui-dialog__bd{color:#999;padding:.25em 1.6em 2em;font-size:17px;text-align:left}
+.weui-skin_android .weui-dialog__bd:first-child{padding:1.6em 1.6em 2em;color:#353535}
+.weui-skin_android .weui-dialog__ft{display:block;text-align:right;line-height:42px;font-size:16px;padding:0 1.6em .7em}
+.weui-skin_android .weui-dialog__ft:after{display:none}
+.weui-skin_android .weui-dialog__btn{display:inline-block;vertical-align:top;padding:0 .8em}
+.weui-skin_android .weui-dialog__btn:after{display:none}
+.weui-skin_android .weui-dialog__btn:active,.weui-skin_android .weui-dialog__btn:visited{background-color:rgba(0,0,0,.06)}
+.weui-skin_android .weui-dialog__btn:last-child{margin-right:-.8em}
+.weui-skin_android .weui-dialog__btn_default{color:gray}
+@media screen and (min-width:1024px){.weui-dialog{width:35%}
+}</code></pre>
+
+	    </div>
+	</section>
+</article>
+<!-- 对话框]] -->
+</body>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="https://wx.gtimg.com/user_analysis/2.0/lib-min-2.1.js"></script>
+<script src="js/jquery.zclip.min.js"></script>
+<script src="js/highlight.min.js"></script>
+<script>
+//操作提示
+var tips = function(text){
+    $("body").find(".tips").remove().end().append("<div class='tips'>" + text + "</div>");
+    setTimeout(function(){
+        $(".tips").fadeOut(1000);
+    },1000)
+}
+//复制到剪切板
+var copyCode = function(){
+	$(".copy-text").zclip({
+	    path: "js/ZeroClipboard.swf",
+	    copy: function(){
+	        return $(this).parent().next().text();
+	    },
+	    afterCopy:function(){
+	        tips("☺ 复制成功");
+	    }
+	})
+	$(".copy-html").zclip({
+	    path: "js/ZeroClipboard.swf",
+	    copy: function(){
+	        return $(this).html();
+	    },
+	    afterCopy:function(){
+	        tips("☺ 复制成功");
+	    }
+	})
+}
+// 高亮代码
+var highlightCode = function(){
+  $('pre code').each(function(i, block) {
+    hljs.highlightBlock(block);
+  });
+}
+copyCode();
+highlightCode();
+
+</script>
+
+</html>

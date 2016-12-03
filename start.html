@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+<title>WePayUI - 简介</title>
+<link rel="stylesheet" href="https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.min.css?=20161121">
+<link rel="stylesheet" href="css/index.css">
+<script type="text/javascript">
+var TA_STATS_ARGS = {
+rate: 1,
+projectID: 436,
+channelID:764,
+pageID: 840,
+debug: false
+}
+var _speedMark = new Date();
+</script>
+</head>
+<!-- 
+	通用说明： 
+	1.模块的隐藏添加class:hide;
+	2.body标签默认绑定ontouchstart事件，激活所有按钮的:active效果
+-->
+<body ontouchstart>
+<!-- [[简介 -->
+<article class="article" id="start">
+    <h1>
+        简介
+    </h1>
+    <section class="markdown">
+        <p>WePayUI 是基于 <a href="https://github.com/weui/weui" target="_blank">WeUI</a> 基础样式库拓展的场景组件，用于快速使用微信支付品牌规范，提升开发效率。</p>
+    </section>
+    <section class="markdown">
+        <h2>价值</h2>
+        <ul class="markdown-ul">
+            <li class="markdown-ul-li">
+                <p>快速实现自定义微信支付基础样式库 </p>
+            </li>
+            <li class="markdown-ul-li">
+                <p>快速实现微信收款付款、收付款流程、收付款记录等支付相关HTML5页面</p>
+            </li>
+            <li class="markdown-ul-li">
+                <p>快速输出行业解决方案HTML5页面，如智慧停车场、智慧医院、智慧客运等</p>
+            </li>
+        </ul>
+    </section>
+    <section class="markdown">
+        <h2>留言</h2>
+        <p>
+            使用过程遇到任何问题，请留下您的宝贵建议。
+        </p>
+        <ul class="markdown-ul">
+            <li class="markdown-ul-li">
+                <a href="https://github.com/wepayui/wepayui/issues" target="_blank">https://github.com/wepayui/wepayui/issues</a>
+            </li>
+        </ul>
+    </section>
+    <section class="markdown">
+        <h2>快速使用</h2>
+        <h3>方式一：使用 CDN 资源</h3>
+        <p>
+            引入CND资源，在组件中复制HTML结构粘贴到您的页面即可使用。
+        </p>
+        <pre><code class="hljs xml">&lt;!-- WePayUI 核心CSS 文件，压缩版 --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.min.css&quot;&gt;
+
+&lt;!-- WePayUI 核心CSS 文件，未压缩版，含less源码预览 --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.css&quot;&gt;</code></pre>
+        <h3>方式二：直接复制代码或下载模板</h3>
+        <ul class="markdown-ul">
+            <li class="markdown-ul-li">
+                <p>每个组件提供了复制代码的功能，PC端点击图标或点击复制按钮即可复制代码。</p>
+            </li>
+            <li class="markdown-ul-li">
+                <p>使用 WePayUI 提供现成案例模板，可在场景找到对应的下载链接。</p>
+            </li>
+        </ul>
+
+    </section>
+    <section class="markdown">
+        <h2>安装源码</h2>
+        <p>WePayUI安装包包含开发目录 src 和生产目录 dist ，其中开发环境包含Less、JavaScript、字体文件的源码，使用 <code>gulp</code> 作为编译系统。</p>
+        <h3>
+            <span>npm安装（未上线，敬请期待）</span>
+        </h3>
+        <pre><code class="hljs github">$ npm install wepayui</code></pre>
+        <h3>
+            <span>github下载</span>
+        </h3>
+        <ul>
+            <li>
+            <p>
+                <a href="https://github.com/wepayui" target="_blank">https://github.com/wepayui</a>
+            </p>
+            </li>
+        </ul>
+    </section>
+    <section class="markdown">
+        <h2>
+            <span>定制</span>
+        </h2>
+        <p>
+            我们提供了<a href="https://github.com/wepayui/wepayui_build_tool" target="_blank">客户端构建工具</a>，您可以按需选择组件和场景自助构建。
+        </p>
+        <p>
+            <img src="img/wepayui_build.gif" alt="wepayui_build" class="wepayui-build-show">
+        </p>  
+    </section>
+    <section class="markdown">
+        <h2>预览</h2>
+        <div class="pic-plus">
+            <img width="250" height="250" src="img/code.png">
+        </div>
+    </section>
+</article>
+<!-- 简介]] -->
+</body>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="https://wx.gtimg.com/user_analysis/2.0/lib-min-2.1.js"></script>
+<script src="js/jquery.zclip.min.js"></script>
+<script src="js/highlight.min.js"></script>
+<script>
+//操作提示
+var tips = function(text){
+    $("body").find(".tips").remove().end().append("<div class='tips'>" + text + "</div>");
+    setTimeout(function(){
+        $(".tips").fadeOut(1000);
+    },1000)
+}
+//复制到剪切板
+var copyCode = function(){
+	$(".copy-text").zclip({
+	    path: "js/ZeroClipboard.swf",
+	    copy: function(){
+	        return $(this).parent().next().text();
+	    },
+	    afterCopy:function(){
+	        tips("☺ 复制成功");
+	    }
+	})
+	$(".copy-html").zclip({
+	    path: "js/ZeroClipboard.swf",
+	    copy: function(){
+	        return $(this).html();
+	    },
+	    afterCopy:function(){
+	        tips("☺ 复制成功");
+	    }
+	})
+}
+// 高亮代码
+var highlightCode = function(){
+  $('pre code').each(function(i, block) {
+    hljs.highlightBlock(block);
+  });
+}
+copyCode();
+highlightCode();
+
+</script>
+
+</html>
