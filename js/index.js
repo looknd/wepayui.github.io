@@ -116,7 +116,12 @@ var wepay = {
         wepay.crtlNav($("#nav"))
         var query = this.href.split("?")[1];
         if (history.pushState && query) {
-            $("#"+query).removeClass('hidden').siblings().addClass("hidden"); 
+            if(wepay.isPC()){
+                $("#"+query).removeClass('hidden').siblings().addClass("hidden"); 
+            }
+            else{
+                $("#"+query).removeClass('hide').siblings().addClass("hide"); 
+            }
             // 浏览器历史记录存储
             var title = "WePayUI - " + $(this).text();  
             history.pushState({ title: title }, title, location.href.split("?")[0] + "?" + query);
