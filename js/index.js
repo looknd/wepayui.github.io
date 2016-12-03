@@ -19,16 +19,6 @@ var wepay = {
             $(".tips").fadeOut(1000);
         },1000)
     },
-    //判断是PC端还是移动端
-    isPC : function() {  
-           var userAgentInfo = navigator.userAgent;  
-           var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");  
-           var flag = true;  
-           for (var v = 0; v < Agents.length; v++) {  
-               if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }  
-           }  
-           return flag;  
-    },  
     //flash复制
     copyCode : function(){
         $(".copy-text").zclip({
@@ -70,7 +60,7 @@ var wepay = {
         $(window).on('resize',function(){
             if($(window).width() >= 992){
                  navIco.show();
-                 // wepay.toTop();
+                 wepay.toTop();
                  $("body").removeClass("hide-page")
             }
             else if($(window).width() < 992){
@@ -103,12 +93,12 @@ var wepay = {
         }
         return true;
     },
-    // toTop : function(){
-    //     $('html, body').animate({scrollTop:0}, 500);
-    // },
+    toTop : function(){
+        $('html, body').animate({scrollTop:0}, 500);
+    },
     //页面局部刷新
     fnHashTriggerMenu : $(".wepay-menu-item > a").on("click", function(event) {
-        // wepay.toTop();
+        wepay.toTop();
         wepay.changeMenuBg($(this).parent('.wepay-menu-item'));
         wepay.crtlNav($("#nav"))
         var query = this.href.split("?")[1];
@@ -149,6 +139,7 @@ var wepay = {
     init : function(){
         wepay.showNav();
         wepay.clickData();
+        wepay.copyCode();
         wepay.pullDownMenu();
         wepay.fnHashTriggerMenu;
         if (history.pushState) {
@@ -157,7 +148,6 @@ var wepay = {
             });
             wepay.fnHashTrigger();
         }
-        wepay.isPC() && wepay.copyCode(); 
         wepay.wepayLoaidng();
     }
 }
