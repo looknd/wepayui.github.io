@@ -1969,7 +1969,7 @@ a{text-decoration:none;-webkit-tap-highlight-color:transparent}
 
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/jquery.zclip.min.js"></script>
-<script src="https://wx.gtimg.com/user_analysis/2.0/lib-min-2.1.js"></script>
+
 <!-- 高亮代码[[ -->
 <script src="js/highlight.min.js"></script>
 <script>
@@ -1980,5 +1980,15 @@ $(document).ready(function() {
 });
 </script>
 <script src="js/index.js"></script>
+
+<script src="https://wx.gtimg.com/user_analysis/2.0/lib-min-2.1.js"></script>
+<script>
+//点击流统计
+$("[data-stat]").on("click",function(e){
+  $$.report('keypoint',$(e.target).attr("data-stat"));
+})
+</script>
+
+
 <!-- 高亮代码]] -->
 </html>

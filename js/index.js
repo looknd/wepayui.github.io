@@ -6,12 +6,6 @@ var wepay = {
             $("html").removeClass('hide-wrapper');
         }, 2000)
     },
-    //点击流统计
-    clickData : function(){
-        $("[data-stat]").on("click",function(e){
-          $$.report('keypoint',$(e.target).attr("data-stat"));
-        })
-    },
     //操作提示
     tips : function(text){
         $("body").find(".tips").remove().end().append("<div class='tips'>" + text + "</div>");
@@ -155,7 +149,6 @@ var wepay = {
     //初始化
     init : function(){
         wepay.showNav();
-        wepay.clickData();
         wepay.pullDownMenu();
         wepay.fnHashTriggerMenu;
         if (history.pushState) {
