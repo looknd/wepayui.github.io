@@ -1,10 +1,7 @@
 var wepay = {
     //预加载
     wepayLoaidng: function() {
-        setTimeout(function(){
-            $("#wepayLoaidng").addClass('hide');
-            $("html").removeClass('hide-wrapper');
-        }, 2000)
+        $("#wepayLoaidng").addClass('hide');
     },
     //操作提示
     tips : function(text){
@@ -58,20 +55,18 @@ var wepay = {
             }
         })
     },
-    //左导航小图标
+    //左导航小图标，控制导航显隐
     showNav : function(){
-        var navIco = $("#nav")
+        var _nav = $("#nav")
         $("#ico_nav").on('click',function(){
-            wepay.crtlNav(navIco);
+            wepay.crtlNav(_nav);
         })
-        $(window).on('resize',function(){
+        $(window).on('load resize',function(){
             if($(window).width() >= 992){
-                 navIco.show();
-                 wepay.toTop();
-                 $("body").removeClass("hide-page")
+                 _nav.show();
             }
             else if($(window).width() < 992){
-                navIco.hide();
+                _nav.hide();
             }
         })
     },
@@ -89,74 +84,13 @@ var wepay = {
         }
         
     },
-    //左侧菜单背景色
-    changeMenuBg : function(selector){
-        if(selector.hasClass('wepay-menu-item-selected')){
-            return
-        }
-        else{
-            $(".wepay-menu").find(".wepay-menu-item").removeClass('wepay-menu-item-selected');
-            selector.addClass("wepay-menu-item-selected")
-        }
-        return true;
-    },
     toTop : function(){
         $('html, body').animate({scrollTop:0}, 500);
-    },
-    //页面局部刷新
-    fnHashTriggerMenu : $(".wepay-menu-item > a").on("click", function(event) {
-        wepay.toTop();
-        wepay.changeMenuBg($(this).parent('.wepay-menu-item'));
-        wepay.crtlNav($("#nav"))
-        var query = this.href.split("?")[1];
-        if (history.pushState && query) {
-            if(wepay.isPC()){
-                $("#"+query).removeClass('hidden').siblings().addClass("hidden"); 
-            }
-            else{
-                $("#"+query).removeClass('hide').siblings().addClass("hide"); 
-            }
-            // 浏览器历史记录存储
-            var title = "WePayUI - " + $(this).text();  
-            history.pushState({ title: title }, title, location.href.split("?")[0] + "?" + query);
-        }
-        return false;
-    }),
-    fnHashTrigger: function(target) {
-        var query = location.href.split("?")[1], eleTarget = target || null;
-        if (typeof query == "undefined") {
-            if (eleTarget = wepay.fnHashTriggerMenu.get(0)) {
-                // 如果没有查询字符，则使用第一个导航元素的查询字符内容
-                history.replaceState(null, document.title, location.href.split("#")[0] + "?" + eleTarget.href.split("?")[1]) + location.hash;    
-                wepay.fnHashTrigger(eleTarget);
-            }
-        } else {
-            wepay.fnHashTriggerMenu.each(function() {
-                if (eleTarget === null && this.href.split("?")[1] === query) {
-                    eleTarget = this;
-                }
-            });
-            
-            if (!eleTarget) {
-                // 如果查询序列没有对应的导航菜单，去除查询然后执行回调
-                history.replaceState(null, document.title, location.href.split("?")[0]);    
-                wepay.fnHashTrigger();
-            } else {
-                $(eleTarget).trigger("click");
-            }        
-        }
     },
     //初始化
     init : function(){
         wepay.showNav();
         wepay.pullDownMenu();
-        wepay.fnHashTriggerMenu;
-        if (history.pushState) {
-            window.addEventListener("popstate", function() {
-                wepay.fnHashTrigger();                             
-            });
-            wepay.fnHashTrigger();
-        }
         wepay.isPC() && wepay.copyCode(); 
         wepay.wepayLoaidng();
     }
