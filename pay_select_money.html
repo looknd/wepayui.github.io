@@ -42,58 +42,6 @@ $$$$$$$$$$$$$$$$$&@                &$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 <meta content="email=no" name="format-detection">
 <title>WePayUI - 选择金额付款</title>
 <link rel="icon" href="img/wepaylogo.ico">
-<style type="text/css">
-.wepay-loading-wrap {
-    position: relative;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    background-color: rgba(255,255,255,1);
-    z-index: 99999;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-.wepay-loading-txt {
-    text-align: center;
-}
-.wepay-loading-ico {
-    -webkit-animation: wepay-loading 2s linear infinite;
-    animation: wepay-loading 2s linear infinite;
-    opacity: 0.5;
-}
-@keyframes wepay-loading {
-	0% {
-		opacity: 0.5;
-	}
-	50% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0.5;
-	}
-}
-@-webkit-keyframes wepay-loading {
-	0% {
-		opacity: 0.5;
-	}
-	50% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0.5;
-	}
-}
-</style>
 <link rel="stylesheet" href="https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.min.css?=20161121">
 <link rel="stylesheet" href="css/index.min.css">
 <script type="text/javascript">
@@ -113,14 +61,6 @@ var _speedMark = new Date();
 	2.body标签默认绑定ontouchstart事件，激活所有按钮的:active效果
 -->
 <body ontouchstart>
-<!-- 初始化加载层[[ -->
-<div class="wepay-loading-wrap" id="wepayLoaidng">
-	<div class="wepay-loading">
-	    <img src="img/wepaylogo.png" alt="分享图标" width="80" height="80" class="wepay-loading-ico">
-	    <p class="wepay-loading-txt">Loading...</p>
-	</div>
-</div>
-<!-- 初始化加载层]] -->
 
 <article class="page-wrapper" id="wepayWrapper">
     <!--[[头部导航栏开始 -->

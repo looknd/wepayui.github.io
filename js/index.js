@@ -62,6 +62,7 @@ var wepay = {
             wepay.crtlNav(_nav);
         })
         $(window).on('load resize',function(){
+            $("body").removeClass("hide-page")
             if($(window).width() >= 992){
                  _nav.show();
             }
@@ -92,7 +93,7 @@ var wepay = {
         wepay.showNav();
         wepay.pullDownMenu();
         wepay.isPC() && wepay.copyCode(); 
-        wepay.wepayLoaidng();
+        // wepay.wepayLoaidng();
     }
 }
 wepay.init();
