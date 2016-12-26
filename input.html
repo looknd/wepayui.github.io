@@ -204,7 +204,11 @@ var _speedMark = new Date();
     </ul>
 </div>
 <script type="text/javascript">
-//获取url的各个部分**$1-$4  协议，域名，端口号，还有最重要的路径path！  13**$5-$7  文件名，锚点(#top)，query参数(?id=55) 
+/*
+** 获取url的各个部分
+** $1-$4  协议，域名，端口号，路径
+** $5-$7  文件名，锚点(#top)，query参数(?id=55) 
+*/
 var urlRegEx = function(url){      
     //如果加上/g参数，那么只返回$0匹配。也就是说arr.length = 0   
     var re = /(\w+):\/\/([^\:|\/]+)(\:\d*)?(.*\/)([^#|\?|\n]+)?(#.*)?(\?.*)?/i;   
@@ -212,9 +216,12 @@ var urlRegEx = function(url){
     var arr = url.match(re);   
     return arr;   
 }
-var name = urlRegEx(location.href)[5].split(".")[0];
-var currentMenu = document.getElementById("nav_" + name);
-currentMenu.className = currentMenu.className + " wepay-menu-item-selected"
+if(urlRegEx(location.href)[5]){
+    var locationProjectName = urlRegEx(location.href)[5].split(".")[0];
+    var currentMenu = document.getElementById("nav_" + locationProjectName);
+    currentMenu.className = currentMenu.className + " wepay-menu-item-selected";
+}
+
 </script>
             <!--[[左侧边栏结束 -->
             <!--[[右侧页面详情开始 -->
