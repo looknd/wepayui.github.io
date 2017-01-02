@@ -1,0 +1,28 @@
+<!-- [[选择金额付款 -->
+<article class="article" id="pay_select_money">
+    <h1>选择金额付款</h1>
+    <section class="markdown">
+        <p>应用于微信付款，选择固定金额付款</p>
+        <h2>
+            <span>如何使用</span>
+        </h2>
+        <blockquote>
+            <p>下载源码，即可使用</p>
+        </blockquote>
+        <iframe src="/project/pay_select_money/index.html" frameborder="0" width="375" height="550" class="project-iframe"></iframe>
+        <h2>
+            <span>下载代码</span>
+        </h2>
+        <ul>
+            <li>
+                <p>
+                    <a href="https://github.com/wepayui/wepayui/tree/master/dist/pay_select_money" target="_blank" data-stat="1742">https://github.com/wepayui/wepayui/tree/master/dist/pay_select_money</a>
+                </p>
+            </li>
+        </ul>
+    </section>
+</article>
+<!-- 选择金额付款]] -->
+<script type="text/javascript">
+wepay.spaInit();
+</script>

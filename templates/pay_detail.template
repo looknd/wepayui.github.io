@@ -1,0 +1,35 @@
+<!-- [[收付款详情 -->
+<article class="article" id="pay_detail">
+    <h1>收付款详情</h1>
+    <section class="markdown">
+        <p>应用于微信收款、付款详情</p>
+        <h2>
+            <span>如何使用</span>
+        </h2>
+        <blockquote>
+            <p>下载源码，即可使用</p>
+        </blockquote>
+        <h3>2列文本2端对齐</h3>
+        <iframe src="/project/pay_detail/detail_column_2_justify.html" frameborder="0" width="375" height="500" class="project-iframe"></iframe>
+        <h3>2列文本左对齐</h3>
+        <iframe src="/project/pay_detail/detail_column_2_left.html" frameborder="0" width="375" height="500" class="project-iframe"></iframe>
+        <h3>3列文本2端对齐</h3>
+        <iframe src="/project/pay_detail/detail_column_3_justify.html" frameborder="0" width="375" height="500" class="project-iframe"></iframe>
+        <h3>多列文本2端对齐</h3>
+        <iframe src="/project/pay_detail/detail_column_n_justify.html" frameborder="0" width="375" height="500" class="project-iframe"></iframe>
+        <h2>
+            <span>下载代码</span>
+        </h2>
+        <ul>
+            <li>
+                <p>
+                    <a href="https://github.com/wepayui/wepayui/tree/master/dist/pay_detail" target="_blank" data-stat="1744">https://github.com/wepayui/wepayui/tree/master/dist/pay_detail</a>
+                </p>
+            </li>
+        </ul>
+    </section>
+</article>
+<!-- 收付款详情]] -->
+<script type="text/javascript">
+wepay.spaInit();
+</script>

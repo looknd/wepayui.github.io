@@ -1,0 +1,28 @@
+<!-- [[扫码提现 -->
+<article class="article" id="pay_scan_code_enchashment">
+    <h1>扫码提现</h1>
+    <section class="markdown">
+        <p>应用于微信扫码提现</p>
+        <h2>
+            <span>如何使用</span>
+        </h2>
+        <blockquote>
+            <p>下载源码，替换二维码和商户logo即可使用</p>
+        </blockquote>
+        <iframe src="/project/pay_scan_code_enchashment/index.html" frameborder="0" width="375" height="550" class="project-iframe"></iframe>
+        <h2>
+            <span>下载代码</span>
+        </h2>
+        <ul>
+            <li>
+                <p>
+                    <a href="https://github.com/wepayui/wepayui/tree/master/dist/pay_scan_code_enchashment" target="_blank" data-stat="1741">https://github.com/wepayui/wepayui/tree/master/dist/pay_scan_code_enchashment</a>
+                </p>
+            </li>
+        </ul>
+    </section>
+</article>
+<!-- 扫码提现]] -->
+<script type="text/javascript">
+wepay.spaInit();
+</script>

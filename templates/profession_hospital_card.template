@@ -1,0 +1,31 @@
+<!-- [[医生名片 -->
+<article class="article" id="profession_hospital_card">
+    <h1>医生名片</h1>
+    <section class="markdown">
+        <p>应用于微信扫码医生名片</p>
+        <h2>
+            <span>如何使用</span>
+        </h2>
+        <blockquote>
+            <p>下载源码，即可使用</p>
+        </blockquote>
+        <h3>扫码成功首页</h3>
+        <iframe src="/project/profession_hospital_card/01_index.html" frameborder="0" width="375" height="500" class="project-iframe"></iframe>
+        <h3>挂号成功</h3>
+        <iframe src="/project/profession_hospital_card/04_success.html" frameborder="0" width="375" height="640" class="project-iframe"></iframe>
+        <h2>
+            <span>下载代码</span>
+        </h2>
+        <ul>
+            <li>
+                <p>
+                    <a href="https://github.com/wepayui/wepayui/tree/master/dist/profession_hospital_card" target="_blank" data-stat="1748">https://github.com/wepayui/wepayui/tree/master/dist/profession_hospital_card</a>
+                </p>
+            </li>
+        </ul>
+    </section>
+</article>
+<!-- 医生名片]] -->
+<script type="text/javascript">
+wepay.spaInit();
+</script>

@@ -1,0 +1,33 @@
+<!-- [[收付款记录 -->
+<article class="article" id="pay_record">
+    <h1>收付款记录</h1>
+    <section class="markdown">
+        <p>应用于微信收付款记录</p>
+        <h2>
+            <span>如何使用</span>
+        </h2>
+        <blockquote>
+            <p>下载源码，即可使用</p>
+        </blockquote>
+        <h3>通用</h3>
+        <iframe src="/project/pay_record/list.html" frameborder="0" width="375" height="620" class="project-iframe"></iframe>
+        <h3>多行</h3>
+        <iframe src="/project/pay_record/list_multiline.html" frameborder="0" width="375" height="620" class="project-iframe"></iframe>
+        <h3>带头像</h3>
+        <iframe src="/project/pay_record/list_photo.html" frameborder="0" width="375" height="640" class="project-iframe"></iframe>
+        <h2>
+            <span>下载代码</span>
+        </h2>
+        <ul>
+            <li>
+                <p>
+                    <a href="https://github.com/wepayui/wepayui/tree/master/dist/pay_record" target="_blank" data-stat="1745">https://github.com/wepayui/wepayui/tree/master/dist/pay_record</a>
+                </p>
+            </li>
+        </ul>
+    </section>
+</article>
+<!-- 收付款记录]] -->
+<script type="text/javascript">
+wepay.spaInit();
+</script>

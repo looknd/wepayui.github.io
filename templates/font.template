@@ -1,0 +1,136 @@
+<!-- [[icon图标 -->
+<article class="article" id="font">
+  <h1>
+    Font
+    <span class="subtitle">字体规范</span>
+  </h1>
+  <section class="markdown">
+    <p>微信支付常用设计字体、颜色、字号、行高。</p>
+    <h2>
+      <span>设计字体</span>
+    </h2>
+    <ul class="wepayfont-list">
+      <li>
+        <p>华文黑体</p>
+        <span class="light">常规体 / 细体</span>
+      </li>
+      <li>
+        <p>方正静蕾简体</p>
+        <span class="light">Regular / light</span>
+      </li>
+      <li>
+        <p>Helvetica</p>
+        <span class="light">手写</span>
+      </li>
+
+    </ul>
+    <h2>
+      <span>功能字色</span>
+    </h2>
+    <ul class="wepayfont-list wepayfont-list_color">
+      <li>
+        <p class="weui-wepay-color-dark" data-stat="1749">常规</p>
+        <span class="light copy-html">#333333</span>
+      </li>
+      <li>
+        <p class="weui-wepay-color-gray" data-stat="1750">弱提示</p>
+        <span class="light copy-html">#888888</span>
+      </li>
+      <li>
+        <p class="weui-wepay-color-light" data-stat="1751">不可点</p>
+        <span class="light copy-html">#CCCCCC</span>
+      </li>
+      <li>
+        <p class="weui-wepay-color-blue" data-stat="1752">链接</p>
+        <span class="light copy-html">#596D97</span>
+      </li>
+      <li>
+        <p class="weui-wepay-color-lightblue" data-stat="1753">文本按钮</p>
+        <span class="light copy-html">#1C7EFB</span>
+      </li>
+      <li>
+        <p class="weui-wepay-color-orange" data-stat="1754">金额</p>
+        <span class="light copy-html">#FF6633</span>
+      </li>
+      <li>
+        <p class="weui-wepay-color-green" data-stat="1755">支付成功</p>
+        <span class="light copy-html">#4ABB44</span>
+      </li>
+      <li>
+        <p class="weui-wepay-color-red" data-stat="1756">支付失败</p>
+        <span class="light copy-html">#DA3E00</span>
+      </li>
+      <li>
+        <p data-stat="1766" style="background-color: #666666;color: #FFFFFF;text-align: center;">反白</p>
+        <span class="light copy-html">#FFFFFF</span>
+      </li>
+      <li>
+        <p data-stat="1767" style="background-color: #06BD04;color: #FFEE63;text-align: center;">绿底提示</p>
+        <span class="light copy-html">#FFEE63</span>
+      </li>
+    </ul>
+    <h2>
+      <span>字号</span>
+    </h2>
+    <ul class="wepayfont-list wepayfont-list_size">
+      <li>
+      <p style="font-size: 44px">44px</p>
+      </li>
+      <li>
+      <p style="font-size: 40px">40px</p>
+      </li>
+      <li>
+      <p style="font-size: 36px">36px</p>
+      </li>
+      <li>
+      <p style="font-size: 32px">32px</p>
+      </li>
+      <li>
+      <p style="font-size: 28px">28px</p>
+      </li>
+      <li>
+      <p style="font-size: 24px">24px</p>
+      </li>
+      <li>
+      <p style="font-size: 20px">20px</p>
+      </li>
+    </ul>
+    <h2>
+      <span>行高</span>
+    </h2>
+    <ul class="wepayfont-list">
+      <li>
+      <p>行高52px</p>
+        <span class="light">字号44px</span>
+      </li>
+      <li>
+      <p>行高48px</p>
+        <span class="light">字号40px</span>
+      </li>
+      <li>
+      <p>行高44px</p>
+        <span class="light">字号36px</span>
+      </li>
+      <li>
+      <p>行高40px</p>
+        <span class="light">字号32px</span>
+      </li>
+      <li>
+      <p>行高36px</p>
+        <span class="light">字号28px</span>
+      </li>
+      <li>
+      <p>行高32px</p>
+        <span class="light">字号24px</span>
+      </li>
+      <li>
+      <p>行高28px</p>
+        <span class="light">字号20px</span>
+      </li>
+    </ul>
+  </section>
+</article>
+<!-- icon图标]] -->
+<script type="text/javascript">
+wepay.spaInit();
+</script>

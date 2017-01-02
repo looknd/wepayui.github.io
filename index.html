@@ -64,31 +64,33 @@ var _speedMark = new Date();
 -->
 <body ontouchstart>
 
-<article class="page-wrapper" id="wepayWrapper">
-    <!--[[头部导航栏开始 -->
-    <header id="header" class="clearfix header">
-    <div class="nav-logo">
-        <a href="index.html" title="WePayUI" id="home"><img alt="WePayUI" src="img/wepayui.png" width="150" class="home"></a>
+<article class="wepay" id="wepayWrapper">
+    <!--头部导航栏 [[ -->
+    <header class="wepay-hd" id="header">
+    <div class="wepay-hd-logo">
+        <a href="index.html" title="WePayUI" id="home" class="wepay-hd-link"><img alt="WePayUI" src="img/wepayui.png" width="150" class="wepay-hd-img"></a>
     </div>
-    <a href="javascript:;" class="nav-icon" id="ico_nav">
-        <i class="nav-phone-icon"></i>
+    <a href="javascript:;" class="wepay-hd-list" id="wepay_hd_list">
+        <i></i>
     </a>
-    <div class="nav-ul">
-    	<div class="nav-ul-main">
-		    <a href="https://github.com/wepayui" target="_blank" data-stat="1817">github</a>
-		    <a href="https://pay.weixin.qq.com/material/brand.shtml" target="_blank" data-stat="1818">素材下载</a>
-		    <a href="https://wj.qq.com/s/877757/a3ec" target="_blank" data-stat="1819">意见反馈</a>
-	    </div>
+    <div class="wepay-hd-ul">
+    	<ul class="wepay-hd-ul-main">
+          <li><a href="https://github.com/wepayui" target="_blank" data-stat="1817">Github</a></li>
+          <li><a href="https://github.com/wepayui/wepayui/archive/master.zip" target="_blank" data-stat="1818">Download</a></li>
+          <li><a href="https://wj.qq.com/s/877757/a3ec" target="_blank" data-stat="1819">使用反馈</a></li>
+	    </ul>
     </div>
 </header>
-    <!--[[头部导航栏结束 -->
-    <div class="main-wrapper">
-        <div class="wepay-row">
-            <!--[[左侧边栏开始 -->
-            <div class="wepay-menu-wrap wepay-col-sm-24 wepay-col-md-6 wepay-col-lg-4" id="nav">
-    <ul class="wepay-menu wepay-menu-inline wepayside-container wepay-menu-root" tabindex="0">
-        <li class="wepay-menu-item" id="nav_index">
-            <a href="index.html">起步</a>
+    <!--头部导航栏 ]] -->
+    
+    <!--内容 [[ -->
+    <div class="wepay-bd">
+        <div class="wepay-bd-frame">
+            <!--左菜单 [[ -->
+            <nav class="wepay-menu-wrap wepay-col-sm-24 wepay-col-md-6 wepay-col-lg-4" id="nav">
+    <ul class="wepay-menu wepay-menu-inline " tabindex="0">
+        <li class="wepay-menu-item">
+            <a href="#/start/" data-stat="1836">起步</a>
         </li>
         <li class="wepay-menu-submenu wepay-menu-submenu-open">
             <div class="wepay-menu-submenu-title">
@@ -98,44 +100,44 @@ var _speedMark = new Date();
                 <li class="wepay-menu-item-group">
                     <div class="wepay-menu-item-group-title">Basic</div>
                     <ul class="wepay-menu-item-group-list">
-                        <li class="wepay-menu-item" id="nav_font">
-                            <a href="font.html" data-stat="1820">           
+                        <li class="wepay-menu-item">
+                            <a href="#/font/" data-stat="1820">           
                                 <span>Font</span>
                                 <span class="chinese">字体规范</span>
                             </a>
                         </li>
-                        <li class="wepay-menu-item" id="nav_logo">
-                            <a href="logo.html" data-stat="1821">
+                        <li class="wepay-menu-item">
+                            <a href="#/logo/" data-stat="1821">
                                 <span>Logo</span>
                                 <span class="chinese">微信支付商标</span>
                             </a>
                         </li>
-                        <li class="wepay-menu-item" id="nav_icon">
-                            <a href="icon.html" data-stat="1822">
+                        <li class="wepay-menu-item">
+                            <a href="#/icon/" data-stat="1822">
                                 <span>Icon</span>
                                 <span class="chinese">图标</span>
                             </a>
                         </li>
-                        <li class="wepay-menu-item" id="nav_button">
-                            <a href="button.html" data-stat="1823">
+                        <li class="wepay-menu-item">
+                            <a href="#/button/" data-stat="1823">
                                 <span>Button</span>
                                 <span class="chinese">按钮</span>
                             </a>
                         </li>
-                        <li class="wepay-menu-item" id="nav_list">
-                            <a href="list.html" data-stat="1824">
+                        <li class="wepay-menu-item">
+                            <a href="#/list/" data-stat="1824">
                                 <span>List</span>
                                 <span class="chinese">列表</span>
                             </a>
                         </li>
-                        <li class="wepay-menu-item" id="nav_input">
-                            <a href="input.html" data-stat="1825">
+                        <li class="wepay-menu-item">
+                            <a href="#/input/" data-stat="1825">
                                 <span>Input</span>
                                 <span class="chinese">表单</span>
                             </a>
                         </li>
-                        <li class="wepay-menu-item" id="nav_dialog">
-                            <a href="dialog.html" data-stat="1826">
+                        <li class="wepay-menu-item">
+                            <a href="#/dialog/" data-stat="1826">
                                 <span>Dialog</span>
                                 <span class="chinese">对话框</span>
                             </a>
@@ -152,28 +154,28 @@ var _speedMark = new Date();
                 <li class=" wepay-menu-item-group">
                     <div class="wepay-menu-item-group-title">收付款</div>
                     <ul class="wepay-menu-item-group-list">
-                        <li class="wepay-menu-item" id="nav_pay_scan_code">
-                            <a href="pay_scan_code.html" data-stat="1827">
+                        <li class="wepay-menu-item">
+                            <a href="#/pay_scan_code/" data-stat="1827">
                                 <span>扫码支付</span>
                             </a>
                         </li>
-                        <li class="wepay-menu-item" id="nav_pay_select_money">
-                            <a href="pay_select_money.html" data-stat="1828">
+                        <li class="wepay-menu-item">
+                            <a href="#/pay_select_money/" data-stat="1828">
                                 <span>选择金额付款</span>
                             </a>
                         </li>
-                        <li class="wepay-menu-item" id="nav_pay_input_money">
-                            <a href="pay_input_money.html" data-stat="1829">
+                        <li class="wepay-menu-item">
+                            <a href="#/pay_input_money/" data-stat="1829">
                                 <span>输入金额付款</span>
                             </a>
                         </li>
-                        <li class="wepay-menu-item" id="nav_pay_detail">
-                            <a href="pay_detail.html" data-stat="1830">
+                        <li class="wepay-menu-item">
+                            <a href="#/pay_detail/" data-stat="1830">
                                 <span>收付款详情</span>
                             </a>
                         </li>
-                        <li class="wepay-menu-item" id="nav_pay_record">
-                            <a href="pay_record.html" data-stat="1831">
+                        <li class="wepay-menu-item">
+                            <a href="#/pay_record/" data-stat="1831">
                                 <span>收付款记录</span>
                             </a>
                         </li>
@@ -182,18 +184,18 @@ var _speedMark = new Date();
                 <li class="wepay-menu-item-group">
                     <div class="wepay-menu-item-group-title">行业解决方案</div>
                     <ul class="wepay-menu-item-group-list">
-                        <li class="wepay-menu-item" id="nav_profession_park">
-                            <a href="profession_park.html" data-stat="1832">
+                        <li class="wepay-menu-item">
+                            <a href="#/profession_park/" data-stat="1832">
                                 <span>停车场</span>
                             </a>
                         </li>
-                        <li class="wepay-menu-item" id="nav_profession_traffic">
-                            <a href="profession_traffic.html" data-stat="1833">
+                        <li class="wepay-menu-item">
+                            <a href="#/profession_traffic/" data-stat="1833">
                                 <span>客运</span>
                             </a>
                         </li>
-                        <li class="wepay-menu-item" id="nav_profession_hospital_card">
-                            <a href="profession_hospital_card.html" data-stat="1834">
+                        <li class="wepay-menu-item">
+                            <a href="#/profession_hospital_card/" data-stat="1834">
                                 <span>医院</span>
                                 <span class="chinese">医生名片</span>
                             </a>
@@ -203,162 +205,28 @@ var _speedMark = new Date();
             </ul>
         </li>
     </ul>
-</div>
-<script type="text/javascript">
-/*
-** 获取url的各个部分
-** $1-$4  协议，域名，端口号，路径
-** $5-$7  文件名，锚点(#top)，query参数(?id=55) 
-*/
-var urlRegEx = function(url){      
-    //如果加上/g参数，那么只返回$0匹配。也就是说arr.length = 0   
-    var re = /(\w+):\/\/([^\:|\/]+)(\:\d*)?(.*\/)([^#|\?|\n]+)?(#.*)?(\?.*)?/i;   
-    //re.exec(url);   
-    var arr = url.match(re);   
-    return arr;   
-}
-if(urlRegEx(location.href)[5]){
-    var locationProjectName = urlRegEx(location.href)[5].split(".")[0];
-    var currentMenu = document.getElementById("nav_" + locationProjectName);
-    currentMenu.className = currentMenu.className + " wepay-menu-item-selected";
-}
+</nav>
+            <!--左菜单 ]] -->
 
-</script>
-            <!--[[左侧边栏结束 -->
-            <!--[[右侧页面详情开始 -->
-            <div class="main-container wepay-col-sm-24 wepay-col-md-18 wepay-col-lg-20" id="maincontainer">
-              <!-- [[首页 -->
-<article class="article" id="start">
-    <h1>
-        简介
-    </h1>
-    <section class="markdown">
-        <p>WePayUI 由微信支付为服务商和商户量身打造，用于快速制作符合微信支付规范的Web页面，提升开发效率。WePayUI 基于 <a href="https://github.com/weui/weui" target="_blank">WeUI</a> 拓展，包含基础组件和行业场景。</p>
-    </section>
-
-    <section class="markdown">
-        <h2>价值</h2>
-        <ul class="markdown-ul">
-            <li class="markdown-ul-li">
-                <p>快速实现自定义微信支付基础样式库 </p>
-            </li>
-            <li class="markdown-ul-li">
-                <p>快速实现微信收款付款、收付款流程、收付款记录等支付相关HTML5页面</p>
-            </li>
-            <li class="markdown-ul-li">
-                <p>快速输出行业解决方案HTML5页面，如智慧停车场、智慧医院、智慧客运等</p>
-            </li>
-        </ul>
-    </section>
-    <section class="markdown">
-        <h2>快速使用</h2>
-        <h3>方式一：按需复制代码或下载模板</h3>
-        <ul class="markdown-ul">
-            <li class="markdown-ul-li">
-                <p>PC端<span class="green">点击图标</span>即可复制HTML代码，<span class="green">点击复制</span>按钮可复制CSS代码。</p>
-            </li>
-            <li class="markdown-ul-li">
-                <p>使用 WePayUI 提供现成案例模板，可在场景找到对应的下载链接。</p>
-            </li>
-        </ul>
-        <h3>方式二：使用 CDN 资源</h3>
-        <p>
-            引入CND资源，在组件中复制HTML结构粘贴到你的页面即可使用。
-        </p>
-        <pre><code class="hljs xml">&lt;!-- WePayUI 核心CSS 文件，压缩版 --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.min.css&quot;&gt;
-
-&lt;!-- WePayUI 核心CSS 文件，未压缩版，含less源码预览 --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.css&quot;&gt;</code></pre>
-    </section>
-    <section class="markdown">
-        <h2>安装源码</h2>
-        <p>我们提供了源码方便有一定开发能力的程序员使用，其中 WePayUI 安装包包含开发目录 src 和生产目录 dist ，其中开发环境包含Less、JavaScript、字体文件的源码，使用 <code>gulp</code> 作为编译系统。</p>
-        <h3>
-            <span>github下载</span>
-        </h3>
-        <ul>
-            <li>
-            <p>
-                <a href="https://github.com/wepayui" target="_blank" data-stat="1644">https://github.com/wepayui</a>
-            </p>
-            </li>
-        </ul>
-        <h3>
-            <span>npm下载</span>
-        </h3>
-        <pre><code class="hljs github">$ npm install wepayui</code></pre>
-    </section>
-    <section class="markdown">
-        <h2>
-            <span>定制</span>
-        </h2>
-        <p>
-            我们提供了<a href="https://github.com/wepayui/wepayui_build_tool" target="_blank" data-stat="1645">客户端构建工具</a>，你可以按需选择组件和场景自助构建。
-        </p>
-        <p>
-            <img src="img/wepayui_build.gif" alt="wepayui_build" class="wepayui-build-show">
-        </p>  
-    </section>
-    <section class="markdown">
-        <h2>反馈</h2>
-        <p>
-            使用WePayUI过程有任何意见，请将你的感受和建议告诉我们。
-        </p>
-        <ul>
-            <li>
-            <p>
-                <a href="https://wj.qq.com/s/877757/a3ec" target="_blank" data-stat="1644">https://wj.qq.com/s/877757/a3ec</a>
-            </p>
-            </li>
-        </ul>
-    </section>
-    <section class="markdown">
-        <h2>预览</h2>
-        <div class="pic-plus">
-            <img width="250" height="250" src="img/code.png">
-        </div>
-    </section>
-</article>
-<!-- 首页]] -->
-
+            <!--页面 [[ -->
+            <div class="wepay-container wepay-col-sm-24 wepay-col-md-18 wepay-col-lg-20" id="app">
             </div>
-            <!--[[右侧页面详情结束 --> 
+            <!--页面 ]] --> 
         </div>
     </div>
-    <!-- [[页面底部 开始 -->
-    <footer id="footer" class="footer">
+    <!-- 内容 [[ -->
+
+    <!-- 页面底部 [[ -->
+    <footer class="wepay-ft" id="footer">
     <p>
-        ©2016 Tencent Powered by <span class="green">Wechat Pay Official Team</span>
+        ©2017 Tencent Powered by <span class="green">Wechat Pay Official Team</span>
     </p>
 </footer>
-    <!-- [[页面底部 结束 -->
+    <!-- 页面底部 ]] -->
 </article>
 
 </body>
-
-<script src="js/jquery-3.1.1.min.js"></script>
-<script src="js/jquery.zclip.min.js"></script>
-
-<!-- 高亮代码[[ -->
-<script src="js/highlight.min.js"></script>
-<script>
-$(document).ready(function() {
-  $('pre code').each(function(i, block) {
-    hljs.highlightBlock(block);
-  });
-});
-</script>
-<script src="js/index.js"></script>
-
-<script src="https://wx.gtimg.com/user_analysis/2.0/lib-min-2.1.js"></script>
-<script>
-//点击流统计
-$("[data-stat]").on("click",function(e){
-  $$.report('keypoint',$(e.target).attr("data-stat"));
-})
-</script>
-
-
-<!-- 高亮代码]] -->
+<script type="text/javascript" src="js/global.min.js"></script>
+<script type="text/javascript" src="https://wx.gtimg.com/user_analysis/2.0/lib-min-2.1.js"></script>
+<script type="text/javascript" src="js/index.min.js"></script>
 </html>
