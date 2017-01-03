@@ -1,0 +1,12 @@
+<!-- [[流程 -->
+<article class="article" id="list">
+	<h1>
+		List
+		<span class="subtitle">流程</span>
+	</h1>
+	
+</article>
+<!-- 流程]] -->
+<script type="text/javascript">
+wepay.spaInit();
+</script>
