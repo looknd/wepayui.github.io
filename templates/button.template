@@ -9,35 +9,67 @@
 		<h2>
 			<span>常用</span>
 		</h2>
-		<blockquote><p>点击按钮即可复制HTML代码。</p></blockquote>
-	    <div class="wepaybtn-list-wrap">
-	    	<ul class="wepaybtn-list">
-				<li class="copy-html" data-stat="1757"><a href="javascript:;" class="weui-btn weui-btn_primary">页面主操作 Normal</a></li>
-				<li class="copy-html" data-stat="1757"><a href="javascript:;" class="weui-btn weui-btn_disabled weui-btn_primary">页面主操作 Disabled</a></li>
-				<li class="copy-html" data-stat="1758"><a href="javascript:;" class="weui-btn weui-btn_default">页面次要操作 Normal</a></li>
-				<li class="copy-html" data-stat="1758"><a href="javascript:;" class="weui-btn weui-btn_disabled weui-btn_default">页面次要操作 Disabled</a></li>
-				<li class="copy-html" data-stat="1759"><a href="javascript:;" class="weui-btn weui-btn_warn">警告类操作 Normal</a></li>
-				<li class="copy-html" data-stat="1759"><a href="javascript:;" class="weui-btn weui-btn_disabled weui-btn_warn">警告类操作 Disabled</a></li>
-		    </ul>
-	    </div>
-	    <h2>
+		<blockquote>
+			<p>点击按钮即可复制HTML代码。</p>
+		</blockquote>
+		<div class="wepaybtn-list-wrap">
+			<ul class="wepaybtn-list">
+				<li class="copy-html" data-stat="1757">
+					<a href="javascript:;" class="weui-btn weui-btn_primary">页面主操作 Normal</a>
+				</li>
+				<li class="copy-html" data-stat="1757">
+					<a href="javascript:;" class="weui-btn weui-btn_disabled weui-btn_primary">页面主操作 Disabled</a>
+				</li>
+				<li class="copy-html" data-stat="1758">
+					<a href="javascript:;" class="weui-btn weui-btn_default">页面次要操作 Normal</a>
+				</li>
+				<li class="copy-html" data-stat="1758">
+					<a href="javascript:;" class="weui-btn weui-btn_disabled weui-btn_default">页面次要操作 Disabled</a>
+				</li>
+				<li class="copy-html" data-stat="1759">
+					<a href="javascript:;" class="weui-btn weui-btn_warn">警告类操作 Normal</a>
+				</li>
+				<li class="copy-html" data-stat="1759">
+					<a href="javascript:;" class="weui-btn weui-btn_disabled weui-btn_warn">警告类操作 Disabled</a>
+				</li>
+			</ul>
+		</div>
+		<h2>
 			<span>其它</span>
 		</h2>
-		<blockquote><p>点击按钮即可复制HTML代码。</p></blockquote>
-	    <div class="wepaybtn-list-wrap">
-		    <ul class="wepaybtn-list">
-			    <li class="copy-html" data-stat="1760"><a href="javascript:;" class="weui-btn weui-btn_plain-default">按钮</a></li>
-			    <li class="copy-html" data-stat="1760"><a href="javascript:;" class="weui-btn weui-btn_plain-default weui-btn_plain-disabled">按钮</a></li>
-			    <li class="copy-html" data-stat="1761"><a href="javascript:;" class="weui-btn weui-btn_plain-primary">按钮</a></li>
-			    <li class="copy-html" data-stat="1761"><a href="javascript:;" class="weui-btn weui-btn_plain-primary weui-btn_plain-disabled">按钮</a></li>
-		    </ul>
-		    <ul class="wepaybtn-list">
-			    <li class="short copy-html" data-stat="1762"><a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">按钮</a></li>
-			    <li class="short copy-html" data-stat="1763"><a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_default">按钮</a></li>
-			    <li class="short copy-html" data-stat="1764"><a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_warn">按钮</a></li> 
-		    </ul>
-	    </div>
-	    <blockquote><a href="javascript:;" class="copy-text" data-stat="1765">复制CSS代码</a></blockquote>
+		<blockquote>
+			<p>点击按钮即可复制HTML代码。</p>
+		</blockquote>
+		<div class="wepaybtn-list-wrap">
+			<ul class="wepaybtn-list">
+				<li class="copy-html" data-stat="1760">
+					<a href="javascript:;" class="weui-btn weui-btn_plain-default">按钮</a>
+				</li>
+				<li class="copy-html" data-stat="1760">
+					<a href="javascript:;" class="weui-btn weui-btn_plain-default weui-btn_plain-disabled">按钮</a>
+				</li>
+				<li class="copy-html" data-stat="1761">
+					<a href="javascript:;" class="weui-btn weui-btn_plain-primary">按钮</a>
+				</li>
+				<li class="copy-html" data-stat="1761">
+					<a href="javascript:;" class="weui-btn weui-btn_plain-primary weui-btn_plain-disabled">按钮</a>
+				</li>
+			</ul>
+			<ul class="wepaybtn-list">
+				<li class="short copy-html" data-stat="1762">
+					<a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">按钮</a>
+				</li>
+				<li class="short copy-html" data-stat="1763">
+					<a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_default">按钮</a>
+				</li>
+				<li class="short copy-html" data-stat="1764">
+					<a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_warn">按钮</a>
+				</li>
+			</ul>
+		</div>
+		<blockquote>
+			<a href="javascript:;" class="copy-text" data-stat="1765">复制CSS代码</a>
+		</blockquote>
 		<pre><code class="hljs css">/*!
  * WePayUI v0.0.1 (https://github.com/wepayui/wepayui)
  * Copyright 2016 Tencent, Inc.
@@ -87,6 +119,4 @@ button.weui-btn_plain-default,button.weui-btn_plain-primary,input.weui-btn_plain
 	</section>
 </article>
 <!-- 按钮]] -->
-<script type="text/javascript">
-wepay.spaInit();
-</script>
+<script type="text/javascript">wepay.spaInit();</script>
