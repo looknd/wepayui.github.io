@@ -1,7 +1,7 @@
 <!-- [[扫码提现 -->
-<article class="article" id="pay_scan_code_enchashment">
+<article class="wepay-article" id="pay_scan_code_enchashment">
     <h1>扫码提现</h1>
-    <section class="markdown">
+    <section>
         <p>应用于微信扫码提现</p>
         <h2>
             <span>如何使用</span>

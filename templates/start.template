@@ -1,13 +1,13 @@
 <!-- [[首页 -->
-<article class="article" id="start">
+<article class="wepay-article" id="start">
     <h1>
         简介
     </h1>
-    <section class="markdown">
+    <section>
         <p>WePayUI 由微信支付为服务商和商户量身打造，用于快速制作符合微信支付规范的Web页面，提升开发效率。WePayUI 基于 <a href="https://github.com/weui/weui" target="_blank">WeUI</a> 拓展，包含基础组件和行业场景。</p>
     </section>
 
-    <section class="markdown">
+    <section>
         <h2>价值</h2>
         <ul class="markdown-ul">
             <li class="markdown-ul-li">
@@ -21,7 +21,7 @@
             </li>
         </ul>
     </section>
-    <section class="markdown">
+    <section>
         <h2>快速使用</h2>
         <h3>方式一：按需复制代码或下载模板</h3>
         <ul class="markdown-ul">
@@ -42,7 +42,7 @@
 &lt;!-- WePayUI 核心CSS 文件，未压缩版，含less源码预览 --&gt;
 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.css&quot;&gt;</code></pre>
     </section>
-    <section class="markdown">
+    <section>
         <h2>安装源码</h2>
         <p>我们提供了源码方便有一定开发能力的程序员使用，其中 WePayUI 安装包包含开发目录 src 和生产目录 dist ，其中开发环境包含Less、JavaScript、字体文件的源码，使用 <code>gulp</code> 作为编译系统。</p>
         <h3>
@@ -60,7 +60,7 @@
         </h3>
         <pre><code class="hljs github">$ npm install wepayui</code></pre>
     </section>
-    <section class="markdown">
+    <section>
         <h2>
             <span>定制</span>
         </h2>
@@ -71,7 +71,7 @@
             <img src="img/wepayui_build.gif" alt="wepayui_build" class="wepayui-build-show">
         </p>  
     </section>
-    <section class="markdown">
+    <section>
         <h2>反馈</h2>
         <p>
             使用WePayUI过程有任何意见，请将你的感受和建议告诉我们。
@@ -84,7 +84,7 @@
             </li>
         </ul>
     </section>
-    <section class="markdown">
+    <section>
         <h2>预览</h2>
         <div class="pic-plus">
             <img width="250" height="250" src="img/code.png">

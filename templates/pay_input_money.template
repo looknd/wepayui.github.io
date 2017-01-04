@@ -1,7 +1,7 @@
 <!-- [[输入金额付款 -->
-<article class="article" id="pay_input_money">
+<article class="wepay-article" id="pay_input_money">
     <h1>输入金额付款</h1>
-    <section class="markdown">
+    <section>
         <p>应用于微信收款、付款，自定义付款金额</p>
         <h2>
             <span>如何使用</span>

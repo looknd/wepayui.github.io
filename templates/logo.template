@@ -1,7 +1,7 @@
 <!-- [[logo -->
-<article class="article" id="logo">
+<article class="wepay-article" id="logo">
   <h1>Logo<span class="subtitle">微信支付商标</span></h1>
-  <section class="markdown">
+  <section>
   	<p>包含的微信支付品牌商标，如微信支付logo、无现金日logo。</p>
 	<h2><span>位图</span></h2>
 	<blockquote><p>图片已CDN，点击图标即可复制HTML代码，粘贴到项目即可使用。</p></blockquote>

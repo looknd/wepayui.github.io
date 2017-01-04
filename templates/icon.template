@@ -1,10 +1,10 @@
 <!-- [[icon图标 -->
-<article class="article" id="icon">
+<article class="wepay-article" id="icon">
   <h1>
     Icon
     <span class="subtitle">图标</span>
   </h1>
-  <section class="markdown">
+  <section>
     <h2><span>位图</span></h2>
     <blockquote><p>图片已CDN，点击图标即可复制HTML代码，粘贴到项目即可使用。</p></blockquote>
       <ul class="wepayicon-list">

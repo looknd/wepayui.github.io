@@ -1,7 +1,7 @@
 <!-- [[医生名片 -->
-<article class="article" id="profession_hospital_card">
+<article class="wepay-article" id="profession_hospital_card">
     <h1>医生名片</h1>
-    <section class="markdown">
+    <section>
         <p>应用于微信扫码医生名片</p>
         <h2>
             <span>如何使用</span>

@@ -1,7 +1,7 @@
 <!-- [[收付款记录 -->
-<article class="article" id="pay_record">
+<article class="wepay-article" id="pay_record">
     <h1>收付款记录</h1>
-    <section class="markdown">
+    <section>
         <p>应用于微信收付款记录</p>
         <h2>
             <span>如何使用</span>

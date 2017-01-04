@@ -1,10 +1,10 @@
 <!-- 按钮[[ -->
-<article class="article" id="button">
+<article class="wepay-article" id="button">
 	<h1>
 		Button
 		<span class="subtitle">按钮</span>
 	</h1>
-	<section class="markdown">
+	<section>
 		<p>按钮用于开始一个即时操作。</p>
 		<h2>
 			<span>常用</span>
@@ -114,8 +114,7 @@ button.weui-btn_plain-default,button.weui-btn_plain-primary,input.weui-btn_plain
 .weui-btn-area{margin:1.17647059em 15px .3em}
 .weui-btn-area_inline{display:-webkit-box;display:-ms-flexbox;display:flex}
 .weui-btn-area_inline .weui-btn{margin-top:auto;margin-right:15px;width:100%;-webkit-box-flex:1;-ms-flex:1;flex:1}
-.weui-btn-area_inline .weui-btn:last-child{margin-right:0}
-</code></pre>
+.weui-btn-area_inline .weui-btn:last-child{margin-right:0}</code></pre>
 	</section>
 </article>
 <!-- 按钮]] -->

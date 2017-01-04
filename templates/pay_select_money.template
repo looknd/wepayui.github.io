@@ -1,7 +1,7 @@
 <!-- [[选择金额付款 -->
-<article class="article" id="pay_select_money">
+<article class="wepay-article" id="pay_select_money">
     <h1>选择金额付款</h1>
-    <section class="markdown">
+    <section>
         <p>应用于微信付款，选择固定金额付款</p>
         <h2>
             <span>如何使用</span>

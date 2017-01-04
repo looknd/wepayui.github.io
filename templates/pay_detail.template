@@ -1,7 +1,7 @@
 <!-- [[收付款详情 -->
-<article class="article" id="pay_detail">
+<article class="wepay-article" id="pay_detail">
     <h1>收付款详情</h1>
-    <section class="markdown">
+    <section>
         <p>应用于微信收款、付款详情</p>
         <h2>
             <span>如何使用</span>

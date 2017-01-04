@@ -1,10 +1,10 @@
 <!-- [[列表 -->
-<article class="article" id="list">
+<article class="wepay-article" id="list">
 	<h1>
 		List
 		<span class="subtitle">列表</span>
 	</h1>
-	<section class="markdown">
+	<section>
 		<p>用于说明或跳转页面。</p>
 		<h2>
 			<span>常用</span>

@@ -1,10 +1,10 @@
 <!-- [[icon图标 -->
-<article class="article" id="font">
+<article class="wepay-article" id="font">
   <h1>
     Font
     <span class="subtitle">字体规范</span>
   </h1>
-  <section class="markdown">
+  <section>
     <p>微信支付常用设计字体、颜色、字号、行高。</p>
     <h2>
       <span>设计字体</span>
