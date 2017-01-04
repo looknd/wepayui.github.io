@@ -20,9 +20,9 @@
             <p>下载源码，即可使用</p>
         </blockquote>
         <h3>缴费</h3>
-        <iframe src="/project/profession_park/index.html" frameborder="0" width="375" height="550" class="project-iframe"></iframe>
+        <iframe src="/project/profession_park/index.html" frameborder="0" width="375" height="550" class="wepay-iframe"></iframe>
         <h3>缴费成功</h3>
-        <iframe src="/project/profession_park/success.html" frameborder="0" width="375" height="550" class="project-iframe"></iframe>
+        <iframe src="/project/profession_park/success.html" frameborder="0" width="375" height="550" class="wepay-iframe"></iframe>
         <h2>
             <span>下载代码</span>
         </h2>

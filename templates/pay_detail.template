@@ -10,13 +10,13 @@
             <p>下载源码，即可使用</p>
         </blockquote>
         <h3>2列文本2端对齐</h3>
-        <iframe src="/project/pay_detail/detail_column_2_justify.html" frameborder="0" width="375" height="500" class="project-iframe"></iframe>
+        <iframe src="/project/pay_detail/detail_column_2_justify.html" frameborder="0" width="375" height="500" class="wepay-iframe"></iframe>
         <h3>2列文本左对齐</h3>
-        <iframe src="/project/pay_detail/detail_column_2_left.html" frameborder="0" width="375" height="500" class="project-iframe"></iframe>
+        <iframe src="/project/pay_detail/detail_column_2_left.html" frameborder="0" width="375" height="500" class="wepay-iframe"></iframe>
         <h3>3列文本2端对齐</h3>
-        <iframe src="/project/pay_detail/detail_column_3_justify.html" frameborder="0" width="375" height="500" class="project-iframe"></iframe>
+        <iframe src="/project/pay_detail/detail_column_3_justify.html" frameborder="0" width="375" height="500" class="wepay-iframe"></iframe>
         <h3>多列文本2端对齐</h3>
-        <iframe src="/project/pay_detail/detail_column_n_justify.html" frameborder="0" width="375" height="500" class="project-iframe"></iframe>
+        <iframe src="/project/pay_detail/detail_column_n_justify.html" frameborder="0" width="375" height="500" class="wepay-iframe"></iframe>
         <h2>
             <span>下载代码</span>
         </h2>

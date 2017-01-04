@@ -10,11 +10,11 @@
             <p>下载源码，即可使用</p>
         </blockquote>
         <h3>通用</h3>
-        <iframe src="/project/pay_record/list.html" frameborder="0" width="375" height="620" class="project-iframe"></iframe>
+        <iframe src="/project/pay_record/list.html" frameborder="0" width="375" height="620" class="wepay-iframe"></iframe>
         <h3>多行</h3>
-        <iframe src="/project/pay_record/list_multiline.html" frameborder="0" width="375" height="620" class="project-iframe"></iframe>
+        <iframe src="/project/pay_record/list_multiline.html" frameborder="0" width="375" height="620" class="wepay-iframe"></iframe>
         <h3>带头像</h3>
-        <iframe src="/project/pay_record/list_photo.html" frameborder="0" width="375" height="640" class="project-iframe"></iframe>
+        <iframe src="/project/pay_record/list_photo.html" frameborder="0" width="375" height="640" class="wepay-iframe"></iframe>
         <h2>
             <span>下载代码</span>
         </h2>

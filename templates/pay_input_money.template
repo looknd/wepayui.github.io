@@ -9,7 +9,7 @@
         <blockquote>
             <p>下载源码，即可使用</p>
         </blockquote>
-        <iframe src="/project/pay_input_money/index.html" frameborder="0" width="375" height="451" class="project-iframe"></iframe>
+        <iframe src="/project/pay_input_money/index.html" frameborder="0" width="375" height="451" class="wepay-iframe"></iframe>
         <h2>
             <span>下载代码</span>
         </h2>

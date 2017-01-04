@@ -9,14 +9,14 @@
 
     <section>
         <h2>价值</h2>
-        <ul class="markdown-ul">
-            <li class="markdown-ul-li">
+        <ul class="wepay-article-cir">
+            <li>
                 <p>快速实现自定义微信支付基础样式库 </p>
             </li>
-            <li class="markdown-ul-li">
+            <li>
                 <p>快速实现微信收款付款、收付款流程、收付款记录等支付相关HTML5页面</p>
             </li>
-            <li class="markdown-ul-li">
+            <li>
                 <p>快速输出行业解决方案HTML5页面，如智慧停车场、智慧医院、智慧客运等</p>
             </li>
         </ul>
@@ -24,11 +24,11 @@
     <section>
         <h2>快速使用</h2>
         <h3>方式一：按需复制代码或下载模板</h3>
-        <ul class="markdown-ul">
-            <li class="markdown-ul-li">
+        <ul class="wepay-article-cir">
+            <li>
                 <p>PC端<span class="green">点击图标</span>即可复制HTML代码，<span class="green">点击复制</span>按钮可复制CSS代码。</p>
             </li>
-            <li class="markdown-ul-li">
+            <li>
                 <p>使用 WePayUI 提供现成案例模板，可在场景找到对应的下载链接。</p>
             </li>
         </ul>
