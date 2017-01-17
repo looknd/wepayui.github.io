@@ -4,7 +4,7 @@
     <section>
         <p>应用于微信智慧客运</p>
         <h2>
-            <span>详细方案</span>
+            <span>详细方案参考</span>
         </h2>
         <ul>
             <li>
@@ -19,11 +19,8 @@
         <blockquote>
             <p>下载源码，即可使用</p>
         </blockquote>
-        <h3>购买</h3>
         <iframe src="/project/profession_traffic/pay.html" frameborder="0" width="375" height="650" class="wepay-iframe"></iframe>
-        <h3>我的订单</h3>
         <iframe src="/project/profession_traffic/order.html" frameborder="0" width="375" height="650" class="wepay-iframe"></iframe>
-        <h3>购买成功</h3>
         <iframe src="/project/profession_traffic/success.html" frameborder="0" width="375" height="650" class="wepay-iframe"></iframe>
         <h2>
             <span>下载代码</span>

@@ -10,173 +10,179 @@
 			<span>常用</span>
 		</h2>
 		<div class="wepaylist">
-	        <div class="weui-cells__title">带说明的列表项</div>
-	        <div class="weui-cells">
-	            <div class="weui-cell">
-	                <div class="weui-cell__bd">
-	                    <p>标题文字</p>
-	                </div>
-	                <div class="weui-cell__ft">说明文字</div>
-	            </div>
-	        </div>
-	        <div class="weui-cells__title">带图标、说明的列表项</div>
-	        <div class="weui-cells">
-	            <div class="weui-cell">
-	                <div class="weui-cell__hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
-	                <div class="weui-cell__bd">
-	                    <p>标题文字</p>
-	                </div>
-	                <div class="weui-cell__ft">说明文字</div>
-	            </div>
-	            <div class="weui-cell">
-	                <div class="weui-cell__hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
-	                <div class="weui-cell__bd">
-	                    <p>标题文字</p>
-	                </div>
-	                <div class="weui-cell__ft">说明文字</div>
-	            </div>
-	        </div>
-	    </div>
-	    <blockquote><a href="javascript:;" class="copy-text" data-stat="1727">复制HTML代码</a></blockquote>
-	    <pre><code class="hljs xml">&lt;div class=&quot;weui-cells__title&quot;&gt;带说明的列表项&lt;/div&gt;
-&lt;div class=&quot;weui-cells&quot;&gt;
-    &lt;div class=&quot;weui-cell&quot;&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;p&gt;标题文字&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__ft&quot;&gt;说明文字&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;weui-cells__title&quot;&gt;带图标、说明的列表项&lt;/div&gt;
-&lt;div class=&quot;weui-cells&quot;&gt;
-    &lt;div class=&quot;weui-cell&quot;&gt;
-        &lt;div class=&quot;weui-cell__hd&quot;&gt;&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=&quot; alt=&quot;&quot; style=&quot;width:20px;margin-right:5px;display:block&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;p&gt;标题文字&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__ft&quot;&gt;说明文字&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;weui-cell&quot;&gt;
-        &lt;div class=&quot;weui-cell__hd&quot;&gt;&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=&quot; alt=&quot;&quot; style=&quot;width:20px;margin-right:5px;display:block&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;p&gt;标题文字&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__ft&quot;&gt;说明文字&lt;/div&gt;
-    &lt;/div&gt;
+			<div class="weui-cells__title">带说明的列表项</div>
+			<div class="weui-cells">
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p>标题文字</p>
+					</div>
+					<div class="weui-cell__ft">说明文字</div>
+				</div>
+			</div>
+			<div class="weui-cells__title">带图标、说明的列表项</div>
+			<div class="weui-cells">
+				<div class="weui-cell">
+					<div class="weui-cell__hd">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
+					<div class="weui-cell__bd">
+						<p>标题文字</p>
+					</div>
+					<div class="weui-cell__ft">说明文字</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__hd">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
+					<div class="weui-cell__bd">
+						<p>标题文字</p>
+					</div>
+					<div class="weui-cell__ft">说明文字</div>
+				</div>
+			</div>
+		</div>
+		<blockquote>
+			<a href="javascript:;" class="copy-text" data-stat="1727">复制HTML代码</a>
+		</blockquote>
+		<pre><code class="hljs xml">&lt;div class=&quot;wepaylist&quot;&gt;
+	&lt;div class=&quot;weui-cells__title&quot;&gt;带说明的列表项&lt;/div&gt;
+	&lt;div class=&quot;weui-cells&quot;&gt;
+		&lt;div class=&quot;weui-cell&quot;&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;p&gt;标题文字&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__ft&quot;&gt;说明文字&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;weui-cells__title&quot;&gt;带图标、说明的列表项&lt;/div&gt;
+	&lt;div class=&quot;weui-cells&quot;&gt;
+		&lt;div class=&quot;weui-cell&quot;&gt;
+			&lt;div class=&quot;weui-cell__hd&quot;&gt;
+				&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=&quot; alt=&quot;&quot; style=&quot;width:20px;margin-right:5px;display:block&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;p&gt;标题文字&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__ft&quot;&gt;说明文字&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-cell&quot;&gt;
+			&lt;div class=&quot;weui-cell__hd&quot;&gt;
+				&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=&quot; alt=&quot;&quot; style=&quot;width:20px;margin-right:5px;display:block&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;p&gt;标题文字&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__ft&quot;&gt;说明文字&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-	    <h2>
+		<h2>
 			<span>带跳转</span>
 		</h2>
 		<div class="wepaylist">
-	        <div class="weui-cells__title">带跳转的列表项</div>
-	        <div class="weui-cells">
-	            <a class="weui-cell weui-cell_access" href="javascript:;">
-	                <div class="weui-cell__bd">
-	                    <p>cell standard</p>
-	                </div>
-	                <div class="weui-cell__ft">
-	                </div>
-	            </a>
-	            <a class="weui-cell weui-cell_access" href="javascript:;">
-	                <div class="weui-cell__bd">
-	                    <p>cell standard</p>
-	                </div>
-	                <div class="weui-cell__ft">
-	                </div>
-	            </a>
-	        </div>
-
-	        <div class="weui-cells__title">带说明、跳转的列表项</div>
-	        <div class="weui-cells">
-	            <a class="weui-cell weui-cell_access" href="javascript:;">
-	                <div class="weui-cell__bd">
-	                    <p>cell standard</p>
-	                </div>
-	                <div class="weui-cell__ft">说明文字</div>
-	            </a>
-	            <a class="weui-cell weui-cell_access" href="javascript:;">
-	                <div class="weui-cell__bd">
-	                    <p>cell standard</p>
-	                </div>
-	                <div class="weui-cell__ft">说明文字</div>
-	            </a>
-
-	        </div>
-
-	        <div class="weui-cells__title">带图标、说明、跳转的列表项</div>
-	        <div class="weui-cells">
-
-	            <a class="weui-cell weui-cell_access" href="javascript:;">
-	                <div class="weui-cell__hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
-	                <div class="weui-cell__bd">
-	                    <p>cell standard</p>
-	                </div>
-	                <div class="weui-cell__ft">说明文字</div>
-	            </a>
-	            <a class="weui-cell weui-cell_access" href="javascript:;">
-	                <div class="weui-cell__hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
-	                <div class="weui-cell__bd">
-	                    <p>cell standard</p>
-	                </div>
-	                <div class="weui-cell__ft">说明文字</div>
-	            </a>
-	        </div>
-	    </div>
-	    <blockquote><a href="javascript:;" class="copy-text" data-stat="1728">复制HTML代码</a></blockquote>
-	    <pre><code class="hljs xml">&lt;div class=&quot;weui-cells__title&quot;&gt;带跳转的列表项&lt;/div&gt;
-&lt;div class=&quot;weui-cells&quot;&gt;
-    &lt;a class=&quot;weui-cell weui-cell_access&quot; href=&quot;javascript:;&quot;&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;p&gt;cell standard&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__ft&quot;&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-    &lt;a class=&quot;weui-cell weui-cell_access&quot; href=&quot;javascript:;&quot;&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;p&gt;cell standard&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__ft&quot;&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;weui-cells__title&quot;&gt;带说明、跳转的列表项&lt;/div&gt;
-&lt;div class=&quot;weui-cells&quot;&gt;
-    &lt;a class=&quot;weui-cell weui-cell_access&quot; href=&quot;javascript:;&quot;&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;p&gt;cell standard&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__ft&quot;&gt;说明文字&lt;/div&gt;
-    &lt;/a&gt;
-    &lt;a class=&quot;weui-cell weui-cell_access&quot; href=&quot;javascript:;&quot;&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;p&gt;cell standard&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__ft&quot;&gt;说明文字&lt;/div&gt;
-    &lt;/a&gt;
-
-&lt;/div&gt;
-
-&lt;div class=&quot;weui-cells__title&quot;&gt;带图标、说明、跳转的列表项&lt;/div&gt;
-&lt;div class=&quot;weui-cells&quot;&gt;
-
-    &lt;a class=&quot;weui-cell weui-cell_access&quot; href=&quot;javascript:;&quot;&gt;
-        &lt;div class=&quot;weui-cell__hd&quot;&gt;&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=&quot; alt=&quot;&quot; style=&quot;width:20px;margin-right:5px;display:block&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;p&gt;cell standard&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__ft&quot;&gt;说明文字&lt;/div&gt;
-    &lt;/a&gt;
-    &lt;a class=&quot;weui-cell weui-cell_access&quot; href=&quot;javascript:;&quot;&gt;
-        &lt;div class=&quot;weui-cell__hd&quot;&gt;&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=&quot; alt=&quot;&quot; style=&quot;width:20px;margin-right:5px;display:block&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;p&gt;cell standard&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__ft&quot;&gt;说明文字&lt;/div&gt;
-    &lt;/a&gt;
+			<div class="weui-cells__title">带跳转的列表项</div>
+			<div class="weui-cells">
+				<a class="weui-cell weui-cell_access" href="javascript:;">
+					<div class="weui-cell__bd">
+						<p>cell standard</p>
+					</div>
+					<div class="weui-cell__ft"></div>
+				</a>
+				<a class="weui-cell weui-cell_access" href="javascript:;">
+					<div class="weui-cell__bd">
+						<p>cell standard</p>
+					</div>
+					<div class="weui-cell__ft"></div>
+				</a>
+			</div>
+			<div class="weui-cells__title">带说明、跳转的列表项</div>
+			<div class="weui-cells">
+				<a class="weui-cell weui-cell_access" href="javascript:;">
+					<div class="weui-cell__bd">
+						<p>cell standard</p>
+					</div>
+					<div class="weui-cell__ft">说明文字</div>
+				</a>
+				<a class="weui-cell weui-cell_access" href="javascript:;">
+					<div class="weui-cell__bd">
+						<p>cell standard</p>
+					</div>
+					<div class="weui-cell__ft">说明文字</div>
+				</a>
+			</div>
+			<div class="weui-cells__title">带图标、说明、跳转的列表项</div>
+			<div class="weui-cells">
+				<a class="weui-cell weui-cell_access" href="javascript:;">
+					<div class="weui-cell__hd">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
+					<div class="weui-cell__bd">
+						<p>cell standard</p>
+					</div>
+					<div class="weui-cell__ft">说明文字</div>
+				</a>
+				<a class="weui-cell weui-cell_access" href="javascript:;">
+					<div class="weui-cell__hd">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
+					<div class="weui-cell__bd">
+						<p>cell standard</p>
+					</div>
+					<div class="weui-cell__ft">说明文字</div>
+				</a>
+			</div>
+		</div>
+		<blockquote>
+			<a href="javascript:;" class="copy-text" data-stat="1728">复制HTML代码</a>
+		</blockquote>
+		<pre><code class="hljs xml">&lt;div class=&quot;wepaylist&quot;&gt;
+	&lt;div class=&quot;weui-cells__title&quot;&gt;带跳转的列表项&lt;/div&gt;
+	&lt;div class=&quot;weui-cells&quot;&gt;
+		&lt;a class=&quot;weui-cell weui-cell_access&quot; href=&quot;javascript:;&quot;&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;p&gt;cell standard&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__ft&quot;&gt;&lt;/div&gt;
+		&lt;/a&gt;
+		&lt;a class=&quot;weui-cell weui-cell_access&quot; href=&quot;javascript:;&quot;&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;p&gt;cell standard&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__ft&quot;&gt;&lt;/div&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;weui-cells__title&quot;&gt;带说明、跳转的列表项&lt;/div&gt;
+	&lt;div class=&quot;weui-cells&quot;&gt;
+		&lt;a class=&quot;weui-cell weui-cell_access&quot; href=&quot;javascript:;&quot;&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;p&gt;cell standard&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__ft&quot;&gt;说明文字&lt;/div&gt;
+		&lt;/a&gt;
+		&lt;a class=&quot;weui-cell weui-cell_access&quot; href=&quot;javascript:;&quot;&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;p&gt;cell standard&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__ft&quot;&gt;说明文字&lt;/div&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;weui-cells__title&quot;&gt;带图标、说明、跳转的列表项&lt;/div&gt;
+	&lt;div class=&quot;weui-cells&quot;&gt;
+		&lt;a class=&quot;weui-cell weui-cell_access&quot; href=&quot;javascript:;&quot;&gt;
+			&lt;div class=&quot;weui-cell__hd&quot;&gt;
+				&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=&quot; alt=&quot;&quot; style=&quot;width:20px;margin-right:5px;display:block&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;p&gt;cell standard&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__ft&quot;&gt;说明文字&lt;/div&gt;
+		&lt;/a&gt;
+		&lt;a class=&quot;weui-cell weui-cell_access&quot; href=&quot;javascript:;&quot;&gt;
+			&lt;div class=&quot;weui-cell__hd&quot;&gt;
+				&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=&quot; alt=&quot;&quot; style=&quot;width:20px;margin-right:5px;display:block&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;p&gt;cell standard&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__ft&quot;&gt;说明文字&lt;/div&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-		<blockquote><a href="javascript:;" class="copy-text" data-stat="1729">复制CSS代码</a></blockquote>
+		<blockquote>
+			<a href="javascript:;" class="copy-text" data-stat="1729">复制CSS代码</a>
+		</blockquote>
 		<pre><code class="hljs css">/*!
  * WePayUI v0.0.1 (https://github.com/wepayui/wepayui)
  * Copyright 2016 Tencent, Inc.
@@ -299,6 +305,4 @@ button.weui-form-preview__btn{background-color:transparent;border:0;outline:0;fo
 	</section>
 </article>
 <!-- 列表]] -->
-<script type="text/javascript">
-wepay.spaInit();
-</script>
+<script type="text/javascript">wepay.spaInit();</script>

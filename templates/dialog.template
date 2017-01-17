@@ -10,7 +10,7 @@
 			<span>iOS Dialog样式</span>
 		</h2>
 		<div class="wepaydialog">
-			<iframe src="/project/dialog/dialog-ios-1.html" frameborder="0" width="100%" height="600"></iframe>
+			<iframe src="/project/dialog/dialog-ios-1.html" frameborder="0" width="100%" height="400"></iframe>
 			<blockquote><a href="javascript:;" class="copy-text" data-stat="1735">复制HTML代码</a></blockquote>
 			<pre><code class="hljs xml">&lt;div class=&quot;js_dialog&quot; id=&quot;iosDialog1&quot; style=&quot;opacity: 1;&quot;&gt;
 	&lt;div class=&quot;weui-mask&quot;&gt;&lt;/div&gt;

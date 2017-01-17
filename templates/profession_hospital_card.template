@@ -9,9 +9,7 @@
         <blockquote>
             <p>下载源码，即可使用</p>
         </blockquote>
-        <h3>扫码成功首页</h3>
-        <iframe src="/project/profession_hospital_card/01_index.html" frameborder="0" width="375" height="500" class="wepay-iframe"></iframe>
-        <h3>挂号成功</h3>
+        <iframe src="/project/profession_hospital_card/01_index.html" frameborder="0" width="375" height="640" class="wepay-iframe"></iframe>
         <iframe src="/project/profession_hospital_card/04_success.html" frameborder="0" width="375" height="640" class="wepay-iframe"></iframe>
         <h2>
             <span>下载代码</span>

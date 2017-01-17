@@ -10,393 +10,407 @@
 			<span>列表项</span>
 		</h2>
 		<div class="wepayinput">
-	        <div class="weui-cells__title">单选列表项</div>
-	        <div class="weui-cells weui-cells_radio">
-	            <label class="weui-cell weui-check__label" for="x11">
-	                <div class="weui-cell__bd">
-	                    <p>cell standard</p>
-	                </div>
-	                <div class="weui-cell__ft">
-	                    <input type="radio" class="weui-check" name="radio1" id="x11">
-	                    <span class="weui-icon-checked"></span>
-	                </div>
-	            </label>
-	            <label class="weui-cell weui-check__label" for="x12">
-
-	                <div class="weui-cell__bd">
-	                    <p>cell standard</p>
-	                </div>
-	                <div class="weui-cell__ft">
-	                    <input type="radio" name="radio1" class="weui-check" id="x12" checked="checked">
-	                    <span class="weui-icon-checked"></span>
-	                </div>
-	            </label>
-	            <a href="javascript:void(0);" class="weui-cell weui-cell_link">
-	                <div class="weui-cell__bd">添加更多</div>
-	            </a>
-	        </div>
-	    </div>
+			<div class="weui-cells__title">单选列表项</div>
+			<div class="weui-cells weui-cells_radio">
+				<label class="weui-cell weui-check__label" for="x11">
+					<div class="weui-cell__bd">
+						<p>cell standard</p>
+					</div>
+					<div class="weui-cell__ft">
+						<input type="radio" class="weui-check" name="radio1" id="x11">		
+						<span class="weui-icon-checked"></span>
+					</div>
+				</label>
+				<label class="weui-cell weui-check__label" for="x12">
+					<div class="weui-cell__bd">
+						<p>cell standard</p>
+					</div>
+					<div class="weui-cell__ft">
+						<input type="radio" name="radio1" class="weui-check" id="x12" checked="checked">		
+						<span class="weui-icon-checked"></span>
+					</div>
+				</label>
+				<a href="javascript:void(0);" class="weui-cell weui-cell_link">
+					<div class="weui-cell__bd">添加更多</div>
+				</a>
+			</div>
+		</div>
 	    <blockquote><a href="javascript:;" class="copy-text" data-stat="1730">复制HTML代码</a></blockquote>
-		<pre><code class="hljs xml">&lt;div class=&quot;weui-cells__title&quot;&gt;单选列表项&lt;/div&gt;
-&lt;div class=&quot;weui-cells weui-cells_radio&quot;&gt;
-    &lt;label class=&quot;weui-cell weui-check__label&quot; for=&quot;x11&quot;&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;p&gt;cell standard&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__ft&quot;&gt;
-            &lt;input type=&quot;radio&quot; class=&quot;weui-check&quot; name=&quot;radio1&quot; id=&quot;x11&quot;&gt;
-            &lt;span class=&quot;weui-icon-checked&quot;&gt;&lt;/span&gt;
-        &lt;/div&gt;
-    &lt;/label&gt;
-    &lt;label class=&quot;weui-cell weui-check__label&quot; for=&quot;x12&quot;&gt;
-
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;p&gt;cell standard&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__ft&quot;&gt;
-            &lt;input type=&quot;radio&quot; name=&quot;radio1&quot; class=&quot;weui-check&quot; id=&quot;x12&quot; checked=&quot;checked&quot;&gt;
-            &lt;span class=&quot;weui-icon-checked&quot;&gt;&lt;/span&gt;
-        &lt;/div&gt;
-    &lt;/label&gt;
-    &lt;a href=&quot;javascript:void(0);&quot; class=&quot;weui-cell weui-cell_link&quot;&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;添加更多&lt;/div&gt;
-    &lt;/a&gt;
+		<pre><code class="hljs xml">&lt;div class=&quot;wepayinput&quot;&gt;
+	&lt;div class=&quot;weui-cells__title&quot;&gt;单选列表项&lt;/div&gt;
+	&lt;div class=&quot;weui-cells weui-cells_radio&quot;&gt;
+		&lt;label class=&quot;weui-cell weui-check__label&quot; for=&quot;x11&quot;&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;p&gt;cell standard&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__ft&quot;&gt;
+				&lt;input type=&quot;radio&quot; class=&quot;weui-check&quot; name=&quot;radio1&quot; id=&quot;x11&quot;&gt;		
+				&lt;span class=&quot;weui-icon-checked&quot;&gt;&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/label&gt;
+		&lt;label class=&quot;weui-cell weui-check__label&quot; for=&quot;x12&quot;&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;p&gt;cell standard&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__ft&quot;&gt;
+				&lt;input type=&quot;radio&quot; name=&quot;radio1&quot; class=&quot;weui-check&quot; id=&quot;x12&quot; checked=&quot;checked&quot;&gt;		
+				&lt;span class=&quot;weui-icon-checked&quot;&gt;&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/label&gt;
+		&lt;a href=&quot;javascript:void(0);&quot; class=&quot;weui-cell weui-cell_link&quot;&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;添加更多&lt;/div&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 		<h2>
 			<span>复选列表项</span>
 		</h2>
 		<div class="wepayinput">
-	        <div class="weui-cells__title">复选列表项</div>
-	        <div class="weui-cells weui-cells_checkbox">
-	            <label class="weui-cell weui-check__label" for="s11">
-	                <div class="weui-cell__hd">
-	                    <input type="checkbox" class="weui-check" name="checkbox1" id="s11" checked="checked">
-	                    <i class="weui-icon-checked"></i>
-	                </div>
-	                <div class="weui-cell__bd">
-	                    <p>standard is dealt for u.</p>
-	                </div>
-	            </label>
-	            <label class="weui-cell weui-check__label" for="s12">
-	                <div class="weui-cell__hd">
-	                    <input type="checkbox" name="checkbox1" class="weui-check" id="s12">
-	                    <i class="weui-icon-checked"></i>
-	                </div>
-	                <div class="weui-cell__bd">
-	                    <p>standard is dealicient for u.</p>
-	                </div>
-	            </label>
-	            <a href="javascript:void(0);" class="weui-cell weui-cell_link">
-	                <div class="weui-cell__bd">添加更多</div>
-	            </a>
-	        </div>
-	    </div>
+			<div class="weui-cells__title">复选列表项</div>
+			<div class="weui-cells weui-cells_checkbox">
+				<label class="weui-cell weui-check__label" for="s11">
+					<div class="weui-cell__hd">
+						<input type="checkbox" class="weui-check" name="checkbox1" id="s11" checked="checked"> <i class="weui-icon-checked"></i>
+					</div>
+					<div class="weui-cell__bd">
+						<p>standard is dealt for u.</p>
+					</div>
+				</label>
+				<label class="weui-cell weui-check__label" for="s12">
+					<div class="weui-cell__hd">
+						<input type="checkbox" name="checkbox1" class="weui-check" id="s12"> <i class="weui-icon-checked"></i>
+					</div>
+					<div class="weui-cell__bd">
+						<p>standard is dealicient for u.</p>
+					</div>
+				</label>
+				<a href="javascript:void(0);" class="weui-cell weui-cell_link">
+					<div class="weui-cell__bd">添加更多</div>
+				</a>
+			</div>
+		</div>
 	    <blockquote><a href="javascript:;" class="copy-text" data-stat="1731">复制HTML代码</a></blockquote>
-		<pre><code class="hljs xml">&lt;div class=&quot;weui-cells__title&quot;&gt;复选列表项&lt;/div&gt;
-&lt;div class=&quot;weui-cells weui-cells_checkbox&quot;&gt;
-    &lt;label class=&quot;weui-cell weui-check__label&quot; for=&quot;s11&quot;&gt;
-        &lt;div class=&quot;weui-cell__hd&quot;&gt;
-            &lt;input type=&quot;checkbox&quot; class=&quot;weui-check&quot; name=&quot;checkbox1&quot; id=&quot;s11&quot; checked=&quot;checked&quot;&gt;
-            &lt;i class=&quot;weui-icon-checked&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;p&gt;standard is dealt for u.&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/label&gt;
-    &lt;label class=&quot;weui-cell weui-check__label&quot; for=&quot;s12&quot;&gt;
-        &lt;div class=&quot;weui-cell__hd&quot;&gt;
-            &lt;input type=&quot;checkbox&quot; name=&quot;checkbox1&quot; class=&quot;weui-check&quot; id=&quot;s12&quot;&gt;
-            &lt;i class=&quot;weui-icon-checked&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;p&gt;standard is dealicient for u.&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/label&gt;
-    &lt;a href=&quot;javascript:void(0);&quot; class=&quot;weui-cell weui-cell_link&quot;&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;添加更多&lt;/div&gt;
-    &lt;/a&gt;
+		<pre><code class="hljs xml">&lt;div class=&quot;wepayinput&quot;&gt;
+	&lt;div class=&quot;weui-cells__title&quot;&gt;复选列表项&lt;/div&gt;
+	&lt;div class=&quot;weui-cells weui-cells_checkbox&quot;&gt;
+		&lt;label class=&quot;weui-cell weui-check__label&quot; for=&quot;s11&quot;&gt;
+			&lt;div class=&quot;weui-cell__hd&quot;&gt;
+				&lt;input type=&quot;checkbox&quot; class=&quot;weui-check&quot; name=&quot;checkbox1&quot; id=&quot;s11&quot; checked=&quot;checked&quot;&gt; &lt;i class=&quot;weui-icon-checked&quot;&gt;&lt;/i&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;p&gt;standard is dealt for u.&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/label&gt;
+		&lt;label class=&quot;weui-cell weui-check__label&quot; for=&quot;s12&quot;&gt;
+			&lt;div class=&quot;weui-cell__hd&quot;&gt;
+				&lt;input type=&quot;checkbox&quot; name=&quot;checkbox1&quot; class=&quot;weui-check&quot; id=&quot;s12&quot;&gt; &lt;i class=&quot;weui-icon-checked&quot;&gt;&lt;/i&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;p&gt;standard is dealicient for u.&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/label&gt;
+		&lt;a href=&quot;javascript:void(0);&quot; class=&quot;weui-cell weui-cell_link&quot;&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;添加更多&lt;/div&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 	    <h2>
 			<span>表单</span>
 		</h2>
 		<div class="wepayinput">
-	        <div class="weui-cells__title">表单</div>
-	        <div class="weui-cells weui-cells_form">
-	            <div class="weui-cell">
-	                <div class="weui-cell__hd"><label class="weui-label">qq</label></div>
-	                <div class="weui-cell__bd">
-	                    <input class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入qq号">
-	                </div>
-	            </div>
-	            <div class="weui-cell weui-cell_vcode">
-	                <div class="weui-cell__hd">
-	                    <label class="weui-label">手机号</label>
-	                </div>
-	                <div class="weui-cell__bd">
-	                    <input class="weui-input" type="tel" placeholder="请输入手机号">
-	                </div>
-	                <div class="weui-cell__ft">
-	                    <a href="javascript:;" class="weui-vcode-btn">获取验证码</a>
-	                </div>
-	            </div>
-	            <div class="weui-cell">
-	                <div class="weui-cell__hd"><label for="" class="weui-label">日期</label></div>
-	                <div class="weui-cell__bd">
-	                    <input class="weui-input" type="date" value="">
-	                </div>
-	            </div>
-	            <div class="weui-cell">
-	                <div class="weui-cell__hd"><label for="" class="weui-label">时间</label></div>
-	                <div class="weui-cell__bd">
-	                    <input class="weui-input" type="datetime-local" value="" placeholder="">
-	                </div>
-	            </div>
-	            <div class="weui-cell weui-cell_vcode">
-	                <div class="weui-cell__hd"><label class="weui-label">验证码</label></div>
-	                <div class="weui-cell__bd">
-	                    <input class="weui-input" type="number" placeholder="请输入验证码">
-	                </div>
-	                <div class="weui-cell__ft">
-	                    <img class="weui-vcode-img" src="img/vcode.jpg">
-	                </div>
-	            </div>
-	        </div>
-	        <div class="weui-cells__tips">底部说明文字底部说明文字</div>
-	        <div class="weui-cells__title">表单报错</div>
-	        <div class="weui-cells weui-cells_form">
-	            <div class="weui-cell weui-cell_warn">
-	                <div class="weui-cell__hd"><label for="" class="weui-label">卡号</label></div>
-	                <div class="weui-cell__bd">
-	                    <input class="weui-input" type="number" pattern="[0-9]*" value="weui input error" placeholder="请输入卡号">
-	                </div>
-	                <div class="weui-cell__ft">
-	                    <i class="weui-icon-warn"></i>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
+			<div class="weui-cells__title">表单</div>
+			<div class="weui-cells weui-cells_form">
+				<div class="weui-cell">
+					<div class="weui-cell__hd">
+						<label class="weui-label">qq</label>
+					</div>
+					<div class="weui-cell__bd">
+						<input class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入qq号">
+					</div>
+				</div>
+				<div class="weui-cell weui-cell_vcode">
+					<div class="weui-cell__hd">
+						<label class="weui-label">手机号</label>
+					</div>
+					<div class="weui-cell__bd">
+						<input class="weui-input" type="tel" placeholder="请输入手机号">
+					</div>
+					<div class="weui-cell__ft">
+						<a href="javascript:;" class="weui-vcode-btn">获取验证码</a>
+					</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__hd">
+						<label for="" class="weui-label">日期</label>
+					</div>
+					<div class="weui-cell__bd">
+						<input class="weui-input" type="date" value="">
+					</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__hd">
+						<label for="" class="weui-label">时间</label>
+					</div>
+					<div class="weui-cell__bd">
+						<input class="weui-input" type="datetime-local" value="" placeholder="">
+					</div>
+				</div>
+				<div class="weui-cell weui-cell_vcode">
+					<div class="weui-cell__hd">
+						<label class="weui-label">验证码</label>
+					</div>
+					<div class="weui-cell__bd">
+						<input class="weui-input" type="number" placeholder="请输入验证码">
+					</div>
+					<div class="weui-cell__ft">
+						<img class="weui-vcode-img" src="img/vcode.jpg">
+					</div>
+				</div>
+			</div>
+			<div class="weui-cells__tips">底部说明文字底部说明文字</div>
+			<div class="weui-cells__title">表单报错</div>
+			<div class="weui-cells weui-cells_form">
+				<div class="weui-cell weui-cell_warn">
+					<div class="weui-cell__hd">
+						<label for="" class="weui-label">卡号</label>
+					</div>
+					<div class="weui-cell__bd">
+						<input class="weui-input" type="number" pattern="[0-9]*" value="weui input error" placeholder="请输入卡号">
+					</div>
+					<div class="weui-cell__ft"><i class="weui-icon-warn"></i></div>
+				</div>
+			</div>
+		</div>
 	    <blockquote><a href="javascript:;" class="copy-text" data-stat="1732">复制HTML代码</a></blockquote>
-	    <pre><code class="hljs xml">&lt;div class=&quot;weui-cells__title&quot;&gt;表单&lt;/div&gt;
-&lt;div class=&quot;weui-cells weui-cells_form&quot;&gt;
-    &lt;div class=&quot;weui-cell&quot;&gt;
-        &lt;div class=&quot;weui-cell__hd&quot;&gt;&lt;label class=&quot;weui-label&quot;&gt;qq&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;input class=&quot;weui-input&quot; type=&quot;number&quot; pattern=&quot;[0-9]*&quot; placeholder=&quot;请输入qq号&quot;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;weui-cell weui-cell_vcode&quot;&gt;
-        &lt;div class=&quot;weui-cell__hd&quot;&gt;
-            &lt;label class=&quot;weui-label&quot;&gt;手机号&lt;/label&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;input class=&quot;weui-input&quot; type=&quot;tel&quot; placeholder=&quot;请输入手机号&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__ft&quot;&gt;
-            &lt;a href=&quot;javascript:;&quot; class=&quot;weui-vcode-btn&quot;&gt;获取验证码&lt;/a&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;weui-cell&quot;&gt;
-        &lt;div class=&quot;weui-cell__hd&quot;&gt;&lt;label for=&quot;&quot; class=&quot;weui-label&quot;&gt;日期&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;input class=&quot;weui-input&quot; type=&quot;date&quot; value=&quot;&quot;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;weui-cell&quot;&gt;
-        &lt;div class=&quot;weui-cell__hd&quot;&gt;&lt;label for=&quot;&quot; class=&quot;weui-label&quot;&gt;时间&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;input class=&quot;weui-input&quot; type=&quot;datetime-local&quot; value=&quot;&quot; placeholder=&quot;&quot;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;weui-cell weui-cell_vcode&quot;&gt;
-        &lt;div class=&quot;weui-cell__hd&quot;&gt;&lt;label class=&quot;weui-label&quot;&gt;验证码&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;input class=&quot;weui-input&quot; type=&quot;number&quot; placeholder=&quot;请输入验证码&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__ft&quot;&gt;
-            &lt;img class=&quot;weui-vcode-img&quot; src=&quot;img/vcode.jpg&quot;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;weui-cells__tips&quot;&gt;底部说明文字底部说明文字&lt;/div&gt;
-
-&lt;div class=&quot;weui-cells__title&quot;&gt;表单报错&lt;/div&gt;
-&lt;div class=&quot;weui-cells weui-cells_form&quot;&gt;
-    &lt;div class=&quot;weui-cell weui-cell_warn&quot;&gt;
-        &lt;div class=&quot;weui-cell__hd&quot;&gt;&lt;label for=&quot;&quot; class=&quot;weui-label&quot;&gt;卡号&lt;/label&gt;&lt;/div&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;input class=&quot;weui-input&quot; type=&quot;number&quot; pattern=&quot;[0-9]*&quot; value=&quot;weui input error&quot; placeholder=&quot;请输入卡号&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__ft&quot;&gt;
-            &lt;i class=&quot;weui-icon-warn&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
+	    <pre><code class="hljs xml">&lt;div class=&quot;wepayinput&quot;&gt;
+	&lt;div class=&quot;weui-cells__title&quot;&gt;表单&lt;/div&gt;
+	&lt;div class=&quot;weui-cells weui-cells_form&quot;&gt;
+		&lt;div class=&quot;weui-cell&quot;&gt;
+			&lt;div class=&quot;weui-cell__hd&quot;&gt;
+				&lt;label class=&quot;weui-label&quot;&gt;qq&lt;/label&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;input class=&quot;weui-input&quot; type=&quot;number&quot; pattern=&quot;[0-9]*&quot; placeholder=&quot;请输入qq号&quot;&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-cell weui-cell_vcode&quot;&gt;
+			&lt;div class=&quot;weui-cell__hd&quot;&gt;
+				&lt;label class=&quot;weui-label&quot;&gt;手机号&lt;/label&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;input class=&quot;weui-input&quot; type=&quot;tel&quot; placeholder=&quot;请输入手机号&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__ft&quot;&gt;
+				&lt;a href=&quot;javascript:;&quot; class=&quot;weui-vcode-btn&quot;&gt;获取验证码&lt;/a&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-cell&quot;&gt;
+			&lt;div class=&quot;weui-cell__hd&quot;&gt;
+				&lt;label for=&quot;&quot; class=&quot;weui-label&quot;&gt;日期&lt;/label&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;input class=&quot;weui-input&quot; type=&quot;date&quot; value=&quot;&quot;&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-cell&quot;&gt;
+			&lt;div class=&quot;weui-cell__hd&quot;&gt;
+				&lt;label for=&quot;&quot; class=&quot;weui-label&quot;&gt;时间&lt;/label&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;input class=&quot;weui-input&quot; type=&quot;datetime-local&quot; value=&quot;&quot; placeholder=&quot;&quot;&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-cell weui-cell_vcode&quot;&gt;
+			&lt;div class=&quot;weui-cell__hd&quot;&gt;
+				&lt;label class=&quot;weui-label&quot;&gt;验证码&lt;/label&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;input class=&quot;weui-input&quot; type=&quot;number&quot; placeholder=&quot;请输入验证码&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__ft&quot;&gt;
+				&lt;img class=&quot;weui-vcode-img&quot; src=&quot;img/vcode.jpg&quot;&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;weui-cells__tips&quot;&gt;底部说明文字底部说明文字&lt;/div&gt;
+	&lt;div class=&quot;weui-cells__title&quot;&gt;表单报错&lt;/div&gt;
+	&lt;div class=&quot;weui-cells weui-cells_form&quot;&gt;
+		&lt;div class=&quot;weui-cell weui-cell_warn&quot;&gt;
+			&lt;div class=&quot;weui-cell__hd&quot;&gt;
+				&lt;label for=&quot;&quot; class=&quot;weui-label&quot;&gt;卡号&lt;/label&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;input class=&quot;weui-input&quot; type=&quot;number&quot; pattern=&quot;[0-9]*&quot; value=&quot;weui input error&quot; placeholder=&quot;请输入卡号&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__ft&quot;&gt;&lt;i class=&quot;weui-icon-warn&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-
 	    <h2>
 			<span>其它</span>
 		</h2>
 		<div class="wepayinput">
-	        <div class="weui-cells__title">开关</div>
-	        <div class="weui-cells weui-cells_form">
-	            <div class="weui-cell weui-cell_switch">
-	                <div class="weui-cell__bd">标题文字</div>
-	                <div class="weui-cell__ft">
-	                    <input class="weui-switch" type="checkbox">
-	                </div>
-	            </div>
-	        </div>
-	        <div class="weui-cells__title">文本框</div>
-	        <div class="weui-cells">
-	            <div class="weui-cell">
-	                <div class="weui-cell__bd">
-	                    <input class="weui-input" type="text" placeholder="请输入文本">
-	                </div>
-	            </div>
-	        </div>
-
-	        <div class="weui-cells__title">文本域</div>
-	        <div class="weui-cells weui-cells_form">
-	            <div class="weui-cell">
-	                <div class="weui-cell__bd">
-	                    <textarea class="weui-textarea" placeholder="请输入文本" rows="3"></textarea>
-	                    <div class="weui-textarea-counter"><span>0</span>/200</div>
-	                </div>
-	            </div>
-	        </div>
-
-	        <div class="weui-cells__title">选择</div>
-	        <div class="weui-cells">
-
-	            <div class="weui-cell weui-cell_select weui-cell_select-before">
-	                <div class="weui-cell__hd">
-	                    <select class="weui-select" name="select2">
-	                        <option value="1">+86</option>
-	                        <option value="2">+80</option>
-	                        <option value="3">+84</option>
-	                        <option value="4">+87</option>
-	                    </select>
-	                </div>
-	                <div class="weui-cell__bd">
-	                    <input class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入号码">
-	                </div>
-	            </div>
-	        </div>
-	        <div class="weui-cells__title">选择</div>
-	        <div class="weui-cells">
-	            <div class="weui-cell weui-cell_select">
-	                <div class="weui-cell__bd">
-	                    <select class="weui-select" name="select1">
-	                        <option selected="" value="1">微信号</option>
-	                        <option value="2">QQ号</option>
-	                        <option value="3">Email</option>
-	                    </select>
-	                </div>
-	            </div>
-	            <div class="weui-cell weui-cell_select weui-cell_select-after">
-	                <div class="weui-cell__hd">
-	                    <label for="" class="weui-label">国家/地区</label>
-	                </div>
-	                <div class="weui-cell__bd">
-	                    <select class="weui-select" name="select2">
-	                        <option value="1">中国</option>
-	                        <option value="2">美国</option>
-	                        <option value="3">英国</option>
-	                    </select>
-	                </div>
-	            </div>
-	        </div>
-
-	        <label for="weuiAgree" class="weui-agree">
-	            <input id="weuiAgree" type="checkbox" class="weui-agree__checkbox">
-	            <span class="weui-agree__text">
-	                阅读并同意<a href="javascript:void(0);">《相关条款》</a>
-	            </span>
-	        </label>
-
-	        <div class="weui-btn-area">
-	            <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">确定</a>
-	        </div>
-	    </div>
+			<div class="weui-cells__title">开关</div>
+			<div class="weui-cells weui-cells_form">
+				<div class="weui-cell weui-cell_switch">
+					<div class="weui-cell__bd">标题文字</div>
+					<div class="weui-cell__ft">
+						<input class="weui-switch" type="checkbox">
+					</div>
+				</div>
+			</div>
+			<div class="weui-cells__title">文本框</div>
+			<div class="weui-cells">
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<input class="weui-input" type="text" placeholder="请输入文本">
+					</div>
+				</div>
+			</div>
+			<div class="weui-cells__title">文本域</div>
+			<div class="weui-cells weui-cells_form">
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<textarea class="weui-textarea" placeholder="请输入文本" rows="3"></textarea>
+						<div class="weui-textarea-counter">
+							<span>0</span>
+							/200
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="weui-cells__title">选择</div>
+			<div class="weui-cells">
+				<div class="weui-cell weui-cell_select weui-cell_select-before">
+					<div class="weui-cell__hd">
+						<select class="weui-select" name="select2">
+							<option value="1">+86</option>
+							<option value="2">+80</option>
+							<option value="3">+84</option>
+							<option value="4">+87</option>
+						</select>
+					</div>
+					<div class="weui-cell__bd">
+						<input class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入号码">
+					</div>
+				</div>
+			</div>
+			<div class="weui-cells__title">选择</div>
+			<div class="weui-cells">
+				<div class="weui-cell weui-cell_select">
+					<div class="weui-cell__bd">
+						<select class="weui-select" name="select1">
+							<option selected="" value="1">微信号</option>
+							<option value="2">QQ号</option>
+							<option value="3">Email</option>
+						</select>
+					</div>
+				</div>
+				<div class="weui-cell weui-cell_select weui-cell_select-after">
+					<div class="weui-cell__hd">
+						<label for="" class="weui-label">国家/地区</label>
+					</div>
+					<div class="weui-cell__bd">
+						<select class="weui-select" name="select2">
+							<option value="1">中国</option>
+							<option value="2">美国</option>
+							<option value="3">英国</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<label for="weuiAgree" class="weui-agree">
+				<input id="weuiAgree" type="checkbox" class="weui-agree__checkbox">		
+				<span class="weui-agree__text">
+					阅读并同意
+					<a href="javascript:void(0);">《相关条款》</a>
+				</span>
+			</label>
+			<div class="weui-btn-area">
+				<a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">确定</a>
+			</div>
+		</div>
 	    <blockquote><a href="javascript:;" class="copy-text" data-stat="1733">复制HTML代码</a></blockquote>
-		<pre><code class="hlhs xml">&lt;div class=&quot;weui-cells__title&quot;&gt;开关&lt;/div&gt;
-&lt;div class=&quot;weui-cells weui-cells_form&quot;&gt;
-    &lt;div class=&quot;weui-cell weui-cell_switch&quot;&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;标题文字&lt;/div&gt;
-        &lt;div class=&quot;weui-cell__ft&quot;&gt;
-            &lt;input class=&quot;weui-switch&quot; type=&quot;checkbox&quot;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;weui-cells__title&quot;&gt;文本框&lt;/div&gt;
-&lt;div class=&quot;weui-cells&quot;&gt;
-    &lt;div class=&quot;weui-cell&quot;&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;input class=&quot;weui-input&quot; type=&quot;text&quot; placeholder=&quot;请输入文本&quot;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;weui-cells__title&quot;&gt;文本域&lt;/div&gt;
-&lt;div class=&quot;weui-cells weui-cells_form&quot;&gt;
-    &lt;div class=&quot;weui-cell&quot;&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;textarea class=&quot;weui-textarea&quot; placeholder=&quot;请输入文本&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;
-            &lt;div class=&quot;weui-textarea-counter&quot;&gt;&lt;span&gt;0&lt;/span&gt;/200&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;weui-cells__title&quot;&gt;选择&lt;/div&gt;
-&lt;div class=&quot;weui-cells&quot;&gt;
-
-    &lt;div class=&quot;weui-cell weui-cell_select weui-cell_select-before&quot;&gt;
-        &lt;div class=&quot;weui-cell__hd&quot;&gt;
-            &lt;select class=&quot;weui-select&quot; name=&quot;select2&quot;&gt;
-                &lt;option value=&quot;1&quot;&gt;+86&lt;/option&gt;
-                &lt;option value=&quot;2&quot;&gt;+80&lt;/option&gt;
-                &lt;option value=&quot;3&quot;&gt;+84&lt;/option&gt;
-                &lt;option value=&quot;4&quot;&gt;+87&lt;/option&gt;
-            &lt;/select&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;input class=&quot;weui-input&quot; type=&quot;number&quot; pattern=&quot;[0-9]*&quot; placeholder=&quot;请输入号码&quot;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;weui-cells__title&quot;&gt;选择&lt;/div&gt;
-&lt;div class=&quot;weui-cells&quot;&gt;
-    &lt;div class=&quot;weui-cell weui-cell_select&quot;&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;select class=&quot;weui-select&quot; name=&quot;select1&quot;&gt;
-                &lt;option selected=&quot;&quot; value=&quot;1&quot;&gt;微信号&lt;/option&gt;
-                &lt;option value=&quot;2&quot;&gt;QQ号&lt;/option&gt;
-                &lt;option value=&quot;3&quot;&gt;Email&lt;/option&gt;
-            &lt;/select&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;weui-cell weui-cell_select weui-cell_select-after&quot;&gt;
-        &lt;div class=&quot;weui-cell__hd&quot;&gt;
-            &lt;label for=&quot;&quot; class=&quot;weui-label&quot;&gt;国家/地区&lt;/label&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;weui-cell__bd&quot;&gt;
-            &lt;select class=&quot;weui-select&quot; name=&quot;select2&quot;&gt;
-                &lt;option value=&quot;1&quot;&gt;中国&lt;/option&gt;
-                &lt;option value=&quot;2&quot;&gt;美国&lt;/option&gt;
-                &lt;option value=&quot;3&quot;&gt;英国&lt;/option&gt;
-            &lt;/select&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;label for=&quot;weuiAgree&quot; class=&quot;weui-agree&quot;&gt;
-    &lt;input id=&quot;weuiAgree&quot; type=&quot;checkbox&quot; class=&quot;weui-agree__checkbox&quot;&gt;
-    &lt;span class=&quot;weui-agree__text&quot;&gt;
-        阅读并同意&lt;a href=&quot;javascript:void(0);&quot;&gt;《相关条款》&lt;/a&gt;
-    &lt;/span&gt;
-&lt;/label&gt;
-
-&lt;div class=&quot;weui-btn-area&quot;&gt;
-    &lt;a class=&quot;weui-btn weui-btn_primary&quot; href=&quot;javascript:&quot; id=&quot;showTooltips&quot;&gt;确定&lt;/a&gt;
+		<pre><code class="hlhs xml">&lt;div class=&quot;wepayinput&quot;&gt;
+	&lt;div class=&quot;weui-cells__title&quot;&gt;开关&lt;/div&gt;
+	&lt;div class=&quot;weui-cells weui-cells_form&quot;&gt;
+		&lt;div class=&quot;weui-cell weui-cell_switch&quot;&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;标题文字&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__ft&quot;&gt;
+				&lt;input class=&quot;weui-switch&quot; type=&quot;checkbox&quot;&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;weui-cells__title&quot;&gt;文本框&lt;/div&gt;
+	&lt;div class=&quot;weui-cells&quot;&gt;
+		&lt;div class=&quot;weui-cell&quot;&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;input class=&quot;weui-input&quot; type=&quot;text&quot; placeholder=&quot;请输入文本&quot;&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;weui-cells__title&quot;&gt;文本域&lt;/div&gt;
+	&lt;div class=&quot;weui-cells weui-cells_form&quot;&gt;
+		&lt;div class=&quot;weui-cell&quot;&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;textarea class=&quot;weui-textarea&quot; placeholder=&quot;请输入文本&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;
+				&lt;div class=&quot;weui-textarea-counter&quot;&gt;
+					&lt;span&gt;0&lt;/span&gt;
+					/200
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;weui-cells__title&quot;&gt;选择&lt;/div&gt;
+	&lt;div class=&quot;weui-cells&quot;&gt;
+		&lt;div class=&quot;weui-cell weui-cell_select weui-cell_select-before&quot;&gt;
+			&lt;div class=&quot;weui-cell__hd&quot;&gt;
+				&lt;select class=&quot;weui-select&quot; name=&quot;select2&quot;&gt;
+					&lt;option value=&quot;1&quot;&gt;+86&lt;/option&gt;
+					&lt;option value=&quot;2&quot;&gt;+80&lt;/option&gt;
+					&lt;option value=&quot;3&quot;&gt;+84&lt;/option&gt;
+					&lt;option value=&quot;4&quot;&gt;+87&lt;/option&gt;
+				&lt;/select&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;input class=&quot;weui-input&quot; type=&quot;number&quot; pattern=&quot;[0-9]*&quot; placeholder=&quot;请输入号码&quot;&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;weui-cells__title&quot;&gt;选择&lt;/div&gt;
+	&lt;div class=&quot;weui-cells&quot;&gt;
+		&lt;div class=&quot;weui-cell weui-cell_select&quot;&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;select class=&quot;weui-select&quot; name=&quot;select1&quot;&gt;
+					&lt;option selected=&quot;&quot; value=&quot;1&quot;&gt;微信号&lt;/option&gt;
+					&lt;option value=&quot;2&quot;&gt;QQ号&lt;/option&gt;
+					&lt;option value=&quot;3&quot;&gt;Email&lt;/option&gt;
+				&lt;/select&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-cell weui-cell_select weui-cell_select-after&quot;&gt;
+			&lt;div class=&quot;weui-cell__hd&quot;&gt;
+				&lt;label for=&quot;&quot; class=&quot;weui-label&quot;&gt;国家/地区&lt;/label&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-cell__bd&quot;&gt;
+				&lt;select class=&quot;weui-select&quot; name=&quot;select2&quot;&gt;
+					&lt;option value=&quot;1&quot;&gt;中国&lt;/option&gt;
+					&lt;option value=&quot;2&quot;&gt;美国&lt;/option&gt;
+					&lt;option value=&quot;3&quot;&gt;英国&lt;/option&gt;
+				&lt;/select&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;label for=&quot;weuiAgree&quot; class=&quot;weui-agree&quot;&gt;
+		&lt;input id=&quot;weuiAgree&quot; type=&quot;checkbox&quot; class=&quot;weui-agree__checkbox&quot;&gt;		
+		&lt;span class=&quot;weui-agree__text&quot;&gt;
+			阅读并同意
+			&lt;a href=&quot;javascript:void(0);&quot;&gt;《相关条款》&lt;/a&gt;
+		&lt;/span&gt;
+	&lt;/label&gt;
+	&lt;div class=&quot;weui-btn-area&quot;&gt;
+		&lt;a class=&quot;weui-btn weui-btn_primary&quot; href=&quot;javascript:&quot; id=&quot;showTooltips&quot;&gt;确定&lt;/a&gt;
+	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 <blockquote><a href="javascript:;" class="copy-text" data-stat="1734">复制CSS代码</a></blockquote>
 		<pre><code class="hljs css">/*!

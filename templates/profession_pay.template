@@ -1,0 +1,39 @@
+<!-- [[缴费 -->
+<article class="wepay-article" id="profession_pay">
+    <h1>缴费</h1>
+    <section>
+        <p>应用于微信智慧缴费，如停车场缴费</p>
+        <h2>
+            <span>详细方案参考</span>
+        </h2>
+        <ul>
+            <li>
+                <p>
+                    <a href="https://pay.weixin.qq.com/material/profession_park.shtml" target="_blank">https://pay.weixin.qq.com/material/profession_park.shtml</a>
+                </p>
+            </li>
+        </ul>
+        <h2>
+            <span>如何使用</span>
+        </h2>
+        <blockquote>
+            <p>下载源码，即可使用</p>
+        </blockquote>
+        <iframe src="/project/profession_pay/index.html" frameborder="0" width="375" height="500" class="wepay-iframe"></iframe>
+        <iframe src="/project/profession_pay/success.html" frameborder="0" width="375" height="500" class="wepay-iframe"></iframe>
+        <h2>
+            <span>下载代码</span>
+        </h2>
+        <ul>
+            <li>
+                <p>
+                    <a href="https://github.com/wepayui/wepayui/tree/master/dist/profession_pay" target="_blank" data-stat="1746">https://github.com/wepayui/wepayui/tree/master/dist/profession_pay</a>
+                </p>
+            </li>
+        </ul>
+    </section>
+</article>
+<!-- 缴费]] -->
+<script type="text/javascript">
+wepay.spaInit();
+</script>

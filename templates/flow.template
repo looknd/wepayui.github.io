@@ -1,0 +1,557 @@
+<!-- [[流程 -->
+<article class="wepay-article" id="flow">
+	<h1>
+		Flow
+		<span class="subtitle">流程</span>
+	</h1>
+	<p>引导用户按照流程完成任务的导航条。</p>
+	<h2>
+		<span>水平样式</span>
+	</h2>
+	<section>
+		<div class="page">
+			<div class="mod">
+				<div class="weui-wepay-flow">
+					<div class="weui-wepay-flow__bd">
+						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+							<div class="weui-wepay-flow__state">1</div>
+							<p class="weui-wepay-flow__title-bottom">已付款</p>
+						</div>
+						<div class="weui-wepay-flow__line weui-wepay-flow__line_done">
+							<div class="weui-wepay-flow__process"></div>
+						</div>
+						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+							<div class="weui-wepay-flow__state">2</div>
+							<p  class="weui-wepay-flow__title-bottom">已发货</p>
+						</div>
+						<div class="weui-wepay-flow__line weui-wepay-flow__line_ing">
+							<div class="weui-wepay-flow__process"></div>
+							<div class="weui-wepay-flow__info-top">进行中</div>
+						</div>
+						<div class="weui-wepay-flow__li">
+							<div class="weui-wepay-flow__state">3</div>
+							<p class="weui-wepay-flow__title-bottom">待收货</p>
+						</div>
+						<div class="weui-wepay-flow__line">
+							<div class="weui-wepay-flow__process"></div>
+						</div>
+						<div class="weui-wepay-flow__li">
+							<div class="weui-wepay-flow__state">4</div>
+							<p class="weui-wepay-flow__title-bottom">完成</p>
+						</div>
+					</div>
+				</div>
+				<blockquote>
+					<a href="javascript:;" class="copy-text" data-stat="1865">复制HTML代码</a>
+				</blockquote>
+				<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow&quot;&gt;
+	&lt;div class=&quot;weui-wepay-flow__bd&quot;&gt;
+		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;1&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow__title-bottom&quot;&gt;已付款&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__line weui-wepay-flow__line_done&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__process&quot;&gt;&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;2&lt;/div&gt;
+			&lt;p  class=&quot;weui-wepay-flow__title-bottom&quot;&gt;已发货&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__line weui-wepay-flow__line_ing&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__process&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__info-top&quot;&gt;进行中&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__li&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;3&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow__title-bottom&quot;&gt;待收货&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__line&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__process&quot;&gt;&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__li&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;4&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow__title-bottom&quot;&gt;完成&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				<div class="weui-wepay-flow weui-wepay-flow_custom">
+					<div class="weui-wepay-flow__bd">
+						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+							<div class="weui-wepay-flow__state"></div>
+							<p class="weui-wepay-flow__title-top">已付款</p>
+						</div>
+						<div class="weui-wepay-flow__line weui-wepay-flow__line_done" style="width: 15%;">
+							<div class="weui-wepay-flow__process"></div>
+							<div class="weui-wepay-flow__info-bottom">进行中</div>
+						</div>
+						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+							<div class="weui-wepay-flow__state"></div>
+							<p class="weui-wepay-flow__title-top">已发货</p>
+						</div>
+						<div class="weui-wepay-flow__line weui-wepay-flow__line_done" style="width: 30%;">
+							<div class="weui-wepay-flow__process"></div>
+							<div class="weui-wepay-flow__info-bottom">进行中</div>
+						</div>
+						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+							<div class="weui-wepay-flow__state"></div>
+							<p class="weui-wepay-flow__title-top">待收货</p>
+						</div>
+						<div class="weui-wepay-flow__line weui-wepay-flow__line_ing" style="width: 45%;">
+							<div class="weui-wepay-flow__process"></div>
+							<div class="weui-wepay-flow__info-bottom">进行中</div>
+						</div>
+						<div class="weui-wepay-flow__li">
+							<div class="weui-wepay-flow__state"></div>
+							<p class="weui-wepay-flow__title-top">完成</p>
+						</div>
+					</div>
+				</div>
+				<blockquote>
+					<a href="javascript:;" class="copy-text" data-stat="1866">复制HTML代码</a>
+				</blockquote>
+				<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow weui-wepay-flow_custom&quot;&gt;
+	&lt;div class=&quot;weui-wepay-flow__bd&quot;&gt;
+		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow__title-top&quot;&gt;已付款&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__line weui-wepay-flow__line_done&quot; style=&quot;width: 15%;&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__process&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__info-bottom&quot;&gt;进行中&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow__title-top&quot;&gt;已发货&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__line weui-wepay-flow__line_done&quot; style=&quot;width: 30%;&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__process&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__info-bottom&quot;&gt;进行中&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow__title-top&quot;&gt;待收货&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__line weui-wepay-flow__line_ing&quot; style=&quot;width: 45%;&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__process&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__info-bottom&quot;&gt;进行中&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__li&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow__title-top&quot;&gt;完成&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				<div class="weui-wepay-flow">
+					<div class="weui-wepay-flow__bd">
+						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+							<div class="weui-wepay-flow__state"></div>
+							<div class="weui-wepay-flow__title-bottom">
+								<div>延误30分钟</div>
+							</div>
+							<div class="weui-wepay-flow__intro-top">赔*元</div>
+						</div>
+						<div class="weui-wepay-flow__line weui-wepay-flow__line_ing">
+							<div class="weui-wepay-flow__process"></div>
+						</div>
+						<div class="weui-wepay-flow__li">
+							<div class="weui-wepay-flow__state"></div>
+							<p class="weui-wepay-flow__title-bottom">延误60分钟</p>
+							<div class="weui-wepay-flow__intro-top">赔*元</div>
+						</div>
+						<div class="weui-wepay-flow__line">
+							<div class="weui-wepay-flow__process"></div>
+						</div>
+						<div class="weui-wepay-flow__li">
+							<div class="weui-wepay-flow__state"></div>
+							<p class="weui-wepay-flow__title-bottom">延误120分钟</p>
+							<div class="weui-wepay-flow__intro-top">赔*元</div>
+						</div>
+					</div>
+				</div>
+				<blockquote>
+					<a href="javascript:;" class="copy-text" data-stat="1867">复制HTML代码</a>
+				</blockquote>
+				<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow&quot;&gt;
+	&lt;div class=&quot;weui-wepay-flow__bd&quot;&gt;
+		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__title-bottom&quot;&gt;
+				&lt;div&gt;延误30分钟&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__intro-top&quot;&gt;赔*元&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__line weui-wepay-flow__line_ing&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__process&quot;&gt;&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__li&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow__title-bottom&quot;&gt;延误60分钟&lt;/p&gt;
+			&lt;div class=&quot;weui-wepay-flow__intro-top&quot;&gt;赔*元&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__line&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__process&quot;&gt;&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__li&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow__title-bottom&quot;&gt;延误120分钟&lt;/p&gt;
+			&lt;div class=&quot;weui-wepay-flow__intro-top&quot;&gt;赔*元&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>				
+				<h2>
+					<span>垂直样式</span>
+				</h2>
+				<div class="weui-wepay-flow weui-wepay-flow_vertical" style="height: 320px;">
+					<div class="weui-wepay-flow__bd">
+						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+							<div class="weui-wepay-flow__state">A</div>
+							<p class="weui-wepay-flow__title-right">已付款</p>
+						</div>
+						<div class="weui-wepay-flow__line weui-wepay-flow__line_done">
+							<div class="weui-wepay-flow__process"></div>
+							<div class="weui-wepay-flow__info-left">进行中</div>
+						</div>
+						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+							<div class="weui-wepay-flow__state">B</div>
+							<p class="weui-wepay-flow__title-right">已发货</p>
+						</div>
+						<div class="weui-wepay-flow__line weui-wepay-flow__line_ing" >
+							<div class="weui-wepay-flow__process"></div>
+							<div class="weui-wepay-flow__info-left">进行中</div>
+						</div>
+						<div class="weui-wepay-flow__li">
+							<div class="weui-wepay-flow__state">C</div>
+							<p class="weui-wepay-flow__title-right">待收货</p>
+						</div>
+						<div class="weui-wepay-flow__line" >
+							<div class="weui-wepay-flow__process"></div>
+							<div class="weui-wepay-flow__info-left">进行中</div>
+						</div>
+						<div class="weui-wepay-flow__li">
+							<div class="weui-wepay-flow__state">D</div>
+							<p class="weui-wepay-flow__title-right">完成</p>
+						</div>
+					</div>
+				</div>
+				<blockquote>
+					<a href="javascript:;" class="copy-text" data-stat="1868">复制HTML代码</a>
+				</blockquote>
+				<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow weui-wepay-flow_vertical&quot; style=&quot;height: 320px;&quot;&gt;
+	&lt;div class=&quot;weui-wepay-flow__bd&quot;&gt;
+		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;A&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow__title-right&quot;&gt;已付款&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__line weui-wepay-flow__line_done&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__process&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__info-left&quot;&gt;进行中&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;B&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow__title-right&quot;&gt;已发货&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__line weui-wepay-flow__line_ing&quot; &gt;
+			&lt;div class=&quot;weui-wepay-flow__process&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__info-left&quot;&gt;进行中&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__li&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;C&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow__title-right&quot;&gt;待收货&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__line&quot; &gt;
+			&lt;div class=&quot;weui-wepay-flow__process&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__info-left&quot;&gt;进行中&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__li&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;D&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow__title-right&quot;&gt;完成&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				<div class="weui-wepay-flow weui-wepay-flow_vertical-custom">
+					<div class="weui-wepay-flow__bd">
+						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+							<div class="weui-wepay-flow__state"></div>
+							<p class="weui-wepay-flow__title-right">发起申请</p>
+						</div>
+						<div class="weui-wepay-flow__line weui-wepay-flow__line_done" style="height: 50px;">
+							<div class="weui-wepay-flow__process"></div>
+							<div class="weui-wepay-flow__info-left">进行中</div>
+						</div>
+						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+							<div class="weui-wepay-flow__state"></div>
+							<p class="weui-wepay-flow__title-right">已发货</p>
+						</div>
+						<div class="weui-wepay-flow__line" style="height: 100px;">
+							<div class="weui-wepay-flow__process"></div>
+							<div class="weui-wepay-flow__info-left">进行中</div>
+						</div>
+						<div class="weui-wepay-flow__li">
+							<div class="weui-wepay-flow__state"></div>
+							<p class="weui-wepay-flow__title-right">待确认收货</p>
+						</div>
+						<div class="weui-wepay-flow__line" style="height: 150px;">
+							<div class="weui-wepay-flow__process"></div>
+							<div class="weui-wepay-flow__info-left">进行中</div>
+						</div>
+						<div class="weui-wepay-flow__li">
+							<div class="weui-wepay-flow__state"></div>
+							<div class="weui-wepay-flow__title-right">完成</div>
+						</div>
+					</div>
+				</div>
+				<blockquote>
+					<a href="javascript:;" class="copy-text" data-stat="1869">复制HTML代码</a>
+				</blockquote>
+				<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow weui-wepay-flow_vertical-custom&quot;&gt;
+	&lt;div class=&quot;weui-wepay-flow__bd&quot;&gt;
+		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow__title-right&quot;&gt;发起申请&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__line weui-wepay-flow__line_done&quot; style=&quot;height: 50px;&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__process&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__info-left&quot;&gt;进行中&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow__title-right&quot;&gt;已发货&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__line&quot; style=&quot;height: 100px;&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__process&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__info-left&quot;&gt;进行中&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__li&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow__title-right&quot;&gt;待确认收货&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__line&quot; style=&quot;height: 150px;&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__process&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__info-left&quot;&gt;进行中&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__li&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__title-right&quot;&gt;完成&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				<div class="weui-wepay-flow weui-wepay-flow_vertical" style="height: 320px;">
+					<div class="weui-wepay-flow__bd">
+						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+							<div class="weui-wepay-flow__state"></div>
+							<div class="weui-wepay-flow__title-left">
+								<div class="flow_info_a">起飞时间</div>
+							</div>
+							<div class="weui-wepay-flow__intro-right">航班未按时起飞</div>
+						</div>
+						<div class="weui-wepay-flow__line weui-wepay-flow__line_done">
+							<div class="weui-wepay-flow__process"></div>
+							<div class="weui-wepay-flow__info-left">进行中</div>
+						</div>
+						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+							<div class="weui-wepay-flow__state"></div>
+							<div class="weui-wepay-flow__title-left">
+								<div class="flow_info_a">延误30分</div>
+								<p class="flow_info_b">理赔50元</p>
+							</div>
+							<div class="weui-wepay-flow__intro-right">已获得*元赔偿款</div>
+						</div>
+						<div class="weui-wepay-flow__line">
+							<div class="weui-wepay-flow__process"></div>
+						</div>
+						<div class="weui-wepay-flow__li">
+							<p class="weui-wepay-flow__state"></p>
+							<div class="weui-wepay-flow__title-left">
+								<div class="flow_info_a">延误60分</div>
+								<p class="flow_info_b">理赔*元</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<blockquote>
+					<a href="javascript:;" class="copy-text" data-stat="1870">复制HTML代码</a>
+				</blockquote>
+				<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow weui-wepay-flow_vertical&quot; style=&quot;height: 320px;&quot;&gt;
+	&lt;div class=&quot;weui-wepay-flow__bd&quot;&gt;
+		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__title-left&quot;&gt;
+				&lt;div class=&quot;flow_info_a&quot;&gt;起飞时间&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__intro-right&quot;&gt;航班未按时起飞&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__line weui-wepay-flow__line_done&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__process&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__info-left&quot;&gt;进行中&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__title-left&quot;&gt;
+				&lt;div class=&quot;flow_info_a&quot;&gt;延误30分&lt;/div&gt;
+				&lt;p class=&quot;flow_info_b&quot;&gt;理赔50元&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow__intro-right&quot;&gt;已获得*元赔偿款&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__line&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow__process&quot;&gt;&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow__li&quot;&gt;
+			&lt;p class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/p&gt;
+			&lt;div class=&quot;weui-wepay-flow__title-left&quot;&gt;
+				&lt;div class=&quot;flow_info_a&quot;&gt;延误60分&lt;/div&gt;
+				&lt;p class=&quot;flow_info_b&quot;&gt;理赔*元&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				<div class="weui-wepay-flow-auto">
+					<div class="weui-wepay-flow-auto__bd">
+						<div class="weui-wepay-flow-auto__li">
+							<div class="weui-wepay-flow-auto__state"></div>
+							<div class="weui-wepay-flow-auto__line"></div>
+							<p class="weui-wepay-flow-auto__title">完成</p>
+						</div>
+						<div class="weui-wepay-flow-auto__li">
+							<div class="weui-wepay-flow-auto__state"></div>
+							<div class="weui-wepay-flow-auto__line"></div>
+							<p class="weui-wepay-flow-auto__title">待确认收货</p>
+						</div>
+						<div class="weui-wepay-flow-auto__li">
+							<div class="weui-wepay-flow-auto__state weui-wepay-flow-auto__state_on"></div>
+							<div class="weui-wepay-flow-auto__line weui-wepay-flow-auto__line_on"></div>
+							<p class="weui-wepay-flow-auto__title">已发货</p>
+							<p class="weui-wepay-flow-auto__info">物流单号：顺丰x0123456</p>
+							<p class="weui-wepay-flow-auto__info">其它备注：留意...</p>
+						</div>
+						<div class="weui-wepay-flow-auto__li">
+							<div class="weui-wepay-flow-auto__state weui-wepay-flow-auto__state_on"></div>
+							<p class="weui-wepay-flow-auto__title">发起申请 2015-03-01</p>
+							<p class="weui-wepay-flow-auto__info">订单编号：123456</p>
+							<p class="weui-wepay-flow-auto__info">商户名称：某某商户</p>
+							<p class="weui-wepay-flow-auto__info">收货地址：深圳市南山区科技中一路</p>
+							<p class="weui-wepay-flow-auto__info">物流清单：物品1，物品2</p>
+						</div>
+					</div>
+				</div>
+				<blockquote>
+					<a href="javascript:;" class="copy-text" data-stat="1871">复制HTML代码</a>
+				</blockquote>
+				<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow-auto&quot;&gt;
+	&lt;div class=&quot;weui-wepay-flow-auto__bd&quot;&gt;
+		&lt;div class=&quot;weui-wepay-flow-auto__li&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow-auto__state&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow-auto__line&quot;&gt;&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow-auto__title&quot;&gt;完成&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow-auto__li&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow-auto__state&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow-auto__line&quot;&gt;&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow-auto__title&quot;&gt;待确认收货&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow-auto__li&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow-auto__state weui-wepay-flow-auto__state_on&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;weui-wepay-flow-auto__line weui-wepay-flow-auto__line_on&quot;&gt;&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow-auto__title&quot;&gt;已发货&lt;/p&gt;
+			&lt;p class=&quot;weui-wepay-flow-auto__info&quot;&gt;物流单号：顺丰x0123456&lt;/p&gt;
+			&lt;p class=&quot;weui-wepay-flow-auto__info&quot;&gt;其它备注：留意...&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;weui-wepay-flow-auto__li&quot;&gt;
+			&lt;div class=&quot;weui-wepay-flow-auto__state weui-wepay-flow-auto__state_on&quot;&gt;&lt;/div&gt;
+			&lt;p class=&quot;weui-wepay-flow-auto__title&quot;&gt;发起申请 2015-03-01&lt;/p&gt;
+			&lt;p class=&quot;weui-wepay-flow-auto__info&quot;&gt;订单编号：123456&lt;/p&gt;
+			&lt;p class=&quot;weui-wepay-flow-auto__info&quot;&gt;商户名称：某某商户&lt;/p&gt;
+			&lt;p class=&quot;weui-wepay-flow-auto__info&quot;&gt;收货地址：深圳市南山区科技中一路&lt;/p&gt;
+			&lt;p class=&quot;weui-wepay-flow-auto__info&quot;&gt;物流清单：物品1，物品2&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+			</div>
+		</div>
+		<blockquote><a href="javascript:;" class="copy-text" data-stat="1872">复制CSS代码</a></blockquote>
+		<pre><code class="hljs css">/*!
+* WePayUI v0.0.12 (https://github.com/wepayui/wepayui)
+* Copyright 2017 Tencent, Inc.
+* Licensed under the MIT license
+* Component : [weui-wepay-flow]
+*/
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{font-family:-apple-system-font,Helvetica Neue,sans-serif;line-height:1.6}
+*{margin:0;padding:0}
+a img{border:0}
+a{text-decoration:none;-webkit-tap-highlight-color:transparent}
+.weui-wepay-flow,.weui-wepay-flow-auto{padding:40px}
+.weui-wepay-flow__bd{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.weui-wepay-flow__li{position:relative;z-index:1;width:14px;height:14px}
+.weui-wepay-flow__li .weui-wepay-flow__state{position:absolute;top:0;left:0;box-sizing:border-box;width:14px;height:14px;border-radius:7px;color:#fff;text-align:center;font-size:10px;line-height:14px}
+.weui-wepay-flow__state{background-color:#e2e2e2}
+.weui-wepay-flow__li_done .weui-wepay-flow__state{background-color:#09bb07}
+[class*=" weui-wepay-flow__title-"],[class^=weui-wepay-flow__title-]{position:absolute;color:#999;text-align:center;white-space:nowrap;font-weight:400;font-size:14px}
+.weui-wepay-flow__title-top{bottom:20px;left:50%;-webkit-transform:translate(-50%);transform:translate(-50%)}
+.weui-wepay-flow__li_done .weui-wepay-flow__title-top{color:#333}
+.weui-wepay-flow__title-bottom{top:20px;left:50%;-webkit-transform:translate(-50%);transform:translate(-50%)}
+.weui-wepay-flow__li_done .weui-wepay-flow__title-bottom{color:#333}
+.weui-wepay-flow__title-left{top:50%;right:30px;text-align:right;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.weui-wepay-flow__li_done .weui-wepay-flow__title-left{color:#333}
+.weui-wepay-flow__title-right{top:50%;left:30px;text-align:left;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.weui-wepay-flow__li_done .weui-wepay-flow__title-right{color:#333}
+[class*=" weui-wepay-flow__intro-"],[class^=weui-wepay-flow__intro-]{position:relative;padding:0 6px;height:20px;border-radius:4px;background-color:#ff8a00;color:#fff;white-space:nowrap;font-size:10px;line-height:20px}
+[class*=" weui-wepay-flow__intro-"]:after,[class^=weui-wepay-flow__intro-]:after{position:absolute;display:inline-block;overflow:hidden;width:0;height:0;content:'';font-size:0}
+.weui-wepay-flow__intro-top{position:absolute;bottom:25px}
+.weui-wepay-flow__intro-top,.weui-wepay-flow__intro-top:after{left:50%;-webkit-transform:translate(-50%);transform:translate(-50%)}
+.weui-wepay-flow__intro-top:after{bottom:-10px;border-color:#ff8a00 transparent transparent;border-style:solid;border-width:5px 3px}
+.weui-wepay-flow__intro-bottom{position:absolute;top:25px}
+.weui-wepay-flow__intro-bottom,.weui-wepay-flow__intro-bottom:after{left:50%;-webkit-transform:translate(-50%);transform:translate(-50%)}
+.weui-wepay-flow__intro-bottom:after{top:-10px;border-color:transparent transparent #ff8a00;border-style:dashed dashed solid;border-width:5px 3px}
+.weui-wepay-flow__intro-right{position:absolute;left:36px}
+.weui-wepay-flow__intro-right,.weui-wepay-flow__intro-right:after{top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.weui-wepay-flow__intro-right:after{left:-10px;border-color:transparent #ff8a00 transparent transparent;border-style:solid;border-width:3px 5px}
+.weui-wepay-flow__intro-left{position:absolute;right:36px}
+.weui-wepay-flow__intro-left,.weui-wepay-flow__intro-left:after{top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.weui-wepay-flow__intro-left:after{right:-10px;border-color:transparent transparent transparent #ff8a00;border-style:solid;border-width:3px 5px}
+[class^=weui-wepay-flow__info-]{position:relative;position:absolute;padding:0 6px;height:14px;border-radius:2px;background-color:#09bb07;color:#fff;white-space:nowrap;font-size:10px;line-height:14px}
+[class^=weui-wepay-flow__info-]:after{position:absolute;display:inline-block;overflow:hidden;width:0;height:0;content:'';font-size:0}
+.weui-wepay-flow__line_ing [class^=weui-wepay-flow__info-]{display:block}
+.weui-wepay-flow__info-top{bottom:11px;left:50%;display:none;-webkit-transform:translate(-50%);transform:translate(-50%)}
+.weui-wepay-flow__line_ing .weui-wepay-flow__info-top{display:block}
+.weui-wepay-flow__info-top:after{bottom:-10px;border-color:#09bb07 transparent transparent;border-style:solid;border-width:5px 3px}
+.weui-wepay-flow__info-bottom,.weui-wepay-flow__info-top:after{left:50%;-webkit-transform:translate(-50%);transform:translate(-50%)}
+.weui-wepay-flow__info-bottom{top:11px;display:none}
+.weui-wepay-flow__line_ing .weui-wepay-flow__info-bottom{display:block}
+.weui-wepay-flow__info-bottom:after{top:-10px;left:50%;border-color:transparent transparent #09bb07;border-style:dashed dashed solid;border-width:5px 3px;-webkit-transform:translate(-50%);transform:translate(-50%)}
+.weui-wepay-flow__info-left{top:50%;right:9pt;display:none;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.weui-wepay-flow__line_ing .weui-wepay-flow__info-left{display:block}
+.weui-wepay-flow__info-left:after{right:-10px;border-color:transparent transparent transparent #09bb07;border-style:solid;border-width:3px 5px}
+.weui-wepay-flow__info-left:after,.weui-wepay-flow__info-right{top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.weui-wepay-flow__info-right{left:9pt;display:none}
+.weui-wepay-flow__line_ing .weui-wepay-flow__info-right{display:block}
+.weui-wepay-flow__info-right:after{top:50%;left:-10px;border-color:transparent #09bb07 transparent transparent;border-style:solid;border-width:3px 5px;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.weui-wepay-flow__line{position:relative;height:3px;background-color:#e2e2e2;-webkit-box-flex:1;-ms-flex:1;flex:1}
+.weui-wepay-flow__title{color:#999;font-weight:400;font-size:14px}
+.weui-wepay-flow__info{color:#999;font-size:9pt}
+.weui-wepay-flow__process{position:relative;display:none;height:3px;background-color:#09bb07}
+.weui-wepay-flow__line_ing .weui-wepay-flow__process{display:block;width:50%}
+.weui-wepay-flow__line_done .weui-wepay-flow__process{display:block}
+.weui-wepay-flow_custom .weui-wepay-flow__bd{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}
+.weui-wepay-flow_custom .weui-wepay-flow__line{width:75pt;-webkit-box-flex:0;-ms-flex:none;flex:none}
+.weui-wepay-flow_vertical .weui-wepay-flow__bd{box-sizing:border-box;height:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.weui-wepay-flow_vertical .weui-wepay-flow__line{width:3px;height:auto}
+.weui-wepay-flow_vertical .weui-wepay-flow__line_ing .weui-wepay-flow__process{height:50%}
+.weui-wepay-flow_vertical .weui-wepay-flow__process{position:absolute;top:0;left:0;width:3px;height:100%}
+.weui-wepay-flow_vertical .weui-wepay-flow__line_done .weui-wepay-flow__process{height:100%}
+.weui-wepay-flow_vertical-custom .weui-wepay-flow__bd{box-sizing:border-box;height:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.weui-wepay-flow_vertical-custom .weui-wepay-flow__line{width:3px;-webkit-box-flex:0;-ms-flex:none;flex:none}
+.weui-wepay-flow_vertical-custom .weui-wepay-flow__line_ing .weui-wepay-flow__process{height:50%}
+.weui-wepay-flow_vertical-custom .weui-wepay-flow__process{position:absolute;top:0;left:0;width:3px;height:100%}
+.weui-wepay-flow_vertical-custom .weui-wepay-flow__line_done .weui-wepay-flow__process{height:100%}
+.weui-wepay-flow-auto,.weui-wepay-flow-auto__bd{position:relative}
+.weui-wepay-flow-auto__state{position:absolute;top:4px;left:0;z-index:2;width:14px;height:14px;border-radius:7px;background-color:#e2e2e2;color:#fff;text-align:center;font-size:10px;line-height:14px}
+.weui-wepay-flow-auto__state_on{background-color:#09bb07}
+.weui-wepay-flow-auto__line{position:absolute;top:10px;bottom:-4px;left:6px;z-index:1;width:2px;background-color:#ddd}
+.weui-wepay-flow-auto__line_on{background-color:#09bb07}
+.weui-wepay-flow-auto__li{position:relative;padding-bottom:20px;padding-left:30px}
+.weui-wepay-flow-auto__title{color:#999;font-weight:400;font-size:14px}
+.weui-wepay-flow-auto__info{color:#999;font-size:9pt}</code></pre>
+	</section>
+</article>
+<!-- 流程]] -->
+<script type="text/javascript">wepay.spaInit();</script>

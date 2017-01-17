@@ -9,7 +9,9 @@
         <blockquote>
             <p>下载源码，替换二维码和商户logo即可使用</p>
         </blockquote>
-        <iframe src="/project/pay_scan_code/index.html" frameborder="0" width="375" height="455" class="wepay-iframe"></iframe>
+        <iframe src="/project/pay_scan_code/index.html" frameborder="0" width="375" height="500" class="wepay-iframe"></iframe>
+        <iframe src="/project/pay_scan_code/pay.html" frameborder="0" width="375" height="500" class="wepay-iframe"></iframe>
+        <iframe src="/project/pay_scan_code/suc.html" frameborder="0" width="375" height="500" class="wepay-iframe"></iframe>
         <h2>
             <span>下载代码</span>
         </h2>
