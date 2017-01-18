@@ -37,10 +37,10 @@
             引入CND资源，在组件中复制HTML结构粘贴到你的页面即可使用。
         </p>
         <pre><code class="hljs xml">&lt;!-- WePayUI 核心CSS 文件，压缩版 --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.min.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://act.weixin.qq.com/res/css/wepayui/0.0.1/wepayui.min.css&quot;&gt;
 
 &lt;!-- WePayUI 核心CSS 文件，未压缩版，含less源码预览 --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.css&quot;&gt;</code></pre>
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://act.weixin.qq.com/res/css/wepayui/0.0.1/wepayui.css&quot;&gt;</code></pre>
     </section>
     <section>
         <h2>安装源码</h2>

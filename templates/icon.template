@@ -8,11 +8,11 @@
     <h2><span>位图</span></h2>
     <blockquote><p>图片已CDN，点击图标即可复制HTML代码，粘贴到项目即可使用。</p></blockquote>
       <ul class="wepayicon-list">
-        <li class="copy-html" data-stat="1811"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/icon_success_green_186x186.png" alt="" width="93" height="93"></li>
-        <li class="copy-html" data-stat="1812"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/icon_info_blue_186x186.png" alt="" width="93" height="93"></li>
-        <li class="copy-html" data-stat="1813"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/icon_warn_gray_186x186.png" alt="" width="93" height="93"></li>
-        <li class="copy-html" data-stat="1814"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/icon_warn_red_186x186.png" alt="" width="93" height="93"></li>
-        <li class="copy-html" data-stat="1815"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/icon_waiting_blue_186x186.png" alt="" width="93" height="93"></li>
+        <li class="copy-html" data-stat="1811"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/icon_success_green_186x186.png" alt="" width="93" height="93"></li>
+        <li class="copy-html" data-stat="1812"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/icon_info_blue_186x186.png" alt="" width="93" height="93"></li>
+        <li class="copy-html" data-stat="1813"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/icon_warn_gray_186x186.png" alt="" width="93" height="93"></li>
+        <li class="copy-html" data-stat="1814"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/icon_warn_red_186x186.png" alt="" width="93" height="93"></li>
+        <li class="copy-html" data-stat="1815"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/icon_waiting_blue_186x186.png" alt="" width="93" height="93"></li>
       </ul>
     <h2><span>矢量图标</span></h2>
     <blockquote><p>点击图标即可复制HTML代码。</p></blockquote> 

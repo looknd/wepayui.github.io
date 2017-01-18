@@ -7,22 +7,22 @@
 	<blockquote><p>图片已CDN，点击图标即可复制HTML代码，粘贴到项目即可使用。</p></blockquote>
   	<div class="wepaylogo-list-wrap">
   		<ul class="wepaylogo-list">
-	  		<li class="green copy-html" data-stat="1673"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/wepay_logo_white_200x200.png" alt="" width="60" height="60"></li>
-	  		<li class="white copy-html" data-stat="1674"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/wepay_logo_green_200x200.png" alt="" width="60" height="60"></li>
-	  		<li class="green long copy-html" data-stat="1675"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/wepay_logo_default_white_500x126.png" alt="" width="160" height="40"></li>
-			<li class="white long copy-html" data-stat="1676"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/wepay_logo_default_green_500x126.png" alt="" width="160" height="40"></li>
-			<li class="gray long copy-html" data-stat="1677"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/wepay_logo_default_gray_500x126.png" alt="" width="160" height="40"></li>
-			<li class="green long copy-html" data-stat="1678"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/wepay_logo_default_en_white_608x126.png" alt="" width="193" height="40"></li>
-			<li class="gray long copy-html" data-stat="1679"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/wepay_logo_default_en_gray_608x126.png" alt="" width="193" height="40"></li>
-			<li class="white long copy-html" data-stat="1680"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/wepay_logo_default_en_green_608x126.png" alt="" width="193" height="40"></li>
-			<li class="green copy-html" data-stat="1681"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/wepay_logo_primary_white_300x320.png" alt="" width="68" height="73"></li>
-			<li class="white copy-html" data-stat="1682"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/wepay_logo_primary_green_300x320.png" alt="" width="68" height="73"></li>
-			<li class="green copy-html" data-stat="1683"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/wepay_logo_primary_en_white_336x320.png" alt="" width="68" height="73"></li>
-			<li class="white copy-html" data-stat="1684"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/wepay_logo_primary_en_green_336x320.png" alt="" width="68" height="73"></li>
-			<li class="green long copy-html" data-stat="1685"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/wepay_logo_recommend_white_672x126.png" alt="" width="250" height="36"></li>
-			<li class="white long copy-html" data-stat="1686"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/wepay_logo_recommend_green_672x126.png" alt="" width="250" height="36"></li>
-			<li class="white copy-html" data-stat="1768" style="height:200px"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/nocashday_logo_214x348.png" alt="" height="120"></li>
-			<li class="white copy-html" data-stat="1769" style="height:200px"><img src="https://wx.gtimg.com/res/img/wepayui/0.0.1/nocashday_logo_406_172.png" alt="" height="50"></li>
+	  		<li class="green copy-html" data-stat="1673"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/wepay_logo_white_200x200.png" alt="" width="60" height="60"></li>
+	  		<li class="white copy-html" data-stat="1674"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/wepay_logo_green_200x200.png" alt="" width="60" height="60"></li>
+	  		<li class="green long copy-html" data-stat="1675"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/wepay_logo_default_white_500x126.png" alt="" width="160" height="40"></li>
+			<li class="white long copy-html" data-stat="1676"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/wepay_logo_default_green_500x126.png" alt="" width="160" height="40"></li>
+			<li class="gray long copy-html" data-stat="1677"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/wepay_logo_default_gray_500x126.png" alt="" width="160" height="40"></li>
+			<li class="green long copy-html" data-stat="1678"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/wepay_logo_default_en_white_608x126.png" alt="" width="193" height="40"></li>
+			<li class="gray long copy-html" data-stat="1679"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/wepay_logo_default_en_gray_608x126.png" alt="" width="193" height="40"></li>
+			<li class="white long copy-html" data-stat="1680"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/wepay_logo_default_en_green_608x126.png" alt="" width="193" height="40"></li>
+			<li class="green copy-html" data-stat="1681"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/wepay_logo_primary_white_300x320.png" alt="" width="68" height="73"></li>
+			<li class="white copy-html" data-stat="1682"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/wepay_logo_primary_green_300x320.png" alt="" width="68" height="73"></li>
+			<li class="green copy-html" data-stat="1683"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/wepay_logo_primary_en_white_336x320.png" alt="" width="68" height="73"></li>
+			<li class="white copy-html" data-stat="1684"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/wepay_logo_primary_en_green_336x320.png" alt="" width="68" height="73"></li>
+			<li class="green long copy-html" data-stat="1685"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/wepay_logo_recommend_white_672x126.png" alt="" width="250" height="36"></li>
+			<li class="white long copy-html" data-stat="1686"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/wepay_logo_recommend_green_672x126.png" alt="" width="250" height="36"></li>
+			<li class="white copy-html" data-stat="1768" style="height:200px"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/nocashday_logo_214x348.png" alt="" height="120"></li>
+			<li class="white copy-html" data-stat="1769" style="height:200px"><img src="https://act.weixin.qq.com/res/img/wepayui/0.0.1/nocashday_logo_406_172.png" alt="" height="50"></li>
 	  	</ul>
   	</div>
   	<h2><span>矢量图形</span></h2>
