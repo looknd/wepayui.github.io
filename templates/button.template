@@ -18,16 +18,25 @@
 					<a href="javascript:;" class="weui-btn weui-btn_primary">页面主操作 Normal</a>
 				</li>
 				<li class="copy-html" data-stat="1757">
+					<a href="javascript:;" class="weui-btn weui-btn_primary weui-btn_loading"><i class="weui-loading"></i>页面主操作 Loading</a>
+				</li>
+				<li class="copy-html" data-stat="1757">
 					<a href="javascript:;" class="weui-btn weui-btn_disabled weui-btn_primary">页面主操作 Disabled</a>
 				</li>
 				<li class="copy-html" data-stat="1758">
 					<a href="javascript:;" class="weui-btn weui-btn_default">页面次要操作 Normal</a>
 				</li>
 				<li class="copy-html" data-stat="1758">
+					<a href="javascript:;" class="weui-btn weui-btn_default weui-btn_loading"><i class="weui-loading"></i>页面次操作 Loading</a>
+				</li>
+				<li class="copy-html" data-stat="1758">
 					<a href="javascript:;" class="weui-btn weui-btn_disabled weui-btn_default">页面次要操作 Disabled</a>
 				</li>
 				<li class="copy-html" data-stat="1759">
 					<a href="javascript:;" class="weui-btn weui-btn_warn">警告类操作 Normal</a>
+				</li>
+				<li class="copy-html" data-stat="1759">
+					<a href="javascript:;" class="weui-btn weui-btn_warn weui-btn_loading"><i class="weui-loading"></i>警告类操作 Loading</a>
 				</li>
 				<li class="copy-html" data-stat="1759">
 					<a href="javascript:;" class="weui-btn weui-btn_disabled weui-btn_warn">警告类操作 Disabled</a>
@@ -71,12 +80,11 @@
 			<a href="javascript:;" class="copy-text" data-stat="1765">复制CSS代码</a>
 		</blockquote>
 		<pre><code class="hljs css">/*!
- * WePayUI v0.0.1 (https://github.com/wepayui/wepayui)
- * Copyright 2016 Tencent, Inc.
+ * WePayUI v0.1.3 (https://github.com/wepayui/wepayui)
+ * Copyright 2017 Tencent, Inc.
  * Licensed under the MIT license
  * Component : [weui-button]
- */
-html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+ */html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{line-height:1.6;font-family:-apple-system-font,Helvetica Neue,sans-serif}
 *{margin:0;padding:0}
 a img{border:0}
@@ -97,6 +105,11 @@ a img{border:0}
 .weui-btn_disabled.weui-btn_default{color:rgba(0,0,0,.3);background-color:#f7f7f7}
 .weui-btn_disabled.weui-btn_primary{background-color:#9ed99d}
 .weui-btn_disabled.weui-btn_warn{background-color:#ec8b89}
+.weui-btn_loading .weui-loading{margin:-.2em .34em 0 0}
+.weui-btn_loading.weui-btn_primary,.weui-btn_loading.weui-btn_warn{color:hsla(0,0%,100%,.6)}
+.weui-btn_loading.weui-btn_primary .weui-loading,.weui-btn_loading.weui-btn_warn .weui-loading{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 100 100'%3E%3Cpath fill='none' d='M0 0h100v100H0z'/%3E%3Crect xmlns='http://www.w3.org/2000/svg' width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.56)' rx='5' ry='5' transform='translate(0 -30)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.5)' rx='5' ry='5' transform='rotate(30 105.98 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.43)' rx='5' ry='5' transform='rotate(60 75.98 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.38)' rx='5' ry='5' transform='rotate(90 65 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.32)' rx='5' ry='5' transform='rotate(120 58.66 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.28)' rx='5' ry='5' transform='rotate(150 54.02 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.25)' rx='5' ry='5' transform='rotate(180 50 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.2)' rx='5' ry='5' transform='rotate(-150 45.98 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.17)' rx='5' ry='5' transform='rotate(-120 41.34 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.14)' rx='5' ry='5' transform='rotate(-90 35 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.1)' rx='5' ry='5' transform='rotate(-60 24.02 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.03)' rx='5' ry='5' transform='rotate(-30 -5.98 65)'/%3E%3C/svg%3E")}
+.weui-btn_loading.weui-btn_primary{background-color:#179b16}
+.weui-btn_loading.weui-btn_warn{background-color:#ce3c39}
 .weui-btn_plain-primary{color:#1aad19;border:1px solid #1aad19}
 .weui-btn_plain-primary:not(.weui-btn_plain-disabled):active{color:rgba(26,173,25,.6);border-color:rgba(26,173,25,.6)}
 .weui-btn_plain-primary:after{border-width:0}
