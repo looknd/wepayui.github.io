@@ -9,42 +9,41 @@
 		<span>水平样式</span>
 	</h2>
 	<section>
-		<div class="page">
-			<div class="mod">
-				<div class="weui-wepay-flow">
-					<div class="weui-wepay-flow__bd">
-						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
-							<div class="weui-wepay-flow__state">1</div>
-							<p class="weui-wepay-flow__title-bottom">已付款</p>
-						</div>
-						<div class="weui-wepay-flow__line weui-wepay-flow__line_done">
-							<div class="weui-wepay-flow__process"></div>
-						</div>
-						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
-							<div class="weui-wepay-flow__state">2</div>
-							<p  class="weui-wepay-flow__title-bottom">已发货</p>
-						</div>
-						<div class="weui-wepay-flow__line weui-wepay-flow__line_ing">
-							<div class="weui-wepay-flow__process"></div>
-							<div class="weui-wepay-flow__info-top">进行中</div>
-						</div>
-						<div class="weui-wepay-flow__li">
-							<div class="weui-wepay-flow__state">3</div>
-							<p class="weui-wepay-flow__title-bottom">待收货</p>
-						</div>
-						<div class="weui-wepay-flow__line">
-							<div class="weui-wepay-flow__process"></div>
-						</div>
-						<div class="weui-wepay-flow__li">
-							<div class="weui-wepay-flow__state">4</div>
-							<p class="weui-wepay-flow__title-bottom">完成</p>
-						</div>
-					</div>
+
+		<div class="weui-wepay-flow">
+			<div class="weui-wepay-flow__bd">
+				<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+					<div class="weui-wepay-flow__state">1</div>
+					<p class="weui-wepay-flow__title-bottom">已付款</p>
 				</div>
-				<blockquote>
-					<a href="javascript:;" class="copy-text" data-stat="1865">复制HTML代码</a>
-				</blockquote>
-				<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow&quot;&gt;
+				<div class="weui-wepay-flow__line weui-wepay-flow__line_done">
+					<div class="weui-wepay-flow__process"></div>
+				</div>
+				<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+					<div class="weui-wepay-flow__state">2</div>
+					<p  class="weui-wepay-flow__title-bottom">已发货</p>
+				</div>
+				<div class="weui-wepay-flow__line weui-wepay-flow__line_ing">
+					<div class="weui-wepay-flow__process"></div>
+					<div class="weui-wepay-flow__info-top">进行中</div>
+				</div>
+				<div class="weui-wepay-flow__li">
+					<div class="weui-wepay-flow__state">3</div>
+					<p class="weui-wepay-flow__title-bottom">待收货</p>
+				</div>
+				<div class="weui-wepay-flow__line">
+					<div class="weui-wepay-flow__process"></div>
+				</div>
+				<div class="weui-wepay-flow__li">
+					<div class="weui-wepay-flow__state">4</div>
+					<p class="weui-wepay-flow__title-bottom">完成</p>
+				</div>
+			</div>
+		</div>
+		<blockquote>
+			<a href="javascript:;" class="copy-text" data-stat="1865">复制HTML代码</a>
+		</blockquote>
+		<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow&quot;&gt;
 	&lt;div class=&quot;weui-wepay-flow__bd&quot;&gt;
 		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
 			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;1&lt;/div&gt;
@@ -74,42 +73,42 @@
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-				<div class="weui-wepay-flow weui-wepay-flow_custom">
-					<div class="weui-wepay-flow__bd">
-						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
-							<div class="weui-wepay-flow__state"></div>
-							<p class="weui-wepay-flow__title-top">已付款</p>
-						</div>
-						<div class="weui-wepay-flow__line weui-wepay-flow__line_done" style="width: 15%;">
-							<div class="weui-wepay-flow__process"></div>
-							<div class="weui-wepay-flow__info-bottom">进行中</div>
-						</div>
-						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
-							<div class="weui-wepay-flow__state"></div>
-							<p class="weui-wepay-flow__title-top">已发货</p>
-						</div>
-						<div class="weui-wepay-flow__line weui-wepay-flow__line_done" style="width: 30%;">
-							<div class="weui-wepay-flow__process"></div>
-							<div class="weui-wepay-flow__info-bottom">进行中</div>
-						</div>
-						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
-							<div class="weui-wepay-flow__state"></div>
-							<p class="weui-wepay-flow__title-top">待收货</p>
-						</div>
-						<div class="weui-wepay-flow__line weui-wepay-flow__line_ing" style="width: 45%;">
-							<div class="weui-wepay-flow__process"></div>
-							<div class="weui-wepay-flow__info-bottom">进行中</div>
-						</div>
-						<div class="weui-wepay-flow__li">
-							<div class="weui-wepay-flow__state"></div>
-							<p class="weui-wepay-flow__title-top">完成</p>
-						</div>
-					</div>
+		<div class="weui-wepay-flow weui-wepay-flow_custom">
+			<div class="weui-wepay-flow__bd">
+				<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+					<div class="weui-wepay-flow__state"></div>
+					<p class="weui-wepay-flow__title-top">已付款</p>
 				</div>
-				<blockquote>
-					<a href="javascript:;" class="copy-text" data-stat="1866">复制HTML代码</a>
-				</blockquote>
-				<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow weui-wepay-flow_custom&quot;&gt;
+				<div class="weui-wepay-flow__line weui-wepay-flow__line_done" style="width: 15%;">
+					<div class="weui-wepay-flow__process"></div>
+					<div class="weui-wepay-flow__info-bottom">进行中</div>
+				</div>
+				<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+					<div class="weui-wepay-flow__state"></div>
+					<p class="weui-wepay-flow__title-top">已发货</p>
+				</div>
+				<div class="weui-wepay-flow__line weui-wepay-flow__line_done" style="width: 30%;">
+					<div class="weui-wepay-flow__process"></div>
+					<div class="weui-wepay-flow__info-bottom">进行中</div>
+				</div>
+				<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+					<div class="weui-wepay-flow__state"></div>
+					<p class="weui-wepay-flow__title-top">待收货</p>
+				</div>
+				<div class="weui-wepay-flow__line weui-wepay-flow__line_ing" style="width: 45%;">
+					<div class="weui-wepay-flow__process"></div>
+					<div class="weui-wepay-flow__info-bottom">进行中</div>
+				</div>
+				<div class="weui-wepay-flow__li">
+					<div class="weui-wepay-flow__state"></div>
+					<p class="weui-wepay-flow__title-top">完成</p>
+				</div>
+			</div>
+		</div>
+		<blockquote>
+			<a href="javascript:;" class="copy-text" data-stat="1866">复制HTML代码</a>
+		</blockquote>
+		<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow weui-wepay-flow_custom&quot;&gt;
 	&lt;div class=&quot;weui-wepay-flow__bd&quot;&gt;
 		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
 			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
@@ -141,37 +140,37 @@
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-				<div class="weui-wepay-flow">
-					<div class="weui-wepay-flow__bd">
-						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
-							<div class="weui-wepay-flow__state"></div>
-							<div class="weui-wepay-flow__title-bottom">
-								<div>延误30分钟</div>
-							</div>
-							<div class="weui-wepay-flow__intro-top">赔*元</div>
-						</div>
-						<div class="weui-wepay-flow__line weui-wepay-flow__line_ing">
-							<div class="weui-wepay-flow__process"></div>
-						</div>
-						<div class="weui-wepay-flow__li">
-							<div class="weui-wepay-flow__state"></div>
-							<p class="weui-wepay-flow__title-bottom">延误60分钟</p>
-							<div class="weui-wepay-flow__intro-top">赔*元</div>
-						</div>
-						<div class="weui-wepay-flow__line">
-							<div class="weui-wepay-flow__process"></div>
-						</div>
-						<div class="weui-wepay-flow__li">
-							<div class="weui-wepay-flow__state"></div>
-							<p class="weui-wepay-flow__title-bottom">延误120分钟</p>
-							<div class="weui-wepay-flow__intro-top">赔*元</div>
-						</div>
+		<div class="weui-wepay-flow">
+			<div class="weui-wepay-flow__bd">
+				<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+					<div class="weui-wepay-flow__state"></div>
+					<div class="weui-wepay-flow__title-bottom">
+						<div>延误30分钟</div>
 					</div>
+					<div class="weui-wepay-flow__intro-top">赔*元</div>
 				</div>
-				<blockquote>
-					<a href="javascript:;" class="copy-text" data-stat="1867">复制HTML代码</a>
-				</blockquote>
-				<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow&quot;&gt;
+				<div class="weui-wepay-flow__line weui-wepay-flow__line_ing">
+					<div class="weui-wepay-flow__process"></div>
+				</div>
+				<div class="weui-wepay-flow__li">
+					<div class="weui-wepay-flow__state"></div>
+					<p class="weui-wepay-flow__title-bottom">延误60分钟</p>
+					<div class="weui-wepay-flow__intro-top">赔*元</div>
+				</div>
+				<div class="weui-wepay-flow__line">
+					<div class="weui-wepay-flow__process"></div>
+				</div>
+				<div class="weui-wepay-flow__li">
+					<div class="weui-wepay-flow__state"></div>
+					<p class="weui-wepay-flow__title-bottom">延误120分钟</p>
+					<div class="weui-wepay-flow__intro-top">赔*元</div>
+				</div>
+			</div>
+		</div>
+		<blockquote>
+			<a href="javascript:;" class="copy-text" data-stat="1867">复制HTML代码</a>
+		</blockquote>
+		<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow&quot;&gt;
 	&lt;div class=&quot;weui-wepay-flow__bd&quot;&gt;
 		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
 			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
@@ -197,46 +196,46 @@
 			&lt;div class=&quot;weui-wepay-flow__intro-top&quot;&gt;赔*元&lt;/div&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
-&lt;/div&gt;</code></pre>				
-				<h2>
-					<span>垂直样式</span>
-				</h2>
-				<div class="weui-wepay-flow weui-wepay-flow_vertical" style="height: 320px;">
-					<div class="weui-wepay-flow__bd">
-						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
-							<div class="weui-wepay-flow__state">A</div>
-							<p class="weui-wepay-flow__title-right">已付款</p>
-						</div>
-						<div class="weui-wepay-flow__line weui-wepay-flow__line_done">
-							<div class="weui-wepay-flow__process"></div>
-							<div class="weui-wepay-flow__info-left">进行中</div>
-						</div>
-						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
-							<div class="weui-wepay-flow__state">B</div>
-							<p class="weui-wepay-flow__title-right">已发货</p>
-						</div>
-						<div class="weui-wepay-flow__line weui-wepay-flow__line_ing" >
-							<div class="weui-wepay-flow__process"></div>
-							<div class="weui-wepay-flow__info-left">进行中</div>
-						</div>
-						<div class="weui-wepay-flow__li">
-							<div class="weui-wepay-flow__state">C</div>
-							<p class="weui-wepay-flow__title-right">待收货</p>
-						</div>
-						<div class="weui-wepay-flow__line" >
-							<div class="weui-wepay-flow__process"></div>
-							<div class="weui-wepay-flow__info-left">进行中</div>
-						</div>
-						<div class="weui-wepay-flow__li">
-							<div class="weui-wepay-flow__state">D</div>
-							<p class="weui-wepay-flow__title-right">完成</p>
-						</div>
-					</div>
+&lt;/div&gt;</code></pre>
+		<h2>
+			<span>垂直样式</span>
+		</h2>
+		<div class="weui-wepay-flow weui-wepay-flow_vertical" style="height: 320px;">
+			<div class="weui-wepay-flow__bd">
+				<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+					<div class="weui-wepay-flow__state">A</div>
+					<p class="weui-wepay-flow__title-right">已付款</p>
 				</div>
-				<blockquote>
-					<a href="javascript:;" class="copy-text" data-stat="1868">复制HTML代码</a>
-				</blockquote>
-				<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow weui-wepay-flow_vertical&quot; style=&quot;height: 320px;&quot;&gt;
+				<div class="weui-wepay-flow__line weui-wepay-flow__line_done">
+					<div class="weui-wepay-flow__process"></div>
+					<div class="weui-wepay-flow__info-left">进行中</div>
+				</div>
+				<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+					<div class="weui-wepay-flow__state">B</div>
+					<p class="weui-wepay-flow__title-right">已发货</p>
+				</div>
+				<div class="weui-wepay-flow__line weui-wepay-flow__line_ing" >
+					<div class="weui-wepay-flow__process"></div>
+					<div class="weui-wepay-flow__info-left">进行中</div>
+				</div>
+				<div class="weui-wepay-flow__li">
+					<div class="weui-wepay-flow__state">C</div>
+					<p class="weui-wepay-flow__title-right">待收货</p>
+				</div>
+				<div class="weui-wepay-flow__line" >
+					<div class="weui-wepay-flow__process"></div>
+					<div class="weui-wepay-flow__info-left">进行中</div>
+				</div>
+				<div class="weui-wepay-flow__li">
+					<div class="weui-wepay-flow__state">D</div>
+					<p class="weui-wepay-flow__title-right">完成</p>
+				</div>
+			</div>
+		</div>
+		<blockquote>
+			<a href="javascript:;" class="copy-text" data-stat="1868">复制HTML代码</a>
+		</blockquote>
+		<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow weui-wepay-flow_vertical&quot; style=&quot;height: 320px;&quot;&gt;
 	&lt;div class=&quot;weui-wepay-flow__bd&quot;&gt;
 		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
 			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;A&lt;/div&gt;
@@ -268,42 +267,42 @@
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-				<div class="weui-wepay-flow weui-wepay-flow_vertical-custom">
-					<div class="weui-wepay-flow__bd">
-						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
-							<div class="weui-wepay-flow__state"></div>
-							<p class="weui-wepay-flow__title-right">发起申请</p>
-						</div>
-						<div class="weui-wepay-flow__line weui-wepay-flow__line_done" style="height: 50px;">
-							<div class="weui-wepay-flow__process"></div>
-							<div class="weui-wepay-flow__info-left">进行中</div>
-						</div>
-						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
-							<div class="weui-wepay-flow__state"></div>
-							<p class="weui-wepay-flow__title-right">已发货</p>
-						</div>
-						<div class="weui-wepay-flow__line" style="height: 100px;">
-							<div class="weui-wepay-flow__process"></div>
-							<div class="weui-wepay-flow__info-left">进行中</div>
-						</div>
-						<div class="weui-wepay-flow__li">
-							<div class="weui-wepay-flow__state"></div>
-							<p class="weui-wepay-flow__title-right">待确认收货</p>
-						</div>
-						<div class="weui-wepay-flow__line" style="height: 150px;">
-							<div class="weui-wepay-flow__process"></div>
-							<div class="weui-wepay-flow__info-left">进行中</div>
-						</div>
-						<div class="weui-wepay-flow__li">
-							<div class="weui-wepay-flow__state"></div>
-							<div class="weui-wepay-flow__title-right">完成</div>
-						</div>
-					</div>
+		<div class="weui-wepay-flow weui-wepay-flow_vertical-custom">
+			<div class="weui-wepay-flow__bd">
+				<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+					<div class="weui-wepay-flow__state"></div>
+					<p class="weui-wepay-flow__title-right">发起申请</p>
 				</div>
-				<blockquote>
-					<a href="javascript:;" class="copy-text" data-stat="1869">复制HTML代码</a>
-				</blockquote>
-				<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow weui-wepay-flow_vertical-custom&quot;&gt;
+				<div class="weui-wepay-flow__line weui-wepay-flow__line_done" style="height: 50px;">
+					<div class="weui-wepay-flow__process"></div>
+					<div class="weui-wepay-flow__info-left">进行中</div>
+				</div>
+				<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+					<div class="weui-wepay-flow__state"></div>
+					<p class="weui-wepay-flow__title-right">已发货</p>
+				</div>
+				<div class="weui-wepay-flow__line" style="height: 100px;">
+					<div class="weui-wepay-flow__process"></div>
+					<div class="weui-wepay-flow__info-left">进行中</div>
+				</div>
+				<div class="weui-wepay-flow__li">
+					<div class="weui-wepay-flow__state"></div>
+					<p class="weui-wepay-flow__title-right">待确认收货</p>
+				</div>
+				<div class="weui-wepay-flow__line" style="height: 150px;">
+					<div class="weui-wepay-flow__process"></div>
+					<div class="weui-wepay-flow__info-left">进行中</div>
+				</div>
+				<div class="weui-wepay-flow__li">
+					<div class="weui-wepay-flow__state"></div>
+					<div class="weui-wepay-flow__title-right">完成</div>
+				</div>
+			</div>
+		</div>
+		<blockquote>
+			<a href="javascript:;" class="copy-text" data-stat="1869">复制HTML代码</a>
+		</blockquote>
+		<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow weui-wepay-flow_vertical-custom&quot;&gt;
 	&lt;div class=&quot;weui-wepay-flow__bd&quot;&gt;
 		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
 			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
@@ -335,43 +334,43 @@
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-				<div class="weui-wepay-flow weui-wepay-flow_vertical" style="height: 320px;">
-					<div class="weui-wepay-flow__bd">
-						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
-							<div class="weui-wepay-flow__state"></div>
-							<div class="weui-wepay-flow__title-left">
-								<div class="flow_info_a">起飞时间</div>
-							</div>
-							<div class="weui-wepay-flow__intro-right">航班未按时起飞</div>
-						</div>
-						<div class="weui-wepay-flow__line weui-wepay-flow__line_done">
-							<div class="weui-wepay-flow__process"></div>
-							<div class="weui-wepay-flow__info-left">进行中</div>
-						</div>
-						<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
-							<div class="weui-wepay-flow__state"></div>
-							<div class="weui-wepay-flow__title-left">
-								<div class="flow_info_a">延误30分</div>
-								<p class="flow_info_b">理赔50元</p>
-							</div>
-							<div class="weui-wepay-flow__intro-right">已获得*元赔偿款</div>
-						</div>
-						<div class="weui-wepay-flow__line">
-							<div class="weui-wepay-flow__process"></div>
-						</div>
-						<div class="weui-wepay-flow__li">
-							<p class="weui-wepay-flow__state"></p>
-							<div class="weui-wepay-flow__title-left">
-								<div class="flow_info_a">延误60分</div>
-								<p class="flow_info_b">理赔*元</p>
-							</div>
-						</div>
+		<div class="weui-wepay-flow weui-wepay-flow_vertical" style="height: 320px;">
+			<div class="weui-wepay-flow__bd">
+				<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+					<div class="weui-wepay-flow__state"></div>
+					<div class="weui-wepay-flow__title-left">
+						<div class="flow_info_a">起飞时间</div>
+					</div>
+					<div class="weui-wepay-flow__intro-right">航班未按时起飞</div>
+				</div>
+				<div class="weui-wepay-flow__line weui-wepay-flow__line_done">
+					<div class="weui-wepay-flow__process"></div>
+					<div class="weui-wepay-flow__info-left">进行中</div>
+				</div>
+				<div class="weui-wepay-flow__li weui-wepay-flow__li_done">
+					<div class="weui-wepay-flow__state"></div>
+					<div class="weui-wepay-flow__title-left">
+						<div class="flow_info_a">延误30分</div>
+						<p class="flow_info_b">理赔50元</p>
+					</div>
+					<div class="weui-wepay-flow__intro-right">已获得*元赔偿款</div>
+				</div>
+				<div class="weui-wepay-flow__line">
+					<div class="weui-wepay-flow__process"></div>
+				</div>
+				<div class="weui-wepay-flow__li">
+					<p class="weui-wepay-flow__state"></p>
+					<div class="weui-wepay-flow__title-left">
+						<div class="flow_info_a">延误60分</div>
+						<p class="flow_info_b">理赔*元</p>
 					</div>
 				</div>
-				<blockquote>
-					<a href="javascript:;" class="copy-text" data-stat="1870">复制HTML代码</a>
-				</blockquote>
-				<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow weui-wepay-flow_vertical&quot; style=&quot;height: 320px;&quot;&gt;
+			</div>
+		</div>
+		<blockquote>
+			<a href="javascript:;" class="copy-text" data-stat="1870">复制HTML代码</a>
+		</blockquote>
+		<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow weui-wepay-flow_vertical&quot; style=&quot;height: 320px;&quot;&gt;
 	&lt;div class=&quot;weui-wepay-flow__bd&quot;&gt;
 		&lt;div class=&quot;weui-wepay-flow__li weui-wepay-flow__li_done&quot;&gt;
 			&lt;div class=&quot;weui-wepay-flow__state&quot;&gt;&lt;/div&gt;
@@ -404,39 +403,39 @@
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-				<div class="weui-wepay-flow-auto">
-					<div class="weui-wepay-flow-auto__bd">
-						<div class="weui-wepay-flow-auto__li">
-							<div class="weui-wepay-flow-auto__state"></div>
-							<div class="weui-wepay-flow-auto__line"></div>
-							<p class="weui-wepay-flow-auto__title">完成</p>
-						</div>
-						<div class="weui-wepay-flow-auto__li">
-							<div class="weui-wepay-flow-auto__state"></div>
-							<div class="weui-wepay-flow-auto__line"></div>
-							<p class="weui-wepay-flow-auto__title">待确认收货</p>
-						</div>
-						<div class="weui-wepay-flow-auto__li">
-							<div class="weui-wepay-flow-auto__state weui-wepay-flow-auto__state_on"></div>
-							<div class="weui-wepay-flow-auto__line weui-wepay-flow-auto__line_on"></div>
-							<p class="weui-wepay-flow-auto__title">已发货</p>
-							<p class="weui-wepay-flow-auto__info">物流单号：顺丰x0123456</p>
-							<p class="weui-wepay-flow-auto__info">其它备注：留意...</p>
-						</div>
-						<div class="weui-wepay-flow-auto__li">
-							<div class="weui-wepay-flow-auto__state weui-wepay-flow-auto__state_on"></div>
-							<p class="weui-wepay-flow-auto__title">发起申请 2015-03-01</p>
-							<p class="weui-wepay-flow-auto__info">订单编号：123456</p>
-							<p class="weui-wepay-flow-auto__info">商户名称：某某商户</p>
-							<p class="weui-wepay-flow-auto__info">收货地址：深圳市南山区科技中一路</p>
-							<p class="weui-wepay-flow-auto__info">物流清单：物品1，物品2</p>
-						</div>
-					</div>
+		<div class="weui-wepay-flow-auto">
+			<div class="weui-wepay-flow-auto__bd">
+				<div class="weui-wepay-flow-auto__li">
+					<div class="weui-wepay-flow-auto__state"></div>
+					<div class="weui-wepay-flow-auto__line"></div>
+					<p class="weui-wepay-flow-auto__title">完成</p>
 				</div>
-				<blockquote>
-					<a href="javascript:;" class="copy-text" data-stat="1871">复制HTML代码</a>
-				</blockquote>
-				<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow-auto&quot;&gt;
+				<div class="weui-wepay-flow-auto__li">
+					<div class="weui-wepay-flow-auto__state"></div>
+					<div class="weui-wepay-flow-auto__line"></div>
+					<p class="weui-wepay-flow-auto__title">待确认收货</p>
+				</div>
+				<div class="weui-wepay-flow-auto__li">
+					<div class="weui-wepay-flow-auto__state weui-wepay-flow-auto__state_on"></div>
+					<div class="weui-wepay-flow-auto__line weui-wepay-flow-auto__line_on"></div>
+					<p class="weui-wepay-flow-auto__title">已发货</p>
+					<p class="weui-wepay-flow-auto__info">物流单号：顺丰x0123456</p>
+					<p class="weui-wepay-flow-auto__info">其它备注：留意...</p>
+				</div>
+				<div class="weui-wepay-flow-auto__li">
+					<div class="weui-wepay-flow-auto__state weui-wepay-flow-auto__state_on"></div>
+					<p class="weui-wepay-flow-auto__title">发起申请 2015-03-01</p>
+					<p class="weui-wepay-flow-auto__info">订单编号：123456</p>
+					<p class="weui-wepay-flow-auto__info">商户名称：某某商户</p>
+					<p class="weui-wepay-flow-auto__info">收货地址：深圳市南山区科技中一路</p>
+					<p class="weui-wepay-flow-auto__info">物流清单：物品1，物品2</p>
+				</div>
+			</div>
+		</div>
+		<blockquote>
+			<a href="javascript:;" class="copy-text" data-stat="1871">复制HTML代码</a>
+		</blockquote>
+		<pre><code class="hljs xml">&lt;div class=&quot;weui-wepay-flow-auto&quot;&gt;
 	&lt;div class=&quot;weui-wepay-flow-auto__bd&quot;&gt;
 		&lt;div class=&quot;weui-wepay-flow-auto__li&quot;&gt;
 			&lt;div class=&quot;weui-wepay-flow-auto__state&quot;&gt;&lt;/div&gt;
@@ -465,11 +464,11 @@
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-			</div>
-		</div>
-		<blockquote><a href="javascript:;" class="copy-text" data-stat="1872">复制CSS代码</a></blockquote>
+		<blockquote>
+			<a href="javascript:;" class="copy-text" data-stat="1872">复制CSS代码</a>
+		</blockquote>
 		<pre><code class="hljs css">/*!
-* WePayUI v0.0.12 (https://github.com/wepayui/wepayui)
+* WePayUI v0.1.1 (https://github.com/wepayui/wepayui)
 * Copyright 2017 Tencent, Inc.
 * Licensed under the MIT license
 * Component : [weui-wepay-flow]

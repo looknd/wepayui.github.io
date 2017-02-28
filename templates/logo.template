@@ -7,18 +7,18 @@
 	<blockquote><p>图片已CDN，点击图标即可复制HTML代码，粘贴到项目即可使用。</p></blockquote>
   	<div class="wepaylogo-list-wrap">
   		<ul class="wepaylogo-list">
-	  		<li class="green copy-html" data-stat="1673"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_white_200x200.png" alt="" width="60" height="60"></li>
+	  		<li class="green copy-html supermanin" data-stat="1673"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_white_200x200.png" alt="" width="60" height="60"></li>
 	  		<li class="white copy-html" data-stat="1674"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_green_200x200.png" alt="" width="60" height="60"></li>
+	  		<li class="green copy-html" data-stat="1681"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_white_300x320.png" alt="" width="68" height="73"></li>
+			<li class="white copy-html" data-stat="1682"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_green_300x320.png" alt="" width="68" height="73"></li>
+			<li class="green copy-html" data-stat="1683"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_en_white_336x320.png" alt="" width="68" height="73"></li>
+			<li class="white copy-html" data-stat="1684"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_en_green_336x320.png" alt="" width="68" height="73"></li>
 	  		<li class="green long copy-html" data-stat="1675"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_white_500x126.png" alt="" width="160" height="40"></li>
 			<li class="white long copy-html" data-stat="1676"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_green_500x126.png" alt="" width="160" height="40"></li>
 			<li class="gray long copy-html" data-stat="1677"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_gray_500x126.png" alt="" width="160" height="40"></li>
 			<li class="green long copy-html" data-stat="1678"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_en_white_608x126.png" alt="" width="193" height="40"></li>
-			<li class="gray long copy-html" data-stat="1679"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_en_gray_608x126.png" alt="" width="193" height="40"></li>
 			<li class="white long copy-html" data-stat="1680"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_en_green_608x126.png" alt="" width="193" height="40"></li>
-			<li class="green copy-html" data-stat="1681"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_white_300x320.png" alt="" width="68" height="73"></li>
-			<li class="white copy-html" data-stat="1682"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_green_300x320.png" alt="" width="68" height="73"></li>
-			<li class="green copy-html" data-stat="1683"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_en_white_336x320.png" alt="" width="68" height="73"></li>
-			<li class="white copy-html" data-stat="1684"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_en_green_336x320.png" alt="" width="68" height="73"></li>
+			<li class="gray long copy-html" data-stat="1679"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_en_gray_608x126.png" alt="" width="193" height="40"></li>
 			<li class="green long copy-html" data-stat="1685"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_recommend_white_672x126.png" alt="" width="250" height="36"></li>
 			<li class="white long copy-html" data-stat="1686"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_recommend_green_672x126.png" alt="" width="250" height="36"></li>
 			<li class="white copy-html" data-stat="1768" style="height:200px"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/nocashday_logo_214x348.png" alt="" height="120"></li>
@@ -31,28 +31,25 @@
 	  	<ul class="wepaylogo-list">
 	  		<li class="green copy-html" data-stat="1687"><i class="weui-wepay-logo weui-wepay-logo_white"></i></li>
 	  		<li class="white copy-html" data-stat="1688"><i class="weui-wepay-logo"></i></li>
+	  		<li class="green copy-html" data-stat="1695"><i class="weui-wepay-logo-primary weui-wepay-logo_white"><span class="path1"></span><span class="path2"></span></i></li>
+			<li class="white copy-html" data-stat="1696"><i class="weui-wepay-logo-primary"><span class="path1"></span><span class="path2"></span></i></li>
+			<li class="green copy-html" data-stat="1697"><i class="weui-wepay-logo-primary-en weui-wepay-logo_white"><span class="path1"></span><span class="path2"></span></i></li>
+			<li class="white copy-html" data-stat="1698"><i class="weui-wepay-logo-primary-en"><span class="path1"></span><span class="path2"></span></i></li>
 	  		<li class="green long copy-html" data-stat="1689"><i class="weui-wepay-logo-default weui-wepay-logo_white"><span class="path1"></span><span class="path2"></span></i></li>
 			<li class="white long copy-html" data-stat="1690"><i class="weui-wepay-logo-default"><span class="path1"></span><span class="path2"></span></i></li>
 			<li class="gray long copy-html" data-stat="1691"><i class="weui-wepay-logo-default weui-wepay-logo_gray"><span class="path1"></span><span class="path2"></span></i></li>
 
-
 			<li class="green long copy-html" data-stat="1692"><i class="weui-wepay-logo-default-en weui-wepay-logo_white"><span class="path1"></span><span class="path2"></span></i></li>
-			<li class="gray long copy-html" data-stat="1693"><i class="weui-wepay-logo-default-en weui-wepay-logo_gray"><span class="path1"></span><span class="path2"></span></i></li>
 			<li class="white long copy-html" data-stat="1694"><i class="weui-wepay-logo-default-en"><span class="path1"></span><span class="path2"></span></i></li>
-
-
-			<li class="green copy-html" data-stat="1695"><i class="weui-wepay-logo-primary weui-wepay-logo_white"><span class="path1"></span><span class="path2"></span></i></li>
-			<li class="white copy-html" data-stat="1696"><i class="weui-wepay-logo-primary"><span class="path1"></span><span class="path2"></span></i></li>
-			<li class="green copy-html" data-stat="1697"><i class="weui-wepay-logo-primary-en weui-wepay-logo_white"><span class="path1"></span><span class="path2"></span></i></li>
-			<li class="white copy-html" data-stat="1698"><i class="weui-wepay-logo-primary-en"><span class="path1"></span><span class="path2"></span></i></li>
+			<li class="gray long copy-html" data-stat="1693"><i class="weui-wepay-logo-default-en weui-wepay-logo_gray"><span class="path1"></span><span class="path2"></span></i></li>
 			<li class="green long copy-html" data-stat="1699"><i class="weui-wepay-logo-recommend weui-wepay-logo_white" style="font-size: 36px;"><span class="path1"></span><span class="path2"></span></i></li>
 			<li class="white long copy-html" data-stat="1700"><i class="weui-wepay-logo-recommend" style="font-size: 36px;"><span class="path1"></span><span class="path2"></span></i></li>
 	  	</ul>
   	</div>
   	<blockquote><a href="javascript:;" class="copy-text" data-stat="1701">复制CSS代码</a></blockquote>
   	<pre class="prettyprint hljs-light"><code class="hlhs css">/*!
- * WePayUI v0.0.1 (https://github.com/wepayui/wepayui)
- * Copyright 2016 Tencent, Inc.
+ * WePayUI v0.1.1 (https://github.com/wepayui/wepayui)
+ * Copyright 2017 Tencent, Inc.
  * Licensed under the MIT license
  * Component : [weui-wepay-logo]
  */

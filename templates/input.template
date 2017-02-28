@@ -414,8 +414,8 @@
 &lt;/div&gt;</code></pre>
 <blockquote><a href="javascript:;" class="copy-text" data-stat="1734">复制CSS代码</a></blockquote>
 		<pre><code class="hljs css">/*!
- * WePayUI v0.0.1 (https://github.com/wepayui/wepayui)
- * Copyright 2016 Tencent, Inc.
+ * WePayUI v0.1.1 (https://github.com/wepayui/wepayui)
+ * Copyright 2017 Tencent, Inc.
  * Licensed under the MIT license
  * Component : [weui-cell]
  */
