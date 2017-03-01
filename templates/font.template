@@ -33,6 +33,7 @@
     </li>
   </ul>
   -->
+  <div class="wepayfontsize">
     <div class="wepayfontsize-list">
       <div class="wepayfontsize-list-title" style="font-size:40px;">Light,40px</div>
       <div class="wepayfontsize-list-note">只能用阿拉伯数字信息，如金额，时间等</div>
@@ -61,6 +62,7 @@
       <div class="wepayfontsize-list-title" style="font-size:11px;">Regular,11px</div>
       <div class="wepayfontsize-list-note">说明文本，如版权信息等不需要用户关注的信息</div>
     </div>
+</div>
   <h2>
     <span>功能字色</span>
   </h2>
