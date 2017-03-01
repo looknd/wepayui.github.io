@@ -28,10 +28,10 @@
       <li class="short copy-html" data-stat="1708"><i class="weui-icon-success-no-circle"></i></li>
       <li class="short copy-html" data-stat="1709"><i class="weui-icon-circle"></i></li>
       <li class="short copy-html" data-stat="1710"><i class="weui-icon-warn"></i></li>
-      <li class="short copy-html" data-stat="1711"><i class="weui-icon-download"></i></li>
+<!--       <li class="short copy-html" data-stat="1711"><i class="weui-icon-download"></i></li> -->
       <li class="short copy-html" data-stat="1712"><i class="weui-icon-info-circle"></i></li>
-      <li class="short copy-html" data-stat="1713"><i class="weui-icon-cancel"></i></li>
-      <li class="short copy-html" data-stat="1714"><i class="weui-icon-search"></i></li>
+<!--       <li class="short copy-html" data-stat="1713"><i class="weui-icon-cancel"></i></li>
+      <li class="short copy-html" data-stat="1714"><i class="weui-icon-search"></i></li> -->
     </ul>
     <blockquote><a href="javascript:;" class="copy-text" data-stat="1715">复制CSS代码</a></blockquote>
     <pre><code class="hljs css">/*!
