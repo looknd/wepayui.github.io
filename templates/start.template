@@ -6,21 +6,6 @@
     <section>
         <p>WePayUI 由微信支付为服务商和商户量身打造，用于快速制作符合微信支付规范的Web页面，提升开发效率。WePayUI 基于 <a href="https://github.com/weui/weui" target="_blank">WeUI</a> 拓展，包含基础组件和行业场景。</p>
     </section>
-
-    <!-- <section>
-        <h2>价值</h2>
-        <ul class="wepay-article-cir">
-            <li>
-                <p>快速实现自定义微信支付基础样式库 </p>
-            </li>
-            <li>
-                <p>快速实现微信收款付款、收付款流程、收付款记录等支付相关HTML5页面</p>
-            </li>
-            <li>
-                <p>快速输出行业解决方案HTML5页面，如智慧停车场、智慧医院、智慧客运等</p>
-            </li>
-        </ul>
-    </section> -->
     <section>
         <h2>快速使用</h2>
         <p>我们提供了复制代码，用完即走的功能。</p>
