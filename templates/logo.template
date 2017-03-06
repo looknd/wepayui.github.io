@@ -1,31 +1,136 @@
 <!-- [[logo -->
 <article class="wepay-article" id="logo">
-  <h1>Logo<span class="subtitle">微信支付商标</span></h1>
+  <h1>Logo<span class="subtitle">微信支付标志</span></h1>
   <section>
-  	<p>包含的微信支付品牌商标，如微信支付logo、无现金日logo。</p>
-	<h2><span>位图</span></h2>
+  	<p>线上专用RGB模式。其中微信支付logo由标志图形和文字组成，标志由“气泡”和“大勾”两个元素构成，具“社交”与“支付成功”的含义。</p>
+  	<h2><span>色彩规范</span></h2>
+	<blockquote><p>微信支付标志的线上专用色彩规范，需严格按照色彩规范使用标志，禁止使用其它非标准色彩。</p></blockquote>
+	<div class="wepaylogo-norm">
+		<div class="wepaylogo-norm-li">
+			<div class="wepaylogo-norm-cnt green"></div>
+			<div class="wepaylogo-norm-title">标准绿</div>
+			<p class="wepaylogo-norm-info copy-html" data-stat="1963">#1AAD19</p>
+		</div>
+<!-- 		<div class="wepaylogo-norm-li">
+			<div class="wepaylogo-norm-cnt black"></div>
+			<div class="wepaylogo-norm-title">标准黑</div>
+			<p class="wepaylogo-norm-info">#242121</p>
+		</div> -->
+		<div class="wepaylogo-norm-li">
+			<div class="wepaylogo-norm-cnt gray"></div>
+			<div class="wepaylogo-norm-title">辅助灰</div>
+			<p class="wepaylogo-norm-info copy-html" data-stat="1963">#CCCCCC</p>
+		</div>
+		<div class="wepaylogo-norm-li">
+			<div class="wepaylogo-norm-cnt white"></div>
+			<div class="wepaylogo-norm-title">辅助白</div>
+			<p class="wepaylogo-norm-info copy-html" data-stat="1963">#FFFFFF</p>
+		</div>
+	</div>
+	<h2><span>位图(透明PNG)</span></h2>
 	<blockquote><p>图片已CDN，点击图标即可复制HTML代码，粘贴到项目即可使用。</p></blockquote>
   	<div class="wepaylogo-list-wrap">
+  		<h3>微信支付 - 单一logo</h3>
+		<ul class="wepaylogo-list">
+			<li class="square green copy-html" data-stat="1954"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_white_200x200.png" alt="" width="60" height="60"></li>
+	  		<li class="square white copy-html" data-stat="1954"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_green_200x200.png" alt="" width="60" height="60"></li>
+	  		<li class="square white copy-html" data-stat="1954"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_gray_200x200.png" alt="" width="60" height="60"></li>
+	  	</ul>
+	  	<h3>微信支付 - 竖版Logo</h3>
   		<ul class="wepaylogo-list">
-	  		<li class="green copy-html supermanin" data-stat="1673"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_white_200x200.png" alt="" width="60" height="60"></li>
-	  		<li class="white copy-html" data-stat="1674"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_green_200x200.png" alt="" width="60" height="60"></li>
-	  		<li class="green copy-html" data-stat="1681"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_white_300x320.png" alt="" width="68" height="73"></li>
-			<li class="white copy-html" data-stat="1682"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_green_300x320.png" alt="" width="68" height="73"></li>
-			<li class="green copy-html" data-stat="1683"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_en_white_336x320.png" alt="" width="68" height="73"></li>
-			<li class="white copy-html" data-stat="1684"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_en_green_336x320.png" alt="" width="68" height="73"></li>
-	  		<li class="green long copy-html" data-stat="1675"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_white_500x126.png" alt="" width="160" height="40"></li>
-			<li class="white long copy-html" data-stat="1676"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_green_500x126.png" alt="" width="160" height="40"></li>
-			<li class="gray long copy-html" data-stat="1677"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_gray_500x126.png" alt="" width="160" height="40"></li>
-			<li class="green long copy-html" data-stat="1678"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_en_white_608x126.png" alt="" width="193" height="40"></li>
-			<li class="white long copy-html" data-stat="1680"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_en_green_608x126.png" alt="" width="193" height="40"></li>
-			<li class="gray long copy-html" data-stat="1679"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_en_gray_608x126.png" alt="" width="193" height="40"></li>
-			<li class="green long copy-html" data-stat="1685"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_recommend_white_672x126.png" alt="" width="250" height="36"></li>
-			<li class="white long copy-html" data-stat="1686"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_recommend_green_672x126.png" alt="" width="250" height="36"></li>
-			<li class="white copy-html" data-stat="1768" style="height:200px"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/nocashday_logo_214x348.png" alt="" height="120"></li>
-			<li class="white copy-html" data-stat="1769" style="height:200px"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/nocashday_logo_406_172.png" alt="" height="50"></li>
+	  	<ul class="wepaylogo-list">
+	  		<li class="square green copy-html" data-stat="1955"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_white_300x320.png" alt="" width="68" height="73"></li>
+			<li class="square white copy-html" data-stat="1955"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_green_300x320.png" alt="" width="68" height="73"></li>
+			<li class="square white copy-html" data-stat="1955"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_gray_300x320.png" alt="" width="68" height="73"></li>
+		</ul>
+		<ul class="wepaylogo-list">
+	  		<li class="square green copy-html" data-stat="1955"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_extend_white_300x376.png" alt="" width="68" height="85"></li>
+			<li class="square white copy-html" data-stat="1955"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_extend_green_300x376.png" alt="" width="68" height="85"></li>
+			<li class="square white copy-html" data-stat="1955"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_extend_gray_300x376.png" alt="" width="68" height="85"></li>
+		</ul>
+		<ul class="wepaylogo-list">	
+			<li class="square green copy-html" data-stat="1955"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_en_white_336x320.png" alt="" width="68" height="73"></li>
+			<li class="square white copy-html" data-stat="1955"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_en_green_336x320.png" alt="" width="68" height="73"></li>
+			<li class="square white copy-html" data-stat="1955"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_en_gray_336x320.png" alt="" width="68" height="73"></li>
+	  	</ul>
+	  	<h3>微信支付 - 横版Logo</h3>
+	  	<ul class="wepaylogo-list">
+			<li class="rectangle green copy-html" data-stat="1956"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_white_500x126.png" alt="" width="160" height="40"></li>
+			<li class="rectangle white copy-html" data-stat="1956"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_green_500x126.png" alt="" width="160" height="40"></li>
+			<li class="rectangle white copy-html" data-stat="1956"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_gray_500x126.png" alt="" width="160" height="40"></li>
+	  	</ul>
+	  	<ul class="wepaylogo-list">
+	  		<li class="rectangle green copy-html" data-stat="1956"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_extend_white_382x126.png" alt="" width="121" height="40"></li>
+			<li class="rectangle white copy-html" data-stat="1956"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_extend_green_382x126.png" alt="" width="121" height="40"></li>
+			<li class="rectangle white copy-html" data-stat="1956"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_extend_gray_382x126.png" alt="" width="121" height="40"></li>
+		</ul>
+	  	<ul class="wepaylogo-list">
+			<li class="rectangle green copy-html" data-stat="1956"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_en_white_608x126.png" alt="" width="193" height="40"></li>
+			<li class="rectangle white copy-html" data-stat="1956"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_en_green_608x126.png" alt="" width="193" height="40"></li>
+			<li class="rectangle white copy-html" data-stat="1956"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_en_gray_608x126.png" alt="" width="193" height="40"></li>
+	  	</ul>
+		
+	  	<h3>微信支付 - 本店推荐使用</h3>
+	  	<ul class="wepaylogo-list">
+			<li class="rectangle green copy-html" data-stat="1957"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_recommend_white_872x126.png" alt="" width="208" height="30"></li>
+			<li class="rectangle white copy-html" data-stat="1957"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_recommend_green_872x126.png" alt="" width="208" height="30"></li>
+	  	</ul>
+	  	<h3>微信支付 - “无现金日”标识规范</h3>
+  		<ul class="wepaylogo-list">
+			<li class="square-l white copy-html" data-stat="1958"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/nocashday_logo_214x348.png" alt="" width="107" height="174"></li>
+			<li class="square-l white copy-html" data-stat="1958"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/nocashday_logo_406_172.png" alt="" width="203" height="86"></li>
 	  	</ul>
   	</div>
-  	<h2><span>矢量图形</span></h2>
+  	<h2><span>矢量图形(SVG)</span></h2>
+  	<blockquote><p>图片已CDN，点击图标即可复制HTML代码，粘贴到项目即可使用。</p></blockquote>
+  	<div class="wepaylogo-list-wrap">
+  		<h3>微信支付 - 单一logo</h3>
+		<ul class="wepaylogo-list">
+	  		<li class="square green copy-html" data-stat="1959"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_white.svg" alt="" width="60" height="60"></li>
+	  		<li class="square white copy-html" data-stat="1959"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_green.svg" alt="" width="60" height="60"></li>
+	  		<li class="square white copy-html" data-stat="1959"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_gray.svg" alt="" width="60" height="60"></li>
+	  	</ul>
+	  	<h3>微信支付 - 竖版Logo</h3>
+  		<ul class="wepaylogo-list">
+	  	<ul class="wepaylogo-list">
+	  		<li class="square green copy-html" data-stat="1960"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_white.svg" alt="" width="68" height="73"></li>
+			<li class="square white copy-html" data-stat="1960"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_green.svg" alt="" width="68" height="73"></li>
+			<li class="square white copy-html" data-stat="1960"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_gray.svg" alt="" width="68" height="73"></li>
+		</ul>
+		<ul class="wepaylogo-list">
+	  		<li class="square green copy-html" data-stat="1960"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_extend_white.svg" alt="" width="68" height="85"></li>
+			<li class="square white copy-html" data-stat="1960"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_extend_green.svg" alt="" width="68" height="85"></li>
+			<li class="square white copy-html" data-stat="1960"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_extend_gray.svg" alt="" width="68" height="85"></li>
+		</ul>
+		<ul class="wepaylogo-list">	
+			<li class="square green copy-html" data-stat="1960"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_en_white.svg" alt="" width="68" height="73"></li>
+			<li class="square white copy-html" data-stat="1960"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_en_green.svg" alt="" width="68" height="73"></li>
+			<li class="square white copy-html" data-stat="1960"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_primary_en_gray.svg" alt="" width="68" height="73"></li>
+	  	</ul>
+	  	<h3>微信支付 - 横版Logo</h3>
+	  	<ul class="wepaylogo-list">
+			<li class="rectangle green copy-html" data-stat="1961"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_white.svg" alt="" width="160" height="40"></li>
+			<li class="rectangle white copy-html" data-stat="1961"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_green.svg" alt="" width="160" height="40"></li>
+			<li class="rectangle white copy-html" data-stat="1961"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_gray.svg" alt="" width="160" height="40"></li>
+	  	</ul>
+	  	<ul class="wepaylogo-list">
+	  		<li class="rectangle green copy-html" data-stat="1961"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_extend_white.svg" alt="" width="121" height="40"></li>
+			<li class="rectangle white copy-html" data-stat="1961"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_extend_green.svg" alt="" width="121" height="40"></li>
+			<li class="rectangle white copy-html" data-stat="1961"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_extend_gray.svg" alt="" width="121" height="40"></li>
+		</ul>
+	  	<ul class="wepaylogo-list">
+			<li class="rectangle green copy-html" data-stat="1961"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_en_white.svg" alt="" width="193" height="40"></li>
+			<li class="rectangle white copy-html" data-stat="1961"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_en_green.svg" alt="" width="193" height="40"></li>
+			<li class="rectangle white copy-html" data-stat="1961"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_en_gray.svg" alt="" width="193" height="40"></li>
+	  	</ul>
+		
+	  	<h3>微信支付 - 本店推荐使用</h3>
+	  	<ul class="wepaylogo-list">
+			<li class="rectangle green copy-html" data-stat="1962"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_recommend_white.svg" alt="" width="208" height="30"></li>
+			<li class="rectangle white copy-html" data-stat="1962"><img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_recommend_green.svg" alt="" width="208" height="30"></li>
+	  	</ul>
+  	</div>
+  	<!-- <h2><span>矢量图形</span></h2>
 	<blockquote><p>点击图标即可复制HTML代码。</p></blockquote>
   	<div class="wepaylogo-list-wrap">
 	  	<ul class="wepaylogo-list">
@@ -35,15 +140,15 @@
 			<li class="white copy-html" data-stat="1696"><i class="weui-wepay-logo-primary"><span class="path1"></span><span class="path2"></span></i></li>
 			<li class="green copy-html" data-stat="1697"><i class="weui-wepay-logo-primary-en weui-wepay-logo_white"><span class="path1"></span><span class="path2"></span></i></li>
 			<li class="white copy-html" data-stat="1698"><i class="weui-wepay-logo-primary-en"><span class="path1"></span><span class="path2"></span></i></li>
-	  		<li class="green long copy-html" data-stat="1689"><i class="weui-wepay-logo-default weui-wepay-logo_white"><span class="path1"></span><span class="path2"></span></i></li>
-			<li class="white long copy-html" data-stat="1690"><i class="weui-wepay-logo-default"><span class="path1"></span><span class="path2"></span></i></li>
-			<li class="gray long copy-html" data-stat="1691"><i class="weui-wepay-logo-default weui-wepay-logo_gray"><span class="path1"></span><span class="path2"></span></i></li>
+	  		<li class="green copy-html" data-stat="1689"><i class="weui-wepay-logo-default weui-wepay-logo_white"><span class="path1"></span><span class="path2"></span></i></li>
+			<li class="white copy-html" data-stat="1690"><i class="weui-wepay-logo-default"><span class="path1"></span><span class="path2"></span></i></li>
+			<li class="white copy-html" data-stat="1691"><i class="weui-wepay-logo-default weui-wepay-logo_gray"><span class="path1"></span><span class="path2"></span></i></li>
 
-			<li class="green long copy-html" data-stat="1692"><i class="weui-wepay-logo-default-en weui-wepay-logo_white"><span class="path1"></span><span class="path2"></span></i></li>
-			<li class="white long copy-html" data-stat="1694"><i class="weui-wepay-logo-default-en"><span class="path1"></span><span class="path2"></span></i></li>
-			<li class="gray long copy-html" data-stat="1693"><i class="weui-wepay-logo-default-en weui-wepay-logo_gray"><span class="path1"></span><span class="path2"></span></i></li>
-			<li class="green long copy-html" data-stat="1699"><i class="weui-wepay-logo-recommend weui-wepay-logo_white" style="font-size: 36px;"><span class="path1"></span><span class="path2"></span></i></li>
-			<li class="white long copy-html" data-stat="1700"><i class="weui-wepay-logo-recommend" style="font-size: 36px;"><span class="path1"></span><span class="path2"></span></i></li>
+			<li class="green copy-html" data-stat="1692"><i class="weui-wepay-logo-default-en weui-wepay-logo_white"><span class="path1"></span><span class="path2"></span></i></li>
+			<li class="white copy-html" data-stat="1694"><i class="weui-wepay-logo-default-en"><span class="path1"></span><span class="path2"></span></i></li>
+			<li class="white copy-html" data-stat="1693"><i class="weui-wepay-logo-default-en weui-wepay-logo_gray"><span class="path1"></span><span class="path2"></span></i></li>
+			<li class="green copy-html" data-stat="1699"><i class="weui-wepay-logo-recommend weui-wepay-logo_white" style="font-size: 36px;"><span class="path1"></span><span class="path2"></span></i></li>
+			<li class="white copy-html" data-stat="1700"><i class="weui-wepay-logo-recommend" style="font-size: 36px;"><span class="path1"></span><span class="path2"></span></i></li>
 	  	</ul>
   	</div>
   	<blockquote><a href="javascript:;" class="copy-text" data-stat="1701">复制CSS代码</a></blockquote>
@@ -81,7 +186,7 @@ a{text-decoration:none;-webkit-tap-highlight-color:transparent}
 .weui-wepay-logos__line{box-sizing:border-box;margin:0 14px;width:1px;height:36px;background-color:#c7c2c0}
 .weui-wepay-logos_primary .weui-wepay-logos__icon{font-size:72px}
 .weui-wepay-logos_primary .weui-wepay-logos__line{height:72px}
-.weui-wepay-logos_ft{position:fixed;bottom:0;left:0;z-index:0;width:100%;background-color:transparent;text-align:center}</code></pre>
+.weui-wepay-logos_ft{position:fixed;bottom:0;left:0;z-index:0;width:100%;background-color:transparent;text-align:center}</code></pre> -->
   </section>
 </article>
 <!-- logo]] -->

@@ -5,109 +5,90 @@
     <span class="subtitle">字体规范</span>
   </h1>
   <section>
-    <p>微信支付页面的字体与所运行的系统字体保持一致，常用字号为20, 18, 17, 16,14 13, 11(px)，使用场景具体如下。</p>
+    <p>
+      微信支付页面常用的字体和功能字色。
+    </p>
     <h2>
       <span>字体规范</span>
     </h2>
-    <!--     <ul class="wepayfont-list wepayfont-list_size">
-    <li>
-      <p style="font-size: 44px">44px</p>
-    </li>
-    <li>
-      <p style="font-size: 40px">40px</p>
-    </li>
-    <li>
-      <p style="font-size: 36px">36px</p>
-    </li>
-    <li>
-      <p style="font-size: 32px">32px</p>
-    </li>
-    <li>
-      <p style="font-size: 28px">28px</p>
-    </li>
-    <li>
-      <p style="font-size: 24px">24px</p>
-    </li>
-    <li>
-      <p style="font-size: 20px">20px</p>
-    </li>
-  </ul>
-  -->
-  <div class="wepayfontsize">
-    <div class="wepayfontsize-list">
-      <div class="wepayfontsize-list-title" style="font-size:40px;">Light,40px</div>
-      <div class="wepayfontsize-list-note">只能用阿拉伯数字信息，如金额，时间等</div>
+    <blockquote>
+      <p>微信支付页面的字体与所运行的系统字体保持一致，常用字号为20, 18, 17, 16,14 13, 11(px)，使用场景具体如下。</p>
+    </blockquote>
+    <div class="wepayfontsize">
+      <div class="wepayfontsize-list">
+        <div class="wepayfontsize-list-title" style="font-size:40px;">Light,40px</div>
+        <div class="wepayfontsize-list-note">只能用阿拉伯数字信息，如金额，时间等</div>
+      </div>
+      <div class="wepayfontsize-list">
+        <div class="wepayfontsize-list-title" style="font-size:20px;">Medium,20px</div>
+        <div class="wepayfontsize-list-note">页面大标题，一般用于结果、空状态等信息单一页面</div>
+      </div>
+      <div class="wepayfontsize-list">
+        <div class="wepayfontsize-list-title" style="font-size:18px;">Regular,18px</div>
+        <div class="wepayfontsize-list-note">页面内大按钮字体，与按钮搭配使用</div>
+      </div>
+      <div class="wepayfontsize-list">
+        <div class="wepayfontsize-list-title" style="font-size:17px;">Regular,17px</div>
+        <div class="wepayfontsize-list-note">页面内首要层级信息，基准的，可以是连续的，如列表标题，消息气泡</div>
+      </div>
+      <div class="wepayfontsize-list">
+        <div class="wepayfontsize-list-title" style="font-size:14px;">Regular,14px</div>
+        <div class="wepayfontsize-list-note">页面内次要描述信息，服务于首要信息并与之关联，如列表摘要</div>
+      </div>
+      <div class="wepayfontsize-list">
+        <div class="wepayfontsize-list-title" style="font-size:13px;">Regular,13px</div>
+        <div class="wepayfontsize-list-note">页面辅助信息，需弱化的内容，如链接，小按钮</div>
+      </div>
+      <div class="wepayfontsize-list">
+        <div class="wepayfontsize-list-title" style="font-size:11px;">Regular,11px</div>
+        <div class="wepayfontsize-list-note">说明文本，如版权信息等不需要用户关注的信息</div>
+      </div>
     </div>
-    <div class="wepayfontsize-list">
-      <div class="wepayfontsize-list-title" style="font-size:20px;">Medium,20px</div>
-      <div class="wepayfontsize-list-note">页面大标题，一般用于结果、空状态等信息单一页面</div>
-    </div>
-    <div class="wepayfontsize-list">
-      <div class="wepayfontsize-list-title" style="font-size:18px;">Regular,18px</div>
-      <div class="wepayfontsize-list-note">页面内大按钮字体，与按钮搭配使用</div>
-    </div>
-    <div class="wepayfontsize-list">
-      <div class="wepayfontsize-list-title" style="font-size:17px;">Regular,17px</div>
-      <div class="wepayfontsize-list-note">页面内首要层级信息，基准的，可以是连续的，如列表标题，消息气泡</div>
-    </div>
-    <div class="wepayfontsize-list">
-      <div class="wepayfontsize-list-title" style="font-size:14px;">Regular,14px</div>
-      <div class="wepayfontsize-list-note">页面内次要描述信息，服务于首要信息并与之关联，如列表摘要</div>
-    </div>
-    <div class="wepayfontsize-list">
-      <div class="wepayfontsize-list-title" style="font-size:13px;">Regular,13px</div>
-      <div class="wepayfontsize-list-note">页面辅助信息，需弱化的内容，如链接，小按钮</div>
-    </div>
-    <div class="wepayfontsize-list">
-      <div class="wepayfontsize-list-title" style="font-size:11px;">Regular,11px</div>
-      <div class="wepayfontsize-list-note">说明文本，如版权信息等不需要用户关注的信息</div>
-    </div>
-</div>
-  <h2>
-    <span>功能字色</span>
-  </h2>
-  <ul class="wepayfont-list wepayfont-list_color">
-    <li>
-      <p class="wepayfontcolor fontcolor-dark"></p>
-      <p class="weui-wepay-color-dark" data-stat="1749">常规</p>
-      <span class="light copy-html">#353535</span>
-    </li>
-    <li>
-      <p class="wepayfontcolor fontcolor-gray"></p>
-      <p class="weui-wepay-color-gray" data-stat="1750">弱提示</p>
-      <span class="light copy-html">#888888</span>
-    </li>
-    <li>
-      <p class="wepayfontcolor fontcolor-light"></p>
-      <p class="weui-wepay-color-light" data-stat="1751">不可点</p>
-      <span class="light copy-html">#B2B2B2</span>
-    </li>
-    <li>
-      <p class="wepayfontcolor fontcolor-blue"></p>
-      <p class="weui-wepay-color-blue" data-stat="1752">链接</p>
-      <span class="light copy-html">#576B95</span>
-    </li>
-    <li>
-      <p class="wepayfontcolor fontcolor-lightblue"></p>
-      <p class="weui-wepay-color-lightblue" data-stat="1753">文本按钮</p>
-      <span class="light copy-html">#1C7EFB</span>
-    </li>
-    <li>
-      <p class="wepayfontcolor fontcolor-orange"></p>
-      <p class="weui-wepay-color-orange" data-stat="1754">金额</p>
-      <span class="light copy-html">#FF6633</span>
-    </li>
-    <li>
-      <p class="wepayfontcolor fontcolor-green"></p>
-      <p class="weui-wepay-color-green" data-stat="1755">支付成功</p>
-      <span class="light copy-html">#4ABB44</span>
-    </li>
-    <li>
-      <p class="wepayfontcolor fontcolor-red"></p>
-      <p class="weui-wepay-color-red" data-stat="1756">支付失败</p>
-      <span class="light copy-html">#DA3E00</span>
-    </li>
-<!--     <li>
+    <h2>
+      <span>功能字色</span>
+    </h2>
+    <ul class="wepayfont-list wepayfont-list_color">
+      <li>
+        <p class="wepayfontcolor fontcolor-dark"></p>
+        <p class="weui-wepay-color-dark" data-stat="1749">常规</p>
+        <span class="light copy-html">#353535</span>
+      </li>
+      <li>
+        <p class="wepayfontcolor fontcolor-gray"></p>
+        <p class="weui-wepay-color-gray" data-stat="1750">弱提示</p>
+        <span class="light copy-html">#888888</span>
+      </li>
+      <li>
+        <p class="wepayfontcolor fontcolor-light"></p>
+        <p class="weui-wepay-color-light" data-stat="1751">不可点</p>
+        <span class="light copy-html">#B2B2B2</span>
+      </li>
+      <li>
+        <p class="wepayfontcolor fontcolor-blue"></p>
+        <p class="weui-wepay-color-blue" data-stat="1752">链接</p>
+        <span class="light copy-html">#576B95</span>
+      </li>
+      <li>
+        <p class="wepayfontcolor fontcolor-lightblue"></p>
+        <p class="weui-wepay-color-lightblue" data-stat="1753">文本按钮</p>
+        <span class="light copy-html">#1C7EFB</span>
+      </li>
+      <li>
+        <p class="wepayfontcolor fontcolor-orange"></p>
+        <p class="weui-wepay-color-orange" data-stat="1754">金额</p>
+        <span class="light copy-html">#FF6633</span>
+      </li>
+      <li>
+        <p class="wepayfontcolor fontcolor-green"></p>
+        <p class="weui-wepay-color-green" data-stat="1755">支付成功</p>
+        <span class="light copy-html">#4ABB44</span>
+      </li>
+      <li>
+        <p class="wepayfontcolor fontcolor-red"></p>
+        <p class="weui-wepay-color-red" data-stat="1756">支付失败</p>
+        <span class="light copy-html">#DA3E00</span>
+      </li>
+      <!--     <li>
       <p class="wepayfontcolor fontcolor-gray-white">白色反光</p>
       <p data-stat="1766">#666666</p>
       <span class="light copy-html">#FFFFFF</span>
@@ -116,7 +97,8 @@
       <p class="wepayfontcolor fontcolor-green-yellow">绿底提示</p>
       <p data-stat="1767">#06BD04</p>
       <span class="light copy-html">#FFEE63</span>
-    </li> -->
+    </li>
+    -->
   </ul>
 
   <!--     <h2>
