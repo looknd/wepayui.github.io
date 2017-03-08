@@ -2,29 +2,29 @@
 <article class="wepay-article" id="logo">
   <h1>Logo<span class="subtitle">微信支付标志</span></h1>
   <section>
-  	<p>线上专用RGB模式。其中微信支付logo由标志图形和文字组成，标志由“气泡”和“大勾”两个元素构成，具“社交”与“支付成功”的含义。</p>
+  	<p>微信支付线上页面专用标志(RGB模式)</p>
   	<h2><span>色彩规范</span></h2>
 	<blockquote><p>微信支付标志的线上专用色彩规范，需严格按照色彩规范使用标志，禁止使用其它非标准色彩。</p></blockquote>
 	<div class="wepaylogo-norm">
 		<div class="wepaylogo-norm-li">
-			<div class="wepaylogo-norm-cnt green"></div>
+			<div class="wepaylogo-norm-cnt copy-html green" data-stat="1963">#1AAD19</div>
 			<div class="wepaylogo-norm-title">标准绿</div>
-			<p class="wepaylogo-norm-info copy-html" data-stat="1963">#1AAD19</p>
+			<p class="wepaylogo-norm-info">#1AAD19</p>
 		</div>
 <!-- 		<div class="wepaylogo-norm-li">
-			<div class="wepaylogo-norm-cnt black"></div>
+			<div class="wepaylogo-norm-cnt copy-html black"></div>
 			<div class="wepaylogo-norm-title">标准黑</div>
 			<p class="wepaylogo-norm-info">#242121</p>
 		</div> -->
 		<div class="wepaylogo-norm-li">
-			<div class="wepaylogo-norm-cnt gray"></div>
+			<div class="wepaylogo-norm-cnt copy-html gray" data-stat="1963">#CCCCCC</div>
 			<div class="wepaylogo-norm-title">辅助灰</div>
-			<p class="wepaylogo-norm-info copy-html" data-stat="1963">#CCCCCC</p>
+			<p class="wepaylogo-norm-info">#CCCCCC</p>
 		</div>
 		<div class="wepaylogo-norm-li">
-			<div class="wepaylogo-norm-cnt white"></div>
+			<div class="wepaylogo-norm-cnt copy-html white" data-stat="1963">#FFFFFF</div>
 			<div class="wepaylogo-norm-title">辅助白</div>
-			<p class="wepaylogo-norm-info copy-html" data-stat="1963">#FFFFFF</p>
+			<p class="wepaylogo-norm-info">#FFFFFF</p>
 		</div>
 	</div>
 	<h2><span>位图(透明PNG)</span></h2>

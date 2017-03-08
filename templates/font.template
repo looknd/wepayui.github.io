@@ -49,54 +49,54 @@
     </h2>
     <ul class="wepayfont-list wepayfont-list_color">
       <li>
-        <p class="wepayfontcolor fontcolor-dark"></p>
-        <p class="weui-wepay-color-dark" data-stat="1749">常规</p>
-        <span class="light copy-html">#353535</span>
+        <div class="wepayfontcolor copy-html fontcolor-dark" data-stat="1749">#353535</div>
+        <p class="weui-wepay-color-dark">常规</p>
+        <span class="light">#353535</span>
       </li>
       <li>
-        <p class="wepayfontcolor fontcolor-gray"></p>
-        <p class="weui-wepay-color-gray" data-stat="1750">弱提示</p>
-        <span class="light copy-html">#888888</span>
+        <div class="wepayfontcolor copy-html fontcolor-gray" data-stat="1750">#888888</div>
+        <p class="weui-wepay-color-gray">弱提示</p>
+        <span class="light">#888888</span>
       </li>
       <li>
-        <p class="wepayfontcolor fontcolor-light"></p>
-        <p class="weui-wepay-color-light" data-stat="1751">不可点</p>
-        <span class="light copy-html">#B2B2B2</span>
+        <div class="wepayfontcolor copy-html fontcolor-light" data-stat="1751">#B2B2B2</div>
+        <p class="weui-wepay-color-light">不可点</p>
+        <span class="light">#B2B2B2</span>
       </li>
       <li>
-        <p class="wepayfontcolor fontcolor-blue"></p>
-        <p class="weui-wepay-color-blue" data-stat="1752">链接</p>
-        <span class="light copy-html">#576B95</span>
+        <div class="wepayfontcolor copy-html fontcolor-blue" data-stat="1752">#576B95</div>
+        <p class="weui-wepay-color-blue">链接</p>
+        <span class="light">#576B95</span>
       </li>
       <li>
-        <p class="wepayfontcolor fontcolor-lightblue"></p>
-        <p class="weui-wepay-color-lightblue" data-stat="1753">文本按钮</p>
-        <span class="light copy-html">#1C7EFB</span>
+        <div class="wepayfontcolor copy-html fontcolor-lightblue" data-stat="1753">#1C7EFB</div>
+        <p class="weui-wepay-color-lightblue">文本按钮</p>
+        <span class="light">#1C7EFB</span>
       </li>
       <li>
-        <p class="wepayfontcolor fontcolor-orange"></p>
-        <p class="weui-wepay-color-orange" data-stat="1754">金额</p>
-        <span class="light copy-html">#FF6633</span>
+        <div class="wepayfontcolor copy-html fontcolor-orange" data-stat="1754">#FF6633</div>
+        <p class="weui-wepay-color-orange">金额</p>
+        <span class="light">#FF6633</span>
       </li>
       <li>
-        <p class="wepayfontcolor fontcolor-green"></p>
-        <p class="weui-wepay-color-green" data-stat="1755">支付成功</p>
-        <span class="light copy-html">#4ABB44</span>
+        <div class="wepayfontcolor copy-html fontcolor-green" data-stat="1755">#4ABB44</div>
+        <p class="weui-wepay-color-green">支付成功</p>
+        <span class="light">#4ABB44</span>
       </li>
       <li>
-        <p class="wepayfontcolor fontcolor-red"></p>
-        <p class="weui-wepay-color-red" data-stat="1756">支付失败</p>
-        <span class="light copy-html">#DA3E00</span>
+        <div class="wepayfontcolor copy-html fontcolor-red" data-stat="1756">#DA3E00</div>
+        <p class="weui-wepay-color-red">支付失败</p>
+        <span class="light">#DA3E00</span>
       </li>
       <!--     <li>
-      <p class="wepayfontcolor fontcolor-gray-white">白色反光</p>
+      <div class="wepayfontcolor copy-html fontcolor-gray-white">白色反光</div>
       <p data-stat="1766">#666666</p>
-      <span class="light copy-html">#FFFFFF</span>
+      <span class="light">#FFFFFF</span>
     </li>
     <li>
-      <p class="wepayfontcolor fontcolor-green-yellow">绿底提示</p>
+      <div class="wepayfontcolor copy-html fontcolor-green-yellow">绿底提示</div>
       <p data-stat="1767">#06BD04</p>
-      <span class="light copy-html">#FFEE63</span>
+      <span class="light">#FFEE63</span>
     </li>
     -->
   </ul>

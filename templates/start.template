@@ -8,14 +8,9 @@
     </section>
     <section>
         <h2>快速使用</h2>
-        <p>我们提供了复制代码，用完即走的功能。</p>
-        <img src="img/wepayui_copy.gif" alt="wepayui_copy" class="wepayui-copy-show">
-        <p>或，引用 CDN 资源。</p>
-        <pre><code class="hljs xml">&lt;!-- WePayUI 核心CSS 文件，压缩版 --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.min.css&quot;&gt;
-
-&lt;!-- WePayUI 核心CSS 文件，未压缩版，含less源码预览 --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.css&quot;&gt;</code></pre>
+        <p>我们在组件中提供了复制代码，用完即走的功能。或直接引用 CDN 资源。</p>
+        <p data-stat="1967" class="green copy-html">https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.min.css</p>
+        <p data-stat="1967" class="green copy-html">https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.css</p>
     </section>
     <section>
         <h2>安装源码</h2>
@@ -24,10 +19,10 @@
             <span>github</span>
         </h3>
             <p>
-                <a href="https://github.com/wepayui" target="_blank" data-stat="1644">https://github.com/wepayui</a>
+                <a href="https://github.com/wepayui/wepayui/archive/master.zip" target="_blank" data-stat="1644">wepayui.zip</a>
             </p>
         <h3>
-            <span>npm下载</span>
+            <span>npm</span>
         </h3>
         <pre><code class="hljs github">$ npm install wepayui</code></pre>
     </section>
