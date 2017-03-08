@@ -8,7 +8,7 @@
     </section>
     <section>
         <h2>快速使用</h2>
-        <p>我们在组件中提供了复制代码，用完即走的功能。或直接引用 CDN 资源。</p>
+        <p>我们在页面中提供了<soan class="green">复制代码</soan>的功能，您可以<span class="green">用完即走</span>。或直接引用 CDN 资源。</p>
         <h3>v0.1.1</h3>
         <p><span data-stat="1967" class="green copy-html">https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.min.css</span></p>
         <p><span data-stat="1967" class="green copy-html">https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.css</span></p>
